@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "variants_tested": 4,
+    "place_of_birth_exact": 4,
+    "mrz_line_1_exact": 4,
+    "critical_checks_passed": 8,
+    "critical_checks_total": 8,
+    "measured_exact_match_pct": 100.0
+  },
+  "expected": {
+    "place_of_birth": "KUALA LUMPUR",
+    "mrz_line_1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<"
+  },
+  "results": [
+    {
+      "variant": "original",
+      "name_used": "MAHATHIR BIN IDRUS",
+      "place_of_birth": "KUALA LUMPUR",
+      "place_of_birth_pass": true,
+      "mrz_line_1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<",
+      "mrz_line_1_pass": true,
+      "raw_birth_ocr": [
+        "IIVZ IO 1TSOUUS\nTempat Lahir / Place of Birth\nKUALA LUMPUR\nTimwnwl / idsetahks",
+        "S 930216146007",
+        "",
+        "Ne WO. PORQGenasan / entay NO. .\n\nSs/@ 930216146007\n\ncs Terapat Lahie / Place of Birth\nKUALA LUMPUR\nTingol / Meight"
+      ],
+      "raw_mrz_ocr": [
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<K<<K<",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<KKK<",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<<<K<",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<<\nADDODOOOO0MYS9302165M2408312930216146007<<72"
+      ],
+      "source_ocr": "a ee a a ~ = 7 on - \u00bb. a ~~ . _~ Fe ~ Ce eae\nPassport Jenis / Type Kod Negara/ Country Code No. Pasport / Passport No.\nP MYS Ageesooce ;\nNama / Name\nMAHATHIR BIN IDRUS\nWarganegara / Nationality as No. Pengenalan / identity No.\nMALAYSIA a> 930216146007\nSse Tarikh Lahir / Oate of Birth RS Tempat Lahir/ Place of Birth\n16 FEB 1993 KUALA LUMPUR\n. cy 4 Jantina / Sex Tinggi / Meight\n* L-Mi 174 cm\nTarikh Dikeluarkan / Date of isswe Tarikh Tamat / Dete of Expiry &\n-~\u2014< 31 AUG 2017 31 AUG 2024 avr\nPejabat Pengeluar / Issuing Office\nvers KUALA LUMPUR\n=\nP<MYSMAHATHIR<BINK<KIDRUS<<<<<<<<Kssesessisiesess<\nADDDDOOO00OMYS9302165M2408312930216146007<<72"
+    },
+    {
+      "variant": "jpeg_q55",
+      "name_used": "MAHATHIR BIN IDRUS",
+      "place_of_birth": "KUALA LUMPUR",
+      "place_of_birth_pass": true,
+      "mrz_line_1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<",
+      "mrz_line_1_pass": true,
+      "raw_birth_ocr": [
+        "> VIIVUZ IO} SOUUT\nKUALA LUMPUR",
+        "\u00bb 930216146007\n_ KUALA LUMPUR\n\u2014 wa dpa |",
+        "",
+        "Seay 930216146007\n= Terapat Labi / Place of Birth\n\u00abKUALA LUMPUR"
+      ],
+      "raw_mrz_ocr": [
+        "P<AMYSMAHATHIR<BIN<KIDRUS<<<<<<K<<",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<SSSS<KKKKKKKKKK",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<SS<",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<KKSKKKKKKKKK\nADDDDOOOOONYS9302165N2408312930216146007<<72"
+      ],
+      "source_ocr": "I a = Sean? ELLE OTT TI ee Tne\n\n: 2 a -MYS asoosoccc\n\n5 \u00abMALAYSIA vin 990216145007 )\n\n16 FEB 1993 KUALA LUMPUR\nTarikh Dikeluarkan / Date of tzswe Tarikh Tamat / ute of Expiry se\n\u201834 AUG 2017 31 AUG 2024 ave\n\nvas KUALA LUMPUR )\nP<MYSMAHATHIR<BINKIDRUS<<<<<<<<Ksissiesesedss<\nADDDDOCOOOMYS9302165M2408312930216146007<<72"
+    },
+    {
+      "variant": "down70_blur",
+      "name_used": "MAHATHIR BIN IDRUS",
+      "place_of_birth": "KUALA LUMPUR",
+      "place_of_birth_pass": true,
+      "mrz_line_1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<",
+      "mrz_line_1_pass": true,
+      "raw_birth_ocr": [
+        "3 FIVE 19140007\nTempet Later Plums of Borte\nKUALA LUMPUR\n\u2014\u2014--",
+        "> 930216146007\nTempe: Waker / Pe of free\nKUALA LUMPUR\nTwqep treger",
+        "Teenpet Later (| Place of Gree",
+        "Se VRgeaee (| Gay =\n930216140007\nWesapes Laity / Fanse of Gow\nKMALA LUGPUR\nVeg? / SGntghe"
+      ],
+      "raw_mrz_ocr": [
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<KKKKKKKKKKKK",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<<<6<6KKKKKKKK",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<<<KKKKKKKKKKKK",
+        "P<MYSMAHATHIR<BIN<KIDRUS<<<<<<<6<6KKKKKKKKKK\nADOODOOOOOORYS930216542408312950216146007<<72"
+      ],
+      "source_ocr": "2 a - - = = = . = , * be ad - ro\n\\1FANIF\\\\\\ See\nP uYS A000G0000\ncarne (Meme\nMAHATHIR BIN IDRUS\nMargereys s  Netonetty Ne Pemgenaer deere, Se\nMALAYSIA \u201cae 930216146007\nme Tartan Lote ' Qene of Berth Tempat Lakir / Place of Sirum\n16 FEB 1993 KUALA LUMPUR\n\u2018 es | justine / Sen Seg eager\nj = 174 cm\nTartth Oetcartar Dots of fnew Taree Tamst Owes of fapiry Se\nativan 31 AUG 2017 31 AUG 2024 \u2014\nPepabe: Pengetus swing Office\nKUALA LUMPUR\nP<MYSMAHATHIR<BIN<KIDRUS <<<<< << 666666666 C KKK\nADDOOOOO0ONY S9302165N2408312930216146007<<72"
+    },
+    {
+      "variant": "dark_jpeg65",
+      "name_used": "MAHATHIR BIN IDRUS.",
+      "place_of_birth": "KUALA LUMPUR",
+      "place_of_birth_pass": true,
+      "mrz_line_1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<",
+      "mrz_line_1_pass": true,
+      "raw_birth_ocr": [
+        "",
+        "m  I%OLZISTAOOOF\n- a a \u2014\u2014\u2014 ~ \u2014-\nPa ow =. ~ \u2014\n= - = an\u201d -\nao We . - _ =\nc - * \" -- , \u00a9 -\n- a 3 cote! Bee . i\n_ - . \u2018\u2014- a FEES OANA eo\u201d o a ;\n\u2014\u2014\u2014 m -_ ad - \u2018- * te, ~ =\n\u2014\u2014 _ ve _ = _ -\na a on - : _ \u2014 - ~ =\nSS ee ; eS\n= == See She ~~, -\n-_\u2014 in > ; 7 > ~< Lod\n\u2014\u2014 \u2014\u2014- - ad -",
+        "",
+        "iim 20716145007\ncs Terapat Lahir / Place of Sirth\n\u00abKUALA LUMPUR\nTingol / Height"
+      ],
+      "raw_mrz_ocr": [
+        "P<AYSHMAHATHIR<BINKIDRUS<<<<<K<KKKKKKKKKKKKKK",
+        "P<AYSHAHATHIR<BIN<KIDRUS<<<<<<K<KKKKKKKKKKKKKK",
+        "P<AYSMAHATHIR<BINKIDRUS<<<<<<<<KKKKKKKKKKKCKKK",
+        "P<AYSMAHATHIR<BIN<KIDRUS<<<<<KKKK<KKKKKKKKKKK\nADDDDDOOOONYS9302165N2408312930216146007<<72"
+      ],
+      "source_ocr": "ii aseesooee\n7 \u2018MAHATHIR BIN IDRUS- Sf\n\u2018MALAYSIA \u201cGo 930216146007. =\n\n\u2018Tarikh Dikeluarkan / Date of txsve \u2014Rarikn Tamat / Date of Expiry Ne\nP<MYSMAHATHIR<BIN<KIDRUS <<<<<<<<Keseedeiessssy< :\nADDDDDDND0ONYS9302165M2408312930216146007<<72 :"
+    }
+  ]
+}

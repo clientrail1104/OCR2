@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Visual ground-truth fixtures for Malaysian identity/passport extraction. Values preserve the visible spelling in the supplied reference images.",
+  "fixtures": [
+    {
+      "file": "fixtures/mypr_reference.png",
+      "document_type": "Malaysia MyPR",
+      "expected_fields": {
+        "Identity Number": "901231-10-6789",
+        "Name": "TAN AH KON",
+        "Address": "NO 42, JILAN MERAH, TAMAN KEMBOJA, 88400 KIANABALL",
+        "Country of Origin": "PNL",
+        "Religion": "ISLAM",
+        "Citizenship": "PEMASTAUTIN TETAP / PR",
+        "Gender": "LELAKI"
+      },
+      "notes": [
+        "Preserve JILAN exactly as printed; do not silently change it to JALAN.",
+        "Preserve KIANABALL exactly as printed.",
+        "The visible address ends at postcode + locality. Do not invent a state.",
+        "PNL is a separate Country of Origin section/value and must never be appended to Address."
+      ]
+    },
+    {
+      "file": "fixtures/mykad_reference.png",
+      "document_type": "Malaysia MyKad",
+      "expected_fields": {
+        "Identity Number": "950830-05-5465",
+        "Name": "MUHAMAD HASHIF BIN ALI",
+        "Address": "NO 35 TAMAN SRI ULU BENDUL 71500 TANJONG IPOH NEGERI SEMBILAN",
+        "Religion": "ISLAM",
+        "Citizenship": "WARGANEGARA",
+        "Gender": "LELAKI"
+      },
+      "notes": [
+        "Keep HASHIF exactly as visibly printed.",
+        "Preserve ULU exactly as visibly printed; do not substitute JULI.",
+        "The address must include NEGERI SEMBILAN and must not be truncated at the postcode/locality."
+      ]
+    },
+    {
+      "file": "fixtures/malaysia_passport_reference.jpg",
+      "document_type": "Malaysia Passport",
+      "expected_fields": {
+        "Jenis / Type": "P",
+        "Kod Negara / Country Code": "MYS",
+        "Passport Number": "A00000000",
+        "Nama / Name": "MAHATHIR BIN IDRUS",
+        "Warganegara / Nationality": "MALAYSIA",
+        "No. Pengenalan / Identity No.": "930216146007",
+        "Tarikh lahir / Date of Birth": "16 FEB 1993",
+        "Tempat Lahir / Place of Birth": "KUALA LUMPUR",
+        "Jantina / Sex": "L-M",
+        "Tinggi / Height": "174 cm",
+        "Tarikh Dikeluarkan / Date of Issue": "31 AUG 2017",
+        "Tarikh Tamat / Date of Expiry": "31 AUG 2024",
+        "Pejabat Pengeluar / Issuing Office": "KUALA LUMPUR",
+        "MRZ Line 1": "P<MYSMAHATHIR<BIN<IDRUS<<<<<<<<<<<<<<<<<<<<<",
+        "MRZ Line 2": "A000000000MYS9302165M2408312930216146007<<72"
+      },
+      "notes": [
+        "Each MRZ line is exactly 44 characters.",
+        "Use the printed biodata as primary evidence and MRZ check digits as a cross-check/fallback."
+      ]
+    }
+  ]
+}

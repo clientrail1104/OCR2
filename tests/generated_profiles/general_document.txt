@@ -1,0 +1,14 @@
+PROJECT IMPLEMENTATION NOTE
+
+Reference: OCR-GOLIVE-2026
+
+Date: 30 September 2026
+
+The document processing service shall preserve all visible wording exactly as printed.
+It shall not invent unreadable values.
+
+Quality checks must be completed before production acceptance.
+
+Owner: Document Automation Team
+
+Status: Ready for controlled release
