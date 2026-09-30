@@ -1,0 +1,38 @@
+{
+  "build": "V30",
+  "test_date": "2026-09-30",
+  "status": "PASS_ON_EXECUTED_CORPUS",
+  "internal_supplied_identity_corpus": {
+    "exact_fields": 28,
+    "total_fields": 28,
+    "percent": 100.0
+  },
+  "passport_stress": {
+    "exact_fields": 15,
+    "total_fields": 15,
+    "percent": 100.0
+  },
+  "web_invoice_receipt": {
+    "exact_anchors": 13,
+    "total_anchors": 13,
+    "percent": 100.0
+  },
+  "all_profile_source_derived": {
+    "exact_anchors": 73,
+    "total_anchors": 73,
+    "percent": 100.0,
+    "auto_detection_pass": 10,
+    "auto_detection_total": 10,
+    "auto_detection_percent": 100.0
+  },
+  "defects_found_and_fixed": [
+    "Form/Application false Passport identity detection",
+    "Report/Statement under-detection for annual financial reports"
+  ],
+  "contracts": {
+    "five_output_formats_and_js_syntax": "PASS",
+    "api_runtime_and_strict_json_schema": "PASS",
+    "malaysian_identity_profile_validation": "PASS"
+  },
+  "accuracy_statement": "100% is the measured result on the executed regression corpus only. It is not a universal 99.99% guarantee for unseen documents. Strict profiles fail closed to REVIEW REQUIRED when verification is incomplete."
+}
