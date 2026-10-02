@@ -1,0 +1,11 @@
+APPLICATION FORM
+Applicant Details
+Name: SITI FARHANA BINTI OMAR
+NRIC: 900909-14-2468
+Email: siti.farhana@example.com
+Mobile: 012-3456789
+Please tick one
+[X] New Application
+[ ] Renewal
+Declaration
+| confirm the information above is correct.

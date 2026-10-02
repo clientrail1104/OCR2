@@ -1,0 +1,89 @@
+{
+  "samples": [
+    {
+      "name": "mykad_fresh",
+      "text": "| KAD PENGENALAN MALAYSIA |\nMyKad\n860712-08-2468\nNUR AISYAH BINTI RAHMAN\nNO 18 JALAN BUNGA RAYA 3\nTAMAN DESA INDAH\n43000 KAJANG\nSELANGOR\nWARGANEGARA\nISLAM\nPEREMPUAN",
+      "confidence": 92.75
+    },
+    {
+      "name": "mypr_fresh",
+      "text": "| KAD PENGENALAN MALAYSIA |\nPEMASTAUTIN TETAP\nMyPR\n901105-10-1357\nLEE WEI JIAN\nNO 9 JALAN MERPATI 2\nTAMAN MELAWATI\n53100 KUALA LUMPUR\nPNL\nBUDDHA\nLELAKI",
+      "confidence": 93.48
+    },
+    {
+      "name": "passport_fresh",
+      "text": "|\nMALAYSIA |\nPASPORT / PASSPORT\n| Jenis / Type: P |\nKod Negara / Country Code: MYS\nPassport Number: B12345678\n| Nama / Name: NURUL HUDA BINTI AMIR\nWarganegara / Nationality: MALAYSIA\nNo. Pengenalan / Identity No.: 920614-10-2468 |\nTarikh Lahir / Date of Birth: 14 JUN 1992 |\nTempat Lahir / Place of Birth: SELANGOR |\nJantina / Sex: P-F\nTinggi / Height: 162 cm\nTarikh Dikeluarkan / Date of Issue: 15 MAY 2024\nTarikh Tamat / Date of Expiry: 15 MAY 2029\nPejabat Pengeluar / Issuing Office: PUTRAJAYA\n| P<MYSNURUL<HUDA<BINTI<XAMIR<<<<<<<<<<<<<<<<<< |\n* BID 2IARGTQATIMYSO706142F70051549070614102468<<16..7.7.7.\u00a9\u2122\u2014..\u2014 e",
+      "confidence": 89.12
+    },
+    {
+      "name": "driving_fresh",
+      "text": "| |\nLESEN MEMANDU MALAYSIA\nMALAYSIA DRIVING LICENCE\nLicence Type: Full |\n| Nama / Name: AHMAD FIRDAUS BIN SALLEH\nWarganegara / Nationality: MALAYSIA\n| No. Pengenalan / Identity No.: 880203-06-3579 |\n| Kelas / Class: B2 D |\nTempoh / Validity\n| 12/09/2024 - 12/09/2029 |\nAlamat / Address: NO 22 JALAN IMPIAN 4\nTAMAN IMPIAN EMAS |\n81300 SKUDAI JOHOR\n| |\n| |",
+      "confidence": 90.13
+    },
+    {
+      "name": "cidb_ppk_fresh",
+      "text": "CIDB MALAYSIA\nPERAKUAN PENDAFTARAN\nNo. Pendaftaran: 1234567-PK045678\nNama Kontraktor: BINA MAJU RESOURCES SDN. BHD.\nAlamat Berdaftar: NO 7 JALAN INDUSTRI 2\nTAMAN INDUSTRI JAYA\n81700 PASIR GUDANG JOHOR\nDaerah: JOHOR BAHRU\nTarikh Mula Berdaftar: 03/02/2015\nGRED KATEGORI PENGKHUSUSAN\nG5 B B04 B18\nG5 CE CE21 CE36\nTarikh Mula Berkuatkuasa: 01/01/2026\nTarikh Habis Tempoh Perakuan: 31/12/2026\nStatus: AKTIF",
+      "confidence": 92.72
+    },
+    {
+      "name": "cidb_spkk_fresh",
+      "text": "CIDB MALAYSIA\nSIJIL PEROLEHAN KERJA KERAJAAN\nNo. Pendaftaran: 7654321-SP012345\nNama Kontraktor: MEGA CEKAP SDN. BHD.\nAlamat Berdaftar: 18 JALAN UTAMA 5\nBANDAR BARU NILAI\n71800 NILAI NEGERI SEMBILAN\nDaerah: SEREMBAN\nTarikh Mula Berdaftar: 14/06/2018\nGRED KATEGORI\nG6 B\nG6 CE\nPEGAWAI SYARIKAT YANG DITAULIAHKAN\nMOHD AZLAN BIN YUSOF 780101-05-4321\nTarikh Mula Berkuatkuasa: 01/06/2026\nTarikh Habis Tempoh Perakuan: 31/05/2027",
+      "confidence": 91.96
+    },
+    {
+      "name": "cidb_stb_fresh",
+      "text": "CIDB MALAYSIA\nSIJIL KONTRAKTOR KERJA TARAF BUMIPUTERA\nNo. Sijil Pendaftaran: 0120180507-WP012216\nGred Pendaftaran: G4 (Bumiputera)\nKategori / Category: B CE\nTempoh Sah Laku\nDARI: 01/04/2026\nHINGGA: 31/03/2027\nNama dan Alamat Berdaftar\nTEGUH BUMI ENTERPRISE\nNO 15 JALAN SENTOSA 1 40000 SHAH ALAM SELANGOR\nPegawai Syarikat Yang Ditauliahkan\nMUHAMMAD HAFIZ BIN KARIM\nNo. K/P: 850505-10-6789",
+      "confidence": 93.19
+    },
+    {
+      "name": "ssm_company_fresh",
+      "text": "SURUHANJAYA SYARIKAT MALAYSIA |\nCOMPANIES COMMISSION OF MALAYSIA\nMAKLUMAT SYARIKAT\nNama : INOVASI DIGITAL MALAYSIA SDN. BHD.\nNama Lama : TEKNOLOGI AWAN SDN. BHD.\nTarikh Pertukaran : 12-08-2020\nNo. Pendaftaran : 201801012345(934370-X)\nTarikh Penubuhan : 05-04-2018\nTarikh Pendaftaran : 05-04-2018\nJenis : BERHAD MENURUT SYER\nSYARIKAT PERSENDIRIAN\nStatus : EXISTING\nAlamat Daftar : 12 JALAN TEKNOLOGI 3\nCYBERJAYA\nSELANGOR\nPoskod 63000\nTempat Penubuhan : MALAYSIA\nAlamat Perniagaan : UNIT 8-2 TOWERA\nPERSIARAN MULTIMEDIA\nCYBERJAYA SELANGOR\nPoskod 63000\nJenis Perniagaan : SOFTWARE DEVELOPMENT AND DATA PROCESSING",
+      "confidence": 92.89
+    },
+    {
+      "name": "ssm_business_profile_fresh",
+      "text": "SURUHANJAYA SYARIKAT MALAYSIA |\nMAKLUMAT PERNIAGAAN / BUSINESS PROFILE\nNama Perniagaan: KEDAI SERI MAJU\nNo Pendaftaran Perniagaan: 202603001234\nAlamat Utama Perniagaan: NO 5 JALAN MELATI 2\nTAMAN MELATI\n53100 KUALA LUMPUR\nBentuk Perniagaan: MILIKAN TUNGGAL\nTarikh Mula Berniaga: 02-01-2026\nTarikh Pendaftaran: 02-01-2026\nTarikh Luput Pendaftaran: 01-01-2027\nTarikh Perubahan Terakhir: 15-06-2026\nStatus: ACTIVE\nJenis Perniagaan: RETAIL SALE OF GROCERIES\nMaklumat Cawangan: TIADA",
+      "confidence": 93.06
+    },
+    {
+      "name": "ssm_registration_cert_fresh",
+      "text": "| SURUHANJAYA SYARIKAT MALAYSIA\nCERTIFICATE OF REGISTRATION\nTHE REGISTRATION OF BUSINESSES ACT 1956 (ACT 197)\nFORM D (RULE 13)\nThis is to certify that the Business carried on under the name SERI MAJU TRADING\nRegistration No.: 202603001234\nhas been registered until 31 DECEMBER 2027 in accordance with the Registration of\nBusinesses Act 1956\nwith its principal place of business at NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000\nKAJANG SELANGOR\nNumber of branches: N/A (0)\nDated at SISTEM EZBIZ this 02 JANUARY 2026\nREGISTRAR OF BUSINESSES PENINSULAR OF MALAYSIA",
+      "confidence": 95.05
+    },
+    {
+      "name": "ssm_registration_renewal_fresh",
+      "text": "SURUHANJAYA SYARIKAT MALAYSIA\nPERAKUAN PEMBAHARUAN PENDAFTARAN\nAKTA PENDAFTARAN PERNIAGAAN 1956 (AKTA 197)\nBORANG E (KAEDAH 13)\nNama Perniagaan: CAHAYA MAJU ENTERPRISE\nNo. Pendaftaran: 202501009876\nPerniagaan ini diperbaharui sehingga 30 NOVEMBER 2027\nberalamat di NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR\nBil. Cawangan: TIADA (0)\nBertarikh di SISTEM EZBIZ pada 01 DECEMBER 2026\nPENDAFTAR PERNIAGAAN SEMENANJUNG MALAYSIA",
+      "confidence": 93.57
+    },
+    {
+      "name": "invoice_fresh",
+      "text": "INVOICE\nInvoice No: INV-MY-2026-1098\nDate: 30/09/2026\nVendor: Alpha Office Supplies Sdn. Bhd.\nCustomer: Beta Services Sdn. Bhd.\nDescription Qty Unit Price Amount\nA4 Paper 10 18.50 185.00\nPrinter Toner 2 245.00 490.00\nSubtotal: RM 675.00\nSST 8%: RM 54.00\nGrand Total: RM 729.00\nAmount Due: RM 729.00",
+      "confidence": 96.09
+    },
+    {
+      "name": "form_fresh",
+      "text": "APPLICATION FORM\nApplicant Details\nName: SITI FARHANA BINTI OMAR\nNRIC: 900909-14-2468\nEmail: siti.farhana@example.com\nMobile: 012-3456789\nPlease tick one\n[X] New Application\n[ ] Renewal\nDeclaration\n| confirm the information above is correct.",
+      "confidence": 92.85
+    },
+    {
+      "name": "certificate_fresh",
+      "text": "CIVIL AVIATION AUTHORITY OF MALAYSIA\nREMOTE PILOT LICENCE\nLicence Number: RPL-2026-004321\nName: DANIEL TAN WEI MING\nIdentity No: 910101-10-2468\nCategory: SMALL UNMANNED AIRCRAFT\nDate of Issue: 01 SEP 2026\nValid Until: 31 AUG 2028\nThis is to certify that the holder is authorised under the applicable regulations.",
+      "confidence": 96.05
+    },
+    {
+      "name": "letter_fresh",
+      "text": "ABC SERVICES SDN. BHD.\nReference No: ABC/OPS/2026/091\n30 September 2026\nDear Sir,\nRE: AUTHORISATION FOR DOCUMENT COLLECTION\nWe hereby authorise Ms. Nur Iman Binti Salleh to collect the documents on behalf of the\ncompany.\nPlease contact 03-7788 1122 if further verification is required.\nYours sincerely,\nOPERATIONS MANAGER",
+      "confidence": 96.14
+    },
+    {
+      "name": "report_fresh",
+      "text": "MONTHLY OPERATIONS REPORT\nReport Date: 30 September 2026\nPrepared By: Service Excellence Team\nEXECUTIVE SUMMARY\nA total of 12,450 customer interactions were handled during September 2026.\nFINDINGS\nFirst contact resolution: 88.4%\nAverage handling time: 326 seconds\nCustomer satisfaction: 91.2%\nCONCLUSION\nPerformance remained within the agreed service thresholds.",
+      "confidence": 96.33
+    },
+    {
+      "name": "general_fresh",
+      "text": "CUSTOMER SERVICE QUICK GUIDE\nThis document explains how users can submit supporting documents\nthrough the portal.\nStep 1: Sign in using the registered email address.\nStep 2: Select Upload Documents.\nStep 3: Attach files in PDF, JPG or PNG format.\nMaximum file size: 10 MB per file.\nFor assistance call 03-9000 1234.",
+      "confidence": 96.23
+    }
+  ]
+}

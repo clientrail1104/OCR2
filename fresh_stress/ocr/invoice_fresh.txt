@@ -1,0 +1,12 @@
+INVOICE
+Invoice No: INV-MY-2026-1098
+Date: 30/09/2026
+Vendor: Alpha Office Supplies Sdn. Bhd.
+Customer: Beta Services Sdn. Bhd.
+Description Qty Unit Price Amount
+A4 Paper 10 18.50 185.00
+Printer Toner 2 245.00 490.00
+Subtotal: RM 675.00
+SST 8%: RM 54.00
+Grand Total: RM 729.00
+Amount Due: RM 729.00

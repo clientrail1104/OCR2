@@ -1,0 +1,1550 @@
+{
+  "summary": {
+    "profiles_tested": 17,
+    "type_pass": 17,
+    "type_total": 17,
+    "anchor_pass": 111,
+    "anchor_total": 111,
+    "field_pass": 88,
+    "field_total": 88,
+    "output_contract_pass": 17,
+    "output_contract_total": 17,
+    "mean_raw_ocr_confidence": 93.62
+  },
+  "results": [
+    {
+      "name": "mykad_fresh",
+      "profile": "Malaysia ID / Passport \u2014 MyKad",
+      "expected_type": "Malaysia MyKad",
+      "detected_type": "Malaysia MyKad",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.75,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "860712-08-2468",
+          "pass": true
+        },
+        {
+          "expected": "NUR AISYAH BINTI RAHMAN",
+          "pass": true
+        },
+        {
+          "expected": "43000 KAJANG",
+          "pass": true
+        },
+        {
+          "expected": "SELANGOR",
+          "pass": true
+        },
+        {
+          "expected": "WARGANEGARA",
+          "pass": true
+        },
+        {
+          "expected": "ISLAM",
+          "pass": true
+        },
+        {
+          "expected": "PEREMPUAN",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [
+        {
+          "label": "Identity Number",
+          "expected": "860712-08-2468",
+          "actual": "860712-08-2468",
+          "pass": true
+        },
+        {
+          "label": "Name",
+          "expected": "NUR AISYAH BINTI RAHMAN",
+          "actual": "NUR AISYAH BINTI RAHMAN",
+          "pass": true
+        },
+        {
+          "label": "Address",
+          "expected": "NO 18 JALAN BUNGA RAYA 3 TAMAN DESA INDAH 43000 KAJANG SELANGOR",
+          "actual": "NO 18 JALAN BUNGA RAYA 3 TAMAN DESA INDAH 43000 KAJANG SELANGOR",
+          "pass": true
+        },
+        {
+          "label": "Religion",
+          "expected": "ISLAM",
+          "actual": "ISLAM",
+          "pass": true
+        },
+        {
+          "label": "Citizenship",
+          "expected": "WARGANEGARA",
+          "actual": "WARGANEGARA",
+          "pass": true
+        },
+        {
+          "label": "Gender",
+          "expected": "PEREMPUAN",
+          "actual": "PEREMPUAN",
+          "pass": true
+        }
+      ],
+      "field_pass": 6,
+      "field_total": 6,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1724,
+        "markdown": 572,
+        "text": 463,
+        "json": 3696,
+        "html": 1676
+      },
+      "image": "tests/fresh_stress/images/mykad_fresh.jpg",
+      "ocr_text": "| KAD PENGENALAN MALAYSIA |\nMyKad\n860712-08-2468\nNUR AISYAH BINTI RAHMAN\nNO 18 JALAN BUNGA RAYA 3\nTAMAN DESA INDAH\n43000 KAJANG\nSELANGOR\nWARGANEGARA\nISLAM\nPEREMPUAN"
+    },
+    {
+      "name": "mypr_fresh",
+      "profile": "Malaysia ID / Passport \u2014 MyPR",
+      "expected_type": "Malaysia MyPR",
+      "detected_type": "Malaysia MyPR",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.48,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "901105-10-1357",
+          "pass": true
+        },
+        {
+          "expected": "LEE WEI JIAN",
+          "pass": true
+        },
+        {
+          "expected": "53100 KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "expected": "PNL",
+          "pass": true
+        },
+        {
+          "expected": "BUDDHA",
+          "pass": true
+        },
+        {
+          "expected": "LELAKI",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "Identity Number",
+          "expected": "901105-10-1357",
+          "actual": "901105-10-1357",
+          "pass": true
+        },
+        {
+          "label": "Name",
+          "expected": "LEE WEI JIAN",
+          "actual": "LEE WEI JIAN",
+          "pass": true
+        },
+        {
+          "label": "Address",
+          "expected": "NO 9 JALAN MERPATI 2 TAMAN MELAWATI 53100 KUALA LUMPUR",
+          "actual": "NO 9 JALAN MERPATI 2 TAMAN MELAWATI 53100 KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "label": "Country of Origin",
+          "expected": "PNL",
+          "actual": "PNL",
+          "pass": true
+        },
+        {
+          "label": "Religion",
+          "expected": "BUDDHA",
+          "actual": "BUDDHA",
+          "pass": true
+        },
+        {
+          "label": "Citizenship",
+          "expected": "PEMASTAUTIN TETAP / PR",
+          "actual": "PEMASTAUTIN TETAP / PR",
+          "pass": true
+        },
+        {
+          "label": "Gender",
+          "expected": "LELAKI",
+          "actual": "LELAKI",
+          "pass": true
+        }
+      ],
+      "field_pass": 7,
+      "field_total": 7,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1844,
+        "markdown": 617,
+        "text": 503,
+        "json": 4035,
+        "html": 1783
+      },
+      "image": "tests/fresh_stress/images/mypr_fresh.jpg",
+      "ocr_text": "| KAD PENGENALAN MALAYSIA |\nPEMASTAUTIN TETAP\nMyPR\n901105-10-1357\nLEE WEI JIAN\nNO 9 JALAN MERPATI 2\nTAMAN MELAWATI\n53100 KUALA LUMPUR\nPNL\nBUDDHA\nLELAKI"
+    },
+    {
+      "name": "passport_fresh",
+      "profile": "Malaysia ID / Passport \u2014 Passport",
+      "expected_type": "Malaysia Passport",
+      "detected_type": "Malaysia Passport",
+      "type_pass": true,
+      "raw_ocr_confidence": 89.12,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "B12345678",
+          "pass": true
+        },
+        {
+          "expected": "NURUL HUDA BINTI AMIR",
+          "pass": true
+        },
+        {
+          "expected": "920614-10-2468",
+          "pass": true
+        },
+        {
+          "expected": "14 JUN 1992",
+          "pass": true
+        },
+        {
+          "expected": "SELANGOR",
+          "pass": true
+        },
+        {
+          "expected": "P-F",
+          "pass": true
+        },
+        {
+          "expected": "162 cm",
+          "pass": true
+        },
+        {
+          "expected": "15 MAY 2024",
+          "pass": true
+        },
+        {
+          "expected": "15 MAY 2029",
+          "pass": true
+        },
+        {
+          "expected": "PUTRAJAYA",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 10,
+      "anchor_total": 10,
+      "fields": [
+        {
+          "label": "Jenis / Type",
+          "expected": "P",
+          "actual": "P",
+          "pass": true
+        },
+        {
+          "label": "Kod Negara / Country Code",
+          "expected": "MYS",
+          "actual": "MYS",
+          "pass": true
+        },
+        {
+          "label": "Passport Number",
+          "expected": "B12345678",
+          "actual": "B12345678",
+          "pass": true
+        },
+        {
+          "label": "Nama / Name",
+          "expected": "NURUL HUDA BINTI AMIR",
+          "actual": "NURUL HUDA BINTI AMIR",
+          "pass": true
+        },
+        {
+          "label": "Warganegara / Nationality",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "No. Pengenalan / Identity No.",
+          "expected": "920614102468",
+          "actual": "920614102468",
+          "pass": true
+        },
+        {
+          "label": "Tarikh lahir / Date of Birth",
+          "expected": "14 JUN 1992",
+          "actual": "14 JUN 1992",
+          "pass": true
+        },
+        {
+          "label": "Tempat Lahir / Place of Birth",
+          "expected": "SELANGOR",
+          "actual": "SELANGOR",
+          "pass": true
+        },
+        {
+          "label": "Jantina / Sex",
+          "expected": "P-F",
+          "actual": "P-F",
+          "pass": true
+        },
+        {
+          "label": "Tinggi / Height",
+          "expected": "162 cm",
+          "actual": "162 cm",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Dikeluarkan / Date of Issue",
+          "expected": "15 MAY 2024",
+          "actual": "15 MAY 2024",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Tamat / Date of Expiry",
+          "expected": "15 MAY 2029",
+          "actual": "15 MAY 2029",
+          "pass": true
+        },
+        {
+          "label": "Pejabat Pengeluar / Issuing Office",
+          "expected": "PUTRAJAYA",
+          "actual": "PUTRAJAYA",
+          "pass": true
+        }
+      ],
+      "field_pass": 13,
+      "field_total": 13,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "MRZ Line 1",
+          "reason": "missing"
+        },
+        {
+          "label": "MRZ Line 2",
+          "reason": "missing"
+        },
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2874,
+        "markdown": 1383,
+        "text": 1205,
+        "json": 7708,
+        "html": 2709
+      },
+      "image": "tests/fresh_stress/images/passport_fresh.jpg",
+      "ocr_text": "|\nMALAYSIA |\nPASPORT / PASSPORT\n| Jenis / Type: P |\nKod Negara / Country Code: MYS\nPassport Number: B12345678\n| Nama / Name: NURUL HUDA BINTI AMIR\nWarganegara / Nationality: MALAYSIA\nNo. Pengenalan / Identity No.: 920614-10-2468 |\nTarikh Lahir / Date of Birth: 14 JUN 1992 |\nTempat Lahir / Place of Birth: SELANGOR |\nJantina / Sex: P-F\nTinggi / Height: 162 cm\nTarikh Dikeluarkan / Date of Issue: 15 MAY 2024\nTarikh Tamat / Date of Expiry: 15 MAY 2029\nPejabat Pengeluar / Issuing Office: PUTRAJAYA\n| P<MYSNURUL<HUDA<BINTI<XAMIR<<<<<<<<<<<<<<<<<< |\n* BID 2IARGTQATIMYSO706142F70051549070614102468<<16..7.7.7.\u00a9\u2122\u2014..\u2014 e"
+    },
+    {
+      "name": "driving_fresh",
+      "profile": "Malaysia Driving Licence",
+      "expected_type": "Malaysia Driving Licence",
+      "detected_type": "Malaysia Driving Licence",
+      "type_pass": true,
+      "raw_ocr_confidence": 90.13,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "AHMAD FIRDAUS BIN SALLEH",
+          "pass": true
+        },
+        {
+          "expected": "880203-06-3579",
+          "pass": true
+        },
+        {
+          "expected": "B2 D",
+          "pass": true
+        },
+        {
+          "expected": "12/09/2024",
+          "pass": true
+        },
+        {
+          "expected": "12/09/2029",
+          "pass": true
+        },
+        {
+          "expected": "81300 SKUDAI JOHOR",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "Licence Type",
+          "expected": "Full",
+          "actual": "Full",
+          "pass": true
+        },
+        {
+          "label": "Name",
+          "expected": "AHMAD FIRDAUS BIN SALLEH",
+          "actual": "AHMAD FIRDAUS BIN SALLEH",
+          "pass": true
+        },
+        {
+          "label": "Nationality",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "Identity Number",
+          "expected": "880203063579",
+          "actual": "880203063579",
+          "pass": true
+        },
+        {
+          "label": "Class",
+          "expected": "B2 D",
+          "actual": "B2 D",
+          "pass": true
+        },
+        {
+          "label": "Valid From",
+          "expected": "12/09/2024",
+          "actual": "12/09/2024",
+          "pass": true
+        },
+        {
+          "label": "Valid Until",
+          "expected": "12/09/2029",
+          "actual": "12/09/2029",
+          "pass": true
+        },
+        {
+          "label": "Address",
+          "expected": "NO 22 JALAN IMPIAN 4 TAMAN IMPIAN EMAS 81300 SKUDAI JOHOR",
+          "actual": "NO 22 JALAN IMPIAN 4 TAMAN IMPIAN EMAS 81300 SKUDAI JOHOR",
+          "pass": true
+        }
+      ],
+      "field_pass": 8,
+      "field_total": 8,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2054,
+        "markdown": 828,
+        "text": 709,
+        "json": 4645,
+        "html": 1980
+      },
+      "image": "tests/fresh_stress/images/driving_fresh.jpg",
+      "ocr_text": "| |\nLESEN MEMANDU MALAYSIA\nMALAYSIA DRIVING LICENCE\nLicence Type: Full |\n| Nama / Name: AHMAD FIRDAUS BIN SALLEH\nWarganegara / Nationality: MALAYSIA\n| No. Pengenalan / Identity No.: 880203-06-3579 |\n| Kelas / Class: B2 D |\nTempoh / Validity\n| 12/09/2024 - 12/09/2029 |\nAlamat / Address: NO 22 JALAN IMPIAN 4\nTAMAN IMPIAN EMAS |\n81300 SKUDAI JOHOR\n| |\n| |"
+    },
+    {
+      "name": "cidb_ppk_fresh",
+      "profile": "CIDB Certificate \u2014 PPK",
+      "expected_type": "CIDB PPK / Perakuan Pendaftaran",
+      "detected_type": "CIDB PPK / Perakuan Pendaftaran",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.72,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "1234567-PK045678",
+          "pass": true
+        },
+        {
+          "expected": "BINA MAJU RESOURCES SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "81700 PASIR GUDANG JOHOR",
+          "pass": true
+        },
+        {
+          "expected": "03/02/2015",
+          "pass": true
+        },
+        {
+          "expected": "B04 B18",
+          "pass": true
+        },
+        {
+          "expected": "CE21 CE36",
+          "pass": true
+        },
+        {
+          "expected": "31/12/2026",
+          "pass": true
+        },
+        {
+          "expected": "AKTIF",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 8,
+      "anchor_total": 8,
+      "fields": [
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "expected": "1234567-PK045678",
+          "actual": "1234567-PK045678",
+          "pass": true
+        },
+        {
+          "label": "Nama Kontraktor / Contractor Name",
+          "expected": "BINA MAJU RESOURCES SDN. BHD.",
+          "actual": "BINA MAJU RESOURCES SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Daerah / District",
+          "expected": "JOHOR BAHRU",
+          "actual": "JOHOR BAHRU",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berdaftar",
+          "expected": "03/02/2015",
+          "actual": "03/02/2015",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berkuatkuasa / Effective Date",
+          "expected": "01/01/2026",
+          "actual": "01/01/2026",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Habis Tempoh Perakuan / Expiry Date",
+          "expected": "31/12/2026",
+          "actual": "31/12/2026",
+          "pass": true
+        },
+        {
+          "label": "Status",
+          "expected": "AKTIF",
+          "actual": "AKTIF",
+          "pass": true
+        }
+      ],
+      "field_pass": 7,
+      "field_total": 7,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2447,
+        "markdown": 1182,
+        "text": 1058,
+        "json": 5482,
+        "html": 2360
+      },
+      "image": "tests/fresh_stress/images/cidb_ppk_fresh.jpg",
+      "ocr_text": "CIDB MALAYSIA\nPERAKUAN PENDAFTARAN\nNo. Pendaftaran: 1234567-PK045678\nNama Kontraktor: BINA MAJU RESOURCES SDN. BHD.\nAlamat Berdaftar: NO 7 JALAN INDUSTRI 2\nTAMAN INDUSTRI JAYA\n81700 PASIR GUDANG JOHOR\nDaerah: JOHOR BAHRU\nTarikh Mula Berdaftar: 03/02/2015\nGRED KATEGORI PENGKHUSUSAN\nG5 B B04 B18\nG5 CE CE21 CE36\nTarikh Mula Berkuatkuasa: 01/01/2026\nTarikh Habis Tempoh Perakuan: 31/12/2026\nStatus: AKTIF"
+    },
+    {
+      "name": "cidb_spkk_fresh",
+      "profile": "CIDB Certificate \u2014 SPKK",
+      "expected_type": "CIDB SPKK",
+      "detected_type": "CIDB SPKK",
+      "type_pass": true,
+      "raw_ocr_confidence": 91.96,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "7654321-SP012345",
+          "pass": true
+        },
+        {
+          "expected": "MEGA CEKAP SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "71800 NILAI",
+          "pass": true
+        },
+        {
+          "expected": "14/06/2018",
+          "pass": true
+        },
+        {
+          "expected": "MOHD AZLAN BIN YUSOF",
+          "pass": true
+        },
+        {
+          "expected": "31/05/2027",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "expected": "7654321-SP012345",
+          "actual": "7654321-SP012345",
+          "pass": true
+        },
+        {
+          "label": "Nama Kontraktor / Contractor Name",
+          "expected": "MEGA CEKAP SDN. BHD.",
+          "actual": "MEGA CEKAP SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Daerah / District",
+          "expected": "SEREMBAN",
+          "actual": "SEREMBAN",
+          "pass": true
+        },
+        {
+          "label": "Initial Registration Date / Tarikh Mula Berdaftar",
+          "expected": "14/06/2018",
+          "actual": "14/06/2018",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berkuatkuasa / Effective Date",
+          "expected": "01/06/2026",
+          "actual": "01/06/2026",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Habis Tempoh Perakuan / Expiry Date",
+          "expected": "31/05/2027",
+          "actual": "31/05/2027",
+          "pass": true
+        }
+      ],
+      "field_pass": 6,
+      "field_total": 6,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2454,
+        "markdown": 1211,
+        "text": 1087,
+        "json": 5466,
+        "html": 2367
+      },
+      "image": "tests/fresh_stress/images/cidb_spkk_fresh.jpg",
+      "ocr_text": "CIDB MALAYSIA\nSIJIL PEROLEHAN KERJA KERAJAAN\nNo. Pendaftaran: 7654321-SP012345\nNama Kontraktor: MEGA CEKAP SDN. BHD.\nAlamat Berdaftar: 18 JALAN UTAMA 5\nBANDAR BARU NILAI\n71800 NILAI NEGERI SEMBILAN\nDaerah: SEREMBAN\nTarikh Mula Berdaftar: 14/06/2018\nGRED KATEGORI\nG6 B\nG6 CE\nPEGAWAI SYARIKAT YANG DITAULIAHKAN\nMOHD AZLAN BIN YUSOF 780101-05-4321\nTarikh Mula Berkuatkuasa: 01/06/2026\nTarikh Habis Tempoh Perakuan: 31/05/2027"
+    },
+    {
+      "name": "cidb_stb_fresh",
+      "profile": "CIDB Certificate \u2014 STB",
+      "expected_type": "CIDB STB",
+      "detected_type": "CIDB STB",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.19,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "SIJIL KONTRAKTOR KERJA TARAF BUMIPUTERA",
+          "pass": true
+        },
+        {
+          "expected": "0120180507-WP012216",
+          "pass": true
+        },
+        {
+          "expected": "G4 (Bumiputera)",
+          "pass": true
+        },
+        {
+          "expected": "01/04/2026",
+          "pass": true
+        },
+        {
+          "expected": "31/03/2027",
+          "pass": true
+        },
+        {
+          "expected": "MUHAMMAD HAFIZ BIN KARIM",
+          "pass": true
+        },
+        {
+          "expected": "850505-10-6789",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [
+        {
+          "label": "Effective Date",
+          "expected": "01/04/2026",
+          "actual": "01/04/2026",
+          "pass": true
+        },
+        {
+          "label": "Expiry Date",
+          "expected": "31/03/2027",
+          "actual": "31/03/2027",
+          "pass": true
+        },
+        {
+          "label": "No. Sijil Pendaftaran",
+          "expected": "0120180507-WP012216",
+          "actual": "0120180507-WP012216",
+          "pass": true
+        },
+        {
+          "label": "Gred Pendaftaran",
+          "expected": "G4 (Bumiputera)",
+          "actual": "G4 (Bumiputera)",
+          "pass": true
+        },
+        {
+          "label": "Pegawai Syarikat Yang DiTauliahkan",
+          "expected": "MUHAMMAD HAFIZ BIN KARIM",
+          "actual": "MUHAMMAD HAFIZ BIN KARIM",
+          "pass": true
+        },
+        {
+          "label": "No. K/P",
+          "expected": "850505-10-6789",
+          "actual": "850505-10-6789",
+          "pass": true
+        }
+      ],
+      "field_pass": 6,
+      "field_total": 6,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2317,
+        "markdown": 1045,
+        "text": 909,
+        "json": 5228,
+        "html": 2230
+      },
+      "image": "tests/fresh_stress/images/cidb_stb_fresh.jpg",
+      "ocr_text": "CIDB MALAYSIA\nSIJIL KONTRAKTOR KERJA TARAF BUMIPUTERA\nNo. Sijil Pendaftaran: 0120180507-WP012216\nGred Pendaftaran: G4 (Bumiputera)\nKategori / Category: B CE\nTempoh Sah Laku\nDARI: 01/04/2026\nHINGGA: 31/03/2027\nNama dan Alamat Berdaftar\nTEGUH BUMI ENTERPRISE\nNO 15 JALAN SENTOSA 1 40000 SHAH ALAM SELANGOR\nPegawai Syarikat Yang Ditauliahkan\nMUHAMMAD HAFIZ BIN KARIM\nNo. K/P: 850505-10-6789"
+    },
+    {
+      "name": "ssm_company_fresh",
+      "profile": "SSM Document \u2014 Company Profile",
+      "expected_type": "SSM Company Profile",
+      "detected_type": "SSM Company Profile",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.89,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "INOVASI DIGITAL MALAYSIA SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "201801012345(934370-X)",
+          "pass": true
+        },
+        {
+          "expected": "05-04-2018",
+          "pass": true
+        },
+        {
+          "expected": "EXISTING",
+          "pass": true
+        },
+        {
+          "expected": "63000",
+          "pass": true
+        },
+        {
+          "expected": "SOFTWARE DEVELOPMENT AND DATA PROCESSING",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "Nama Syarikat / Company Name",
+          "expected": "INOVASI DIGITAL MALAYSIA SDN. BHD.",
+          "actual": "INOVASI DIGITAL MALAYSIA SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Nama Syarikat Lama / Old Company Name",
+          "expected": "TEKNOLOGI AWAN SDN. BHD.",
+          "actual": "TEKNOLOGI AWAN SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pertukaran / Date of Change",
+          "expected": "12-08-2020",
+          "actual": "12-08-2020",
+          "pass": true
+        },
+        {
+          "label": "No Syarikat / Company Registration No.",
+          "expected": "201801012345(934370-X)",
+          "actual": "201801012345(934370-X)",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pemerbadanan / Date of Incorporation",
+          "expected": "05-04-2018",
+          "actual": "05-04-2018",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pendaftaran / Registration Date",
+          "expected": "05-04-2018",
+          "actual": "05-04-2018",
+          "pass": true
+        },
+        {
+          "label": "Status",
+          "expected": "EXISTING",
+          "actual": "EXISTING",
+          "pass": true
+        },
+        {
+          "label": "Poskod / Postcode (Registered Address)",
+          "expected": "63000",
+          "actual": "63000",
+          "pass": true
+        },
+        {
+          "label": "Tempat Penubuhan / Place of Incorporation",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "Poskod / Postcode (Business Address)",
+          "expected": "63000",
+          "actual": "63000",
+          "pass": true
+        }
+      ],
+      "field_pass": 10,
+      "field_total": 10,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 3166,
+        "markdown": 1721,
+        "text": 1572,
+        "json": 8086,
+        "html": 3014
+      },
+      "image": "tests/fresh_stress/images/ssm_company_fresh.jpg",
+      "ocr_text": "SURUHANJAYA SYARIKAT MALAYSIA |\nCOMPANIES COMMISSION OF MALAYSIA\nMAKLUMAT SYARIKAT\nNama : INOVASI DIGITAL MALAYSIA SDN. BHD.\nNama Lama : TEKNOLOGI AWAN SDN. BHD.\nTarikh Pertukaran : 12-08-2020\nNo. Pendaftaran : 201801012345(934370-X)\nTarikh Penubuhan : 05-04-2018\nTarikh Pendaftaran : 05-04-2018\nJenis : BERHAD MENURUT SYER\nSYARIKAT PERSENDIRIAN\nStatus : EXISTING\nAlamat Daftar : 12 JALAN TEKNOLOGI 3\nCYBERJAYA\nSELANGOR\nPoskod 63000\nTempat Penubuhan : MALAYSIA\nAlamat Perniagaan : UNIT 8-2 TOWERA\nPERSIARAN MULTIMEDIA\nCYBERJAYA SELANGOR\nPoskod 63000\nJenis Perniagaan : SOFTWARE DEVELOPMENT AND DATA PROCESSING"
+    },
+    {
+      "name": "ssm_business_profile_fresh",
+      "profile": "SSM Document \u2014 Business Profile",
+      "expected_type": "SSM Business Profile / Maklumat Perniagaan",
+      "detected_type": "SSM Business Profile / Maklumat Perniagaan",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.06,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "KEDAI SERI MAJU",
+          "pass": true
+        },
+        {
+          "expected": "202603001234",
+          "pass": true
+        },
+        {
+          "expected": "53100 KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "expected": "MILIKAN TUNGGAL",
+          "pass": true
+        },
+        {
+          "expected": "01-01-2027",
+          "pass": true
+        },
+        {
+          "expected": "RETAIL SALE OF GROCERIES",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "Nama Perniagaan / Company Name",
+          "expected": "KEDAI SERI MAJU",
+          "actual": "KEDAI SERI MAJU",
+          "pass": true
+        },
+        {
+          "label": "No Pendaftaran Perniagaan / Registration Number",
+          "expected": "202603001234",
+          "actual": "202603001234",
+          "pass": true
+        },
+        {
+          "label": "Bentuk Perniagaan / Business Type",
+          "expected": "MILIKAN TUNGGAL",
+          "actual": "MILIKAN TUNGGAL",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berniaga / Business Start Date",
+          "expected": "02-01-2026",
+          "actual": "02-01-2026",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pendaftaran / Registration Date",
+          "expected": "02-01-2026",
+          "actual": "02-01-2026",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Luput Pendaftaran / Registration Expiry",
+          "expected": "01-01-2027",
+          "actual": "01-01-2027",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Perubahan Terakhir / Last Change Date",
+          "expected": "15-06-2026",
+          "actual": "15-06-2026",
+          "pass": true
+        },
+        {
+          "label": "Status",
+          "expected": "ACTIVE",
+          "actual": "ACTIVE",
+          "pass": true
+        },
+        {
+          "label": "Maklumat Cawangan / Branch Information",
+          "expected": "TIADA",
+          "actual": "TIADA",
+          "pass": true
+        }
+      ],
+      "field_pass": 9,
+      "field_total": 9,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2713,
+        "markdown": 1373,
+        "text": 1239,
+        "json": 6348,
+        "html": 2600
+      },
+      "image": "tests/fresh_stress/images/ssm_business_profile_fresh.jpg",
+      "ocr_text": "SURUHANJAYA SYARIKAT MALAYSIA |\nMAKLUMAT PERNIAGAAN / BUSINESS PROFILE\nNama Perniagaan: KEDAI SERI MAJU\nNo Pendaftaran Perniagaan: 202603001234\nAlamat Utama Perniagaan: NO 5 JALAN MELATI 2\nTAMAN MELATI\n53100 KUALA LUMPUR\nBentuk Perniagaan: MILIKAN TUNGGAL\nTarikh Mula Berniaga: 02-01-2026\nTarikh Pendaftaran: 02-01-2026\nTarikh Luput Pendaftaran: 01-01-2027\nTarikh Perubahan Terakhir: 15-06-2026\nStatus: ACTIVE\nJenis Perniagaan: RETAIL SALE OF GROCERIES\nMaklumat Cawangan: TIADA"
+    },
+    {
+      "name": "ssm_registration_cert_fresh",
+      "profile": "SSM Business Registration \u2014 Certificate",
+      "expected_type": "SSM Business Registration Certificate",
+      "detected_type": "SSM Business Registration Certificate",
+      "type_pass": true,
+      "raw_ocr_confidence": 95.05,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "SERI MAJU TRADING",
+          "pass": true
+        },
+        {
+          "expected": "202603001234",
+          "pass": true
+        },
+        {
+          "expected": "31 DECEMBER 2027",
+          "pass": true
+        },
+        {
+          "expected": "43000 KAJANG SELANGOR",
+          "pass": true
+        },
+        {
+          "expected": "N/A (0)",
+          "pass": true
+        },
+        {
+          "expected": "02 JANUARY 2026",
+          "pass": true
+        },
+        {
+          "expected": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [
+        {
+          "label": "Form",
+          "expected": "FORM D (RULE 13)",
+          "actual": "FORM D (RULE 13)",
+          "pass": true
+        },
+        {
+          "label": "Nama Perniagaan / Business Name",
+          "expected": "SERI MAJU TRADING",
+          "actual": "SERI MAJU TRADING",
+          "pass": true
+        },
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "expected": "202603001234",
+          "actual": "202603001234",
+          "pass": true
+        },
+        {
+          "label": "Valid Until / Sah Hingga",
+          "expected": "31 DECEMBER 2027",
+          "actual": "31 DECEMBER 2027",
+          "pass": true
+        },
+        {
+          "label": "Registered Address",
+          "expected": "NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000 KAJANG SELANGOR",
+          "actual": "NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000 KAJANG SELANGOR",
+          "pass": true
+        },
+        {
+          "label": "Bil. Cawangan / Number of Branches",
+          "expected": "N/A (0)",
+          "actual": "N/A (0)",
+          "pass": true
+        },
+        {
+          "label": "Certificate Date",
+          "expected": "02 JANUARY 2026",
+          "actual": "02 JANUARY 2026",
+          "pass": true
+        },
+        {
+          "label": "Issuing System",
+          "expected": "SISTEM EZBIZ",
+          "actual": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "field_pass": 8,
+      "field_total": 8,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2467,
+        "markdown": 1210,
+        "text": 1091,
+        "json": 5108,
+        "html": 2393
+      },
+      "image": "tests/fresh_stress/images/ssm_registration_cert_fresh.jpg",
+      "ocr_text": "| SURUHANJAYA SYARIKAT MALAYSIA\nCERTIFICATE OF REGISTRATION\nTHE REGISTRATION OF BUSINESSES ACT 1956 (ACT 197)\nFORM D (RULE 13)\nThis is to certify that the Business carried on under the name SERI MAJU TRADING\nRegistration No.: 202603001234\nhas been registered until 31 DECEMBER 2027 in accordance with the Registration of\nBusinesses Act 1956\nwith its principal place of business at NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000\nKAJANG SELANGOR\nNumber of branches: N/A (0)\nDated at SISTEM EZBIZ this 02 JANUARY 2026\nREGISTRAR OF BUSINESSES PENINSULAR OF MALAYSIA"
+    },
+    {
+      "name": "ssm_registration_renewal_fresh",
+      "profile": "SSM Business Registration \u2014 Renewal",
+      "expected_type": "SSM Business Registration Renewal",
+      "detected_type": "SSM Business Registration Renewal",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.57,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "CAHAYA MAJU ENTERPRISE",
+          "pass": true
+        },
+        {
+          "expected": "202501009876",
+          "pass": true
+        },
+        {
+          "expected": "30 NOVEMBER 2027",
+          "pass": true
+        },
+        {
+          "expected": "40150 SHAH ALAM SELANGOR",
+          "pass": true
+        },
+        {
+          "expected": "TIADA (0)",
+          "pass": true
+        },
+        {
+          "expected": "01 DECEMBER 2026",
+          "pass": true
+        },
+        {
+          "expected": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [
+        {
+          "label": "Form",
+          "expected": "BORANG E (KAEDAH 13)",
+          "actual": "BORANG E (KAEDAH 13)",
+          "pass": true
+        },
+        {
+          "label": "Nama Perniagaan / Business Name",
+          "expected": "CAHAYA MAJU ENTERPRISE",
+          "actual": "CAHAYA MAJU ENTERPRISE",
+          "pass": true
+        },
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "expected": "202501009876",
+          "actual": "202501009876",
+          "pass": true
+        },
+        {
+          "label": "Valid Until / Sah Hingga",
+          "expected": "30 NOVEMBER 2027",
+          "actual": "30 NOVEMBER 2027",
+          "pass": true
+        },
+        {
+          "label": "Registered Address",
+          "expected": "NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR",
+          "actual": "NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR",
+          "pass": true
+        },
+        {
+          "label": "Bil. Cawangan / Number of Branches",
+          "expected": "TIADA (0)",
+          "actual": "TIADA (0)",
+          "pass": true
+        },
+        {
+          "label": "Certificate Date",
+          "expected": "01 DECEMBER 2026",
+          "actual": "01 DECEMBER 2026",
+          "pass": true
+        },
+        {
+          "label": "Issuing System",
+          "expected": "SISTEM EZBIZ",
+          "actual": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "field_pass": 8,
+      "field_total": 8,
+      "strict_complete": false,
+      "strict_problems": [
+        {
+          "label": "AI verification",
+          "reason": "strict-profile-confirmation-required"
+        }
+      ],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2391,
+        "markdown": 1122,
+        "text": 1003,
+        "json": 5027,
+        "html": 2317
+      },
+      "image": "tests/fresh_stress/images/ssm_registration_renewal_fresh.jpg",
+      "ocr_text": "SURUHANJAYA SYARIKAT MALAYSIA\nPERAKUAN PEMBAHARUAN PENDAFTARAN\nAKTA PENDAFTARAN PERNIAGAAN 1956 (AKTA 197)\nBORANG E (KAEDAH 13)\nNama Perniagaan: CAHAYA MAJU ENTERPRISE\nNo. Pendaftaran: 202501009876\nPerniagaan ini diperbaharui sehingga 30 NOVEMBER 2027\nberalamat di NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR\nBil. Cawangan: TIADA (0)\nBertarikh di SISTEM EZBIZ pada 01 DECEMBER 2026\nPENDAFTAR PERNIAGAAN SEMENANJUNG MALAYSIA"
+    },
+    {
+      "name": "invoice_fresh",
+      "profile": "Invoice / Receipt",
+      "expected_type": "Invoice / Receipt",
+      "detected_type": "Invoice / Receipt",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.09,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "INV-MY-2026-1098",
+          "pass": true
+        },
+        {
+          "expected": "30/09/2026",
+          "pass": true
+        },
+        {
+          "expected": "Alpha Office Supplies Sdn. Bhd.",
+          "pass": true
+        },
+        {
+          "expected": "Beta Services Sdn. Bhd.",
+          "pass": true
+        },
+        {
+          "expected": "RM 675.00",
+          "pass": true
+        },
+        {
+          "expected": "RM 54.00",
+          "pass": true
+        },
+        {
+          "expected": "RM 729.00",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1518,
+        "markdown": 523,
+        "text": 439,
+        "json": 3307,
+        "html": 1535
+      },
+      "image": "tests/fresh_stress/images/invoice_fresh.jpg",
+      "ocr_text": "INVOICE\nInvoice No: INV-MY-2026-1098\nDate: 30/09/2026\nVendor: Alpha Office Supplies Sdn. Bhd.\nCustomer: Beta Services Sdn. Bhd.\nDescription Qty Unit Price Amount\nA4 Paper 10 18.50 185.00\nPrinter Toner 2 245.00 490.00\nSubtotal: RM 675.00\nSST 8%: RM 54.00\nGrand Total: RM 729.00\nAmount Due: RM 729.00"
+    },
+    {
+      "name": "form_fresh",
+      "profile": "Form / Application",
+      "expected_type": "Form / Application",
+      "detected_type": "Form / Application",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.85,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "APPLICATION FORM",
+          "pass": true
+        },
+        {
+          "expected": "SITI FARHANA BINTI OMAR",
+          "pass": true
+        },
+        {
+          "expected": "900909-14-2468",
+          "pass": true
+        },
+        {
+          "expected": "siti.farhana@example.com",
+          "pass": true
+        },
+        {
+          "expected": "012-3456789",
+          "pass": true
+        },
+        {
+          "expected": "New Application",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1463,
+        "markdown": 467,
+        "text": 383,
+        "json": 2501,
+        "html": 1480
+      },
+      "image": "tests/fresh_stress/images/form_fresh.jpg",
+      "ocr_text": "APPLICATION FORM\nApplicant Details\nName: SITI FARHANA BINTI OMAR\nNRIC: 900909-14-2468\nEmail: siti.farhana@example.com\nMobile: 012-3456789\nPlease tick one\n[X] New Application\n[ ] Renewal\nDeclaration\n| confirm the information above is correct."
+    },
+    {
+      "name": "certificate_fresh",
+      "profile": "Certificate / Licence",
+      "expected_type": "Certificate / Licence",
+      "detected_type": "Certificate / Licence",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.05,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "REMOTE PILOT LICENCE",
+          "pass": true
+        },
+        {
+          "expected": "RPL-2026-004321",
+          "pass": true
+        },
+        {
+          "expected": "DANIEL TAN WEI MING",
+          "pass": true
+        },
+        {
+          "expected": "01 SEP 2026",
+          "pass": true
+        },
+        {
+          "expected": "31 AUG 2028",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 5,
+      "anchor_total": 5,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1622,
+        "markdown": 591,
+        "text": 502,
+        "json": 3322,
+        "html": 1626
+      },
+      "image": "tests/fresh_stress/images/certificate_fresh.jpg",
+      "ocr_text": "CIVIL AVIATION AUTHORITY OF MALAYSIA\nREMOTE PILOT LICENCE\nLicence Number: RPL-2026-004321\nName: DANIEL TAN WEI MING\nIdentity No: 910101-10-2468\nCategory: SMALL UNMANNED AIRCRAFT\nDate of Issue: 01 SEP 2026\nValid Until: 31 AUG 2028\nThis is to certify that the holder is authorised under the applicable regulations."
+    },
+    {
+      "name": "letter_fresh",
+      "profile": "Letter / Memo",
+      "expected_type": "Letter / Memo",
+      "detected_type": "Letter / Memo",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.14,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "ABC/OPS/2026/091",
+          "pass": true
+        },
+        {
+          "expected": "30 September 2026",
+          "pass": true
+        },
+        {
+          "expected": "AUTHORISATION FOR DOCUMENT COLLECTION",
+          "pass": true
+        },
+        {
+          "expected": "Nur Iman Binti Salleh",
+          "pass": true
+        },
+        {
+          "expected": "03-7788 1122",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 5,
+      "anchor_total": 5,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1531,
+        "markdown": 540,
+        "text": 456,
+        "json": 1041,
+        "html": 1548
+      },
+      "image": "tests/fresh_stress/images/letter_fresh.jpg",
+      "ocr_text": "ABC SERVICES SDN. BHD.\nReference No: ABC/OPS/2026/091\n30 September 2026\nDear Sir,\nRE: AUTHORISATION FOR DOCUMENT COLLECTION\nWe hereby authorise Ms. Nur Iman Binti Salleh to collect the documents on behalf of the\ncompany.\nPlease contact 03-7788 1122 if further verification is required.\nYours sincerely,\nOPERATIONS MANAGER"
+    },
+    {
+      "name": "report_fresh",
+      "profile": "Report / Statement",
+      "expected_type": "Report / Statement",
+      "detected_type": "Report / Statement",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.33,
+      "variant": "original",
+      "anchors": [
+        {
+          "expected": "MONTHLY OPERATIONS REPORT",
+          "pass": true
+        },
+        {
+          "expected": "30 September 2026",
+          "pass": true
+        },
+        {
+          "expected": "12,450",
+          "pass": true
+        },
+        {
+          "expected": "88.4%",
+          "pass": true
+        },
+        {
+          "expected": "326 seconds",
+          "pass": true
+        },
+        {
+          "expected": "91.2%",
+          "pass": true
+        },
+        {
+          "expected": "CONCLUSION",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 7,
+      "anchor_total": 7,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 1872,
+        "markdown": 748,
+        "text": 644,
+        "json": 1410,
+        "html": 1837
+      },
+      "image": "tests/fresh_stress/images/report_fresh.jpg",
+      "ocr_text": "MONTHLY OPERATIONS REPORT\nReport Date: 30 September 2026\nPrepared By: Service Excellence Team\nEXECUTIVE SUMMARY\nA total of 12,450 customer interactions were handled during September 2026.\nFINDINGS\nFirst contact resolution: 88.4%\nAverage handling time: 326 seconds\nCustomer satisfaction: 91.2%\nCONCLUSION\nPerformance remained within the agreed service thresholds."
+    },
+    {
+      "name": "general_fresh",
+      "profile": "General Document",
+      "expected_type": "General Document",
+      "detected_type": "General Document",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.23,
+      "variant": "gray",
+      "anchors": [
+        {
+          "expected": "CUSTOMER SERVICE QUICK GUIDE",
+          "pass": true
+        },
+        {
+          "expected": "Upload Documents",
+          "pass": true
+        },
+        {
+          "expected": "PDF, JPG or PNG",
+          "pass": true
+        },
+        {
+          "expected": "10 MB",
+          "pass": true
+        },
+        {
+          "expected": "03-9000 1234",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 5,
+      "anchor_total": 5,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "strict_complete": true,
+      "strict_problems": [],
+      "output_contract_pass": true,
+      "output_contract_issues": [],
+      "output_lengths": {
+        "form": 2052,
+        "markdown": 913,
+        "text": 809,
+        "json": 1514,
+        "html": 2012
+      },
+      "image": "tests/fresh_stress/images/general_fresh.jpg",
+      "ocr_text": "CUSTOMER SERVICE QUICK GUIDE\nThis document explains how users can submit supporting documents\nthrough the portal.\nStep 1: Sign in using the registered email address.\nStep 2: Select Upload Documents.\nStep 3: Attach files in PDF, JPG or PNG format.\nMaximum file size: 10 MB per file.\nFor assistance call 03-9000 1234."
+    }
+  ]
+}
