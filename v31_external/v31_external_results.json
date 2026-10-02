@@ -1,0 +1,1515 @@
+{
+  "summary": {
+    "profiles_tested": 13,
+    "type_pass": 13,
+    "type_total": 13,
+    "anchor_pass": 102,
+    "anchor_total": 102,
+    "field_pass": 48,
+    "field_total": 48,
+    "mean_raw_ocr_confidence": 93.72
+  },
+  "results": [
+    {
+      "name": "mykad_public_sarawak",
+      "profile": "Malaysia ID / Passport \u2014 MyKad",
+      "source": "Kapit District Office, Sarawak \u2014 Contoh Dokumen (public sample)",
+      "source_url": "https://kapit.sarawak.gov.my/web/attachment/show/?docid=emttS1o5cHBocml4ekZYK082NWZjZz09Ojp2blZd9AI2V-ugyPHHW99U",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/mykad_public_sarawak.jpg",
+      "expected_type": "Malaysia MyKad",
+      "detected_type": "Malaysia MyKad",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.27,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "460619-12-5087",
+          "pass": true
+        },
+        {
+          "expected": "ABD RAUF BIN HAMSAH",
+          "pass": true
+        },
+        {
+          "expected": "KAMPUNG MASJID",
+          "pass": true
+        },
+        {
+          "expected": "89007 KENINGAU",
+          "pass": true
+        },
+        {
+          "expected": "SABAH",
+          "pass": true
+        },
+        {
+          "expected": "WARGANEGARA",
+          "pass": true
+        },
+        {
+          "expected": "ISLAM",
+          "pass": true
+        },
+        {
+          "expected": "LELAKI",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 8,
+      "anchor_total": 8,
+      "fields": [
+        {
+          "label": "Identity Number",
+          "expected": "460619-12-5087",
+          "actual": "460619-12-5087",
+          "pass": true
+        },
+        {
+          "label": "Name",
+          "expected": "ABD RAUF BIN HAMSAH",
+          "actual": "ABD RAUF BIN HAMSAH",
+          "pass": true
+        },
+        {
+          "label": "Address",
+          "expected": "KAMPUNG MASJID P O BOX 42 89007 KENINGAU SABAH",
+          "actual": "KAMPUNG MASJID P O BOX 42 89007 KENINGAU SABAH",
+          "pass": true
+        },
+        {
+          "label": "Religion",
+          "expected": "ISLAM",
+          "actual": "ISLAM",
+          "pass": true
+        },
+        {
+          "label": "Citizenship",
+          "expected": "WARGANEGARA",
+          "actual": "WARGANEGARA",
+          "pass": true
+        },
+        {
+          "label": "Gender",
+          "expected": "LELAKI",
+          "actual": "LELAKI",
+          "pass": true
+        }
+      ],
+      "field_pass": 6,
+      "field_total": 6,
+      "expected_review": false,
+      "parser_fields": [
+        {
+          "label": "Identity Number",
+          "value": "460619-12-5087",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        },
+        {
+          "label": "Name",
+          "value": "ABD RAUF BIN HAMSAH",
+          "detected": true,
+          "confidence": "high",
+          "source": "identity-layout"
+        },
+        {
+          "label": "Address",
+          "value": "KAMPUNG MASJID P O BOX 42 89007 KENINGAU SABAH",
+          "detected": true,
+          "confidence": "high",
+          "source": "identity-layout"
+        },
+        {
+          "label": "Religion",
+          "value": "ISLAM",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Citizenship",
+          "value": "WARGANEGARA",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        },
+        {
+          "label": "Gender",
+          "value": "LELAKI",
+          "detected": true,
+          "confidence": "high",
+          "source": "printed-text"
+        }
+      ],
+      "ocr_text": "KAD PENGENALAN MALAYSIA\nMyKad\n460619-12-5087\nABD RAUF BIN HAMSAH\nKAMPUNG MASJID\nP O BOX 42\n89007 KENINGAU\nSABAH\nWARGANEGARA\nISLAM\nLELAKI"
+    },
+    {
+      "name": "mypr_public_structure",
+      "profile": "Malaysia ID / Passport \u2014 MyPR",
+      "source": "Jabatan Pendaftaran Negara \u2014 MyPR features (public reference)",
+      "source_url": "https://www.jpn.gov.my/en/information/mypr/",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/mypr_public_structure.jpg",
+      "expected_type": "Malaysia MyPR",
+      "detected_type": "Malaysia MyPR",
+      "type_pass": true,
+      "raw_ocr_confidence": 91.69,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "KAD PENGENALAN MALAYSIA",
+          "pass": true
+        },
+        {
+          "expected": "PEMASTAUTIN TETAP",
+          "pass": true
+        },
+        {
+          "expected": "MyPR",
+          "pass": true
+        },
+        {
+          "expected": "PNL",
+          "pass": true
+        },
+        {
+          "expected": "ISLAM",
+          "pass": true
+        },
+        {
+          "expected": "LELAKI",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": true,
+      "parser_fields": [
+        {
+          "label": "Identity Number",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Name",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Address",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Country of Origin",
+          "value": "PNL",
+          "detected": true,
+          "confidence": "high",
+          "source": "pnl-label"
+        },
+        {
+          "label": "Religion",
+          "value": "ISLAM",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Citizenship",
+          "value": "PEMASTAUTIN TETAP / PR",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        },
+        {
+          "label": "Gender",
+          "value": "LELAKI",
+          "detected": true,
+          "confidence": "high",
+          "source": "printed-text"
+        }
+      ],
+      "ocr_text": "KAD PENGENALAN MALAYSIA\nPEMASTAUTIN TETAP\nMyPR\nIDENTITY NUMBER: [REDACTED]\nNAME: [REDACTED]\nADDRESS: [REDACTED]\nPNL\nISLAM\nLELAKI"
+    },
+    {
+      "name": "passport_public_firefly",
+      "profile": "Malaysia ID / Passport \u2014 Passport",
+      "source": "Firefly Airlines \u2014 Malaysian passport booking guide sample",
+      "source_url": "https://www.fireflyz.com.my/my/en/booking-guide.html",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/passport_public_firefly.jpg",
+      "expected_type": "Malaysia Passport",
+      "detected_type": "Malaysia Passport",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.2,
+      "selected_variant": "original",
+      "anchors": [
+        {
+          "expected": "ALIA BINTI MOHD ZULKIFLI",
+          "pass": true
+        },
+        {
+          "expected": "950425-14-5678",
+          "pass": true
+        },
+        {
+          "expected": "25 APR 1995",
+          "pass": true
+        },
+        {
+          "expected": "KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "expected": "P-F",
+          "pass": true
+        },
+        {
+          "expected": "164 cm",
+          "pass": true
+        },
+        {
+          "expected": "10 MAR 2022",
+          "pass": true
+        },
+        {
+          "expected": "10 MAR 2027",
+          "pass": true
+        },
+        {
+          "expected": "KDN - PUTRAJAYA",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 9,
+      "anchor_total": 9,
+      "fields": [
+        {
+          "label": "Jenis / Type",
+          "expected": "P",
+          "actual": "P",
+          "pass": true
+        },
+        {
+          "label": "Kod Negara / Country Code",
+          "expected": "MYS",
+          "actual": "MYS",
+          "pass": true
+        },
+        {
+          "label": "Nama / Name",
+          "expected": "ALIA BINTI MOHD ZULKIFLI",
+          "actual": "ALIA BINTI MOHD ZULKIFLI",
+          "pass": true
+        },
+        {
+          "label": "Warganegara / Nationality",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "No. Pengenalan / Identity No.",
+          "expected": "950425145678",
+          "actual": "950425145678",
+          "pass": true
+        },
+        {
+          "label": "Tarikh lahir / Date of Birth",
+          "expected": "25 APR 1995",
+          "actual": "25 APR 1995",
+          "pass": true
+        },
+        {
+          "label": "Tempat Lahir / Place of Birth",
+          "expected": "KUALA LUMPUR",
+          "actual": "KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "label": "Jantina / Sex",
+          "expected": "P-F",
+          "actual": "P-F",
+          "pass": true
+        },
+        {
+          "label": "Tinggi / Height",
+          "expected": "164 cm",
+          "actual": "164 cm",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Dikeluarkan / Date of Issue",
+          "expected": "10 MAR 2022",
+          "actual": "10 MAR 2022",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Tamat / Date of Expiry",
+          "expected": "10 MAR 2027",
+          "actual": "10 MAR 2027",
+          "pass": true
+        },
+        {
+          "label": "Pejabat Pengeluar / Issuing Office",
+          "expected": "KDN - PUTRAJAYA",
+          "actual": "KDN - PUTRAJAYA",
+          "pass": true
+        }
+      ],
+      "field_pass": 12,
+      "field_total": 12,
+      "expected_review": true,
+      "parser_fields": [
+        {
+          "label": "Jenis / Type",
+          "value": "P",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Kod Negara / Country Code",
+          "value": "MYS",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Passport Number",
+          "value": "",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Nama / Name",
+          "value": "ALIA BINTI MOHD ZULKIFLI",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Warganegara / Nationality",
+          "value": "MALAYSIA",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "No. Pengenalan / Identity No.",
+          "value": "950425145678",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Tarikh lahir / Date of Birth",
+          "value": "25 APR 1995",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Tempat Lahir / Place of Birth",
+          "value": "KUALA LUMPUR",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Jantina / Sex",
+          "value": "P-F",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Tinggi / Height",
+          "value": "164 cm",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Tarikh Dikeluarkan / Date of Issue",
+          "value": "10 MAR 2022",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Tarikh Tamat / Date of Expiry",
+          "value": "10 MAR 2027",
+          "detected": true,
+          "confidence": "high",
+          "source": "label/mrz"
+        },
+        {
+          "label": "Pejabat Pengeluar / Issuing Office",
+          "value": "KDN - PUTRAJAYA",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "MRZ Line 1",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "MRZ Line 2",
+          "value": "",
+          "detected": true,
+          "confidence": "high",
+          "source": "mrz"
+        }
+      ],
+      "ocr_text": "MALAYSIA\nPasport / Passport\nJenis / Type: P\nKod Negara / Country Code: MYS\nNama / Name: ALIA BINTI MOHD ZULKIFLI\nWarganegara / Nationality: MALAYSIA\nNo. Pengenalan / Identity No.: 950425-14-5678\nTarikh lahir / Date of Birth: 25 APR 1995\nTempat Lahir / Place of Birth: KUALA LUMPUR\nJantina / Sex: P-F\nTinggi / Height: 164 cm\nTarikh Dikeluarkan / Date of Issue: 10 MAR 2022\nTarikh Tamat / Date of Expiry: 10 MAR 2027\nPejabat Pengeluar / Issuing Office: KDN - PUTRAJAYA"
+    },
+    {
+      "name": "driving_public_wikimedia",
+      "profile": "Malaysia Driving Licence",
+      "source": "Wikimedia Commons \u2014 Malaysia driving licence specimen",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malaysia_driving_licence.jpg",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/driving_public_wikimedia.jpg",
+      "expected_type": "Malaysia Driving Licence",
+      "detected_type": "Malaysia Driving Licence",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.45,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "LESEN MEMANDU MALAYSIA",
+          "pass": true
+        },
+        {
+          "expected": "MALAYSIA DRIVING LICENCE",
+          "pass": true
+        },
+        {
+          "expected": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "expected": "B2, D, E",
+          "pass": true
+        },
+        {
+          "expected": "11/05/2021",
+          "pass": true
+        },
+        {
+          "expected": "24/11/2025",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [
+        {
+          "label": "Nationality",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "Class",
+          "expected": "B2 D E",
+          "actual": "B2 D E",
+          "pass": true
+        },
+        {
+          "label": "Valid From",
+          "expected": "11/05/2021",
+          "actual": "11/05/2021",
+          "pass": true
+        },
+        {
+          "label": "Valid Until",
+          "expected": "24/11/2025",
+          "actual": "24/11/2025",
+          "pass": true
+        }
+      ],
+      "field_pass": 4,
+      "field_total": 4,
+      "expected_review": true,
+      "parser_fields": [
+        {
+          "label": "Licence Type",
+          "value": "Full",
+          "detected": true,
+          "confidence": "high",
+          "source": "layout/type"
+        },
+        {
+          "label": "Name",
+          "value": "SPECIMEN REDACTED",
+          "detected": true,
+          "confidence": "high",
+          "source": "heuristic"
+        },
+        {
+          "label": "Nationality",
+          "value": "MALAYSIA",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Identity Number",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Class",
+          "value": "B2 D E",
+          "detected": true,
+          "confidence": "medium",
+          "source": "label/pattern"
+        },
+        {
+          "label": "Valid From",
+          "value": "11/05/2021",
+          "detected": true,
+          "confidence": "medium",
+          "source": "pattern"
+        },
+        {
+          "label": "Valid Until",
+          "value": "24/11/2025",
+          "detected": true,
+          "confidence": "medium",
+          "source": "pattern"
+        },
+        {
+          "label": "Address",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        }
+      ],
+      "ocr_text": "LESEN MEMANDU MALAYSIA\nMALAYSIA DRIVING LICENCE\nNama / Name: [SPECIMEN REDACTED]\nWarganegara / Nationality: MALAYSIA\nNo. Pengenalan / Identity No.: [REDACTED]\nKelas / Class: B2, D, E\nTempoh / Validity\n11/05/2021 - 24/11/2025\nAlamat / Address: [SPECIMEN REDACTED]"
+    },
+    {
+      "name": "cidb_ppk_public",
+      "profile": "CIDB Certificate \u2014 PPK",
+      "source": "CIDB CIMS \u2014 public PPK certificate",
+      "source_url": "https://cims.cidb.gov.my/SMIS/regcontractor/GenerateFileAdv.vbhtml?DocId=PPKUpgradeCertificate_12052023100756.pdf&s=155a1dd9-c235-4b6d-9e91-a3d42dfdd75f",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/cidb_ppk_public.jpg",
+      "expected_type": "CIDB PPK / Perakuan Pendaftaran",
+      "detected_type": "CIDB PPK / Perakuan Pendaftaran",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.01,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "1970522-PK032492",
+          "pass": true
+        },
+        {
+          "expected": "LOYAL ENGINEERING SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "53000 KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "expected": "22/05/1998",
+          "pass": true
+        },
+        {
+          "expected": "G7",
+          "pass": true
+        },
+        {
+          "expected": "12/05/2023",
+          "pass": true
+        },
+        {
+          "expected": "09/03/2025",
+          "pass": true
+        },
+        {
+          "expected": "AKTIF",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 8,
+      "anchor_total": 8,
+      "fields": [
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "expected": "1970522-PK032492",
+          "actual": "1970522-PK032492",
+          "pass": true
+        },
+        {
+          "label": "Nama Kontraktor / Contractor Name",
+          "expected": "LOYAL ENGINEERING SDN. BHD.",
+          "actual": "LOYAL ENGINEERING SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Daerah / District",
+          "expected": "KUALA LUMPUR",
+          "actual": "KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berdaftar",
+          "expected": "22/05/1998",
+          "actual": "22/05/1998",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Mula Berkuatkuasa / Effective Date",
+          "expected": "12/05/2023",
+          "actual": "12/05/2023",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Habis Tempoh Perakuan / Expiry Date",
+          "expected": "09/03/2025",
+          "actual": "09/03/2025",
+          "pass": true
+        },
+        {
+          "label": "Status",
+          "expected": "AKTIF",
+          "actual": "AKTIF",
+          "pass": true
+        }
+      ],
+      "field_pass": 7,
+      "field_total": 7,
+      "expected_review": false,
+      "parser_fields": [
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "value": "1970522-PK032492",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Nama Kontraktor / Contractor Name",
+          "value": "LOYAL ENGINEERING SDN. BHD.",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Alamat Berdaftar / Registered Address",
+          "value": "NO. 43 (FIRST FLOOR), JALAN SARIKEI, OFF JALAN PAHANG, 53000 KUALA LUMPUR WILAYAH PERSEKUTUAN KUALA LUMPUR",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Daerah / District",
+          "value": "KUALA LUMPUR",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Tarikh Mula Berdaftar",
+          "value": "22/05/1998",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Gred / Grade / Kategori / Category / Specialization / Pengkhususan",
+          "value": "G7 B BO1, B04, B29 G7 CE CE01, CE02, CE06, CE08, CE10, CE19, CE20, CE21, CE24, CE33, CE36, CE40, CE41, CE42 G7 ME M15, M19",
+          "detected": true,
+          "confidence": "medium",
+          "source": "table/pattern"
+        },
+        {
+          "label": "Tarikh Mula Berkuatkuasa / Effective Date",
+          "value": "12/05/2023",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Tarikh Habis Tempoh Perakuan / Expiry Date",
+          "value": "09/03/2025",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Status",
+          "value": "AKTIF",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        }
+      ],
+      "ocr_text": "CIDB MALAYSIA\nPERAKUAN PENDAFTARAN\nNo. Pendaftaran: 1970522-PK032492\nNama Kontraktor: LOYAL ENGINEERING SDN. BHD.\nAlamat Berdaftar: NO. 43 (FIRST FLOOR), JALAN SARIKEI, OFF JALAN PAHANG,\n53000 KUALA LUMPUR\nWILAYAH PERSEKUTUAN KUALA LUMPUR\nDaerah: KUALA LUMPUR\nTarikh Mula Berdaftar: 22/05/1998\nGRED KATEGORI PENGKHUSUSAN\nG7 B BO1 B04 B29\nG7 CE CE01 CE02 CE06 CE08 CE10 CE19 CE20 CE21 CE24 CE33 CE36 CE40 CE41 CE42\nG7 ME M15 M19\nTarikh Mula Berkuatkuasa: 12/05/2023\nTarikh Habis Tempoh Perakuan: 09/03/2025\nSTATUS: AKTIF"
+    },
+    {
+      "name": "ssm_registration_public",
+      "profile": "SSM Business Registration",
+      "source": "SSM \u2014 official Business Certificate sample",
+      "source_url": "https://www.ssm.com.my/Pages/Product/PDF/ROB/BUSINESS%20CERTIFICATE.pdf",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/ssm_registration_public.jpg",
+      "expected_type": "SSM Business Registration Certificate",
+      "detected_type": "SSM Business Registration Certificate",
+      "type_pass": true,
+      "raw_ocr_confidence": 95.56,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "CERTIFICATE OF REGISTRATION",
+          "pass": true
+        },
+        {
+          "expected": "FORM D",
+          "pass": true
+        },
+        {
+          "expected": "22 JANUARY",
+          "pass": true
+        },
+        {
+          "expected": "B-7-13, Z RESIDENCE BUKIT JALIL",
+          "pass": true
+        },
+        {
+          "expected": "58200 KUALA LUMPUR",
+          "pass": true
+        },
+        {
+          "expected": "N/A (0)",
+          "pass": true
+        },
+        {
+          "expected": "23 JANUARY",
+          "pass": true
+        },
+        {
+          "expected": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 8,
+      "anchor_total": 8,
+      "fields": [
+        {
+          "label": "Form",
+          "expected": "FORM D (RULE 13)",
+          "actual": "FORM D (RULE 13)",
+          "pass": true
+        },
+        {
+          "label": "Valid Until / Sah Hingga",
+          "expected": "22 JANUARY",
+          "actual": "22 JANUARY",
+          "pass": true
+        },
+        {
+          "label": "Registered Address",
+          "expected": "B-7-13, Z RESIDENCE BUKIT JALIL, JALAN JALIL PERWIRA 2, BUKIT JALIL, 58200 KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "actual": "B-7-13, Z RESIDENCE BUKIT JALIL, JALAN JALIL PERWIRA 2, BUKIT JALIL, 58200 KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "pass": true
+        },
+        {
+          "label": "Bil. Cawangan / Number of Branches",
+          "expected": "N/A (0)",
+          "actual": "N/A (0)",
+          "pass": true
+        },
+        {
+          "label": "Certificate Date",
+          "expected": "23 JANUARY",
+          "actual": "23 JANUARY",
+          "pass": true
+        },
+        {
+          "label": "Issuing System",
+          "expected": "SISTEM EZBIZ",
+          "actual": "SISTEM EZBIZ",
+          "pass": true
+        }
+      ],
+      "field_pass": 6,
+      "field_total": 6,
+      "expected_review": true,
+      "parser_fields": [
+        {
+          "label": "Form",
+          "value": "FORM D (RULE 13)",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        },
+        {
+          "label": "Nama Perniagaan / Business Name",
+          "value": "REDACTED",
+          "detected": true,
+          "confidence": "high",
+          "source": "context"
+        },
+        {
+          "label": "No. Pendaftaran / Registration Number",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Valid Until / Sah Hingga",
+          "value": "22 JANUARY",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        },
+        {
+          "label": "Registered Address",
+          "value": "B-7-13, Z RESIDENCE BUKIT JALIL, JALAN JALIL PERWIRA 2, BUKIT JALIL, 58200 KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "detected": true,
+          "confidence": "high",
+          "source": "context"
+        },
+        {
+          "label": "Bil. Cawangan / Number of Branches",
+          "value": "N/A (0)",
+          "detected": true,
+          "confidence": "medium",
+          "source": "pattern"
+        },
+        {
+          "label": "Certificate Date",
+          "value": "23 JANUARY",
+          "detected": true,
+          "confidence": "medium",
+          "source": "pattern"
+        },
+        {
+          "label": "Issuing System",
+          "value": "SISTEM EZBIZ",
+          "detected": true,
+          "confidence": "high",
+          "source": "pattern"
+        }
+      ],
+      "ocr_text": "SURUHANJAYA SYARIKAT MALAYSIA\nCOMPANIES COMMISSION OF MALAYSIA\nCERTIFICATE OF REGISTRATION\nTHE REGISTRATION OF BUSINESSES ACT 1956 (ACT 197)\nFORM D (RULE 13)\nThis is to certify that the Business carried on under the name [REDACTED]\nhas been registered until 22 JANUARY in accordance with the Registration of Business\nAct 1956\nwith its principal place of business at B-7-13, Z RESIDENCE BUKIT JALIL,\nJALAN JALIL PERWIRA 2, BUKIT JALIL, 58200 KUALA LUMPUR WILAYAH PERSEKUTUAN\nNumber of branches: N/A (0)\nDated at SISTEM EZBIZ this 23 JANUARY\nDATUK NOR AZIMAH ABDUL AZIZ\nREGISTRAR OF BUSINESSES PENINSULAR OF MALAYSIA"
+    },
+    {
+      "name": "ssm_company_public",
+      "profile": "SSM Document \u2014 Company Profile",
+      "source": "SSM \u2014 official Company Profile sample",
+      "source_url": "https://www.ssm.com.my/Pages/Product/PDF/ROC/COMPANY%20PROFILE.pdf",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/ssm_company_public.jpg",
+      "expected_type": "SSM Company Profile",
+      "detected_type": "SSM Company Profile",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.29,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "BIG DATAWORKS SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "BIG DATAWORKS MANAGEMENT SDN. BHD.",
+          "pass": true
+        },
+        {
+          "expected": "201101006232(934369-T)",
+          "pass": true
+        },
+        {
+          "expected": "01-03-2011",
+          "pass": true
+        },
+        {
+          "expected": "EXISTING",
+          "pass": true
+        },
+        {
+          "expected": "59000",
+          "pass": true
+        },
+        {
+          "expected": "46050",
+          "pass": true
+        },
+        {
+          "expected": "DATA ANALYTICS AND SOFTWARE DEVELOPMENT",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 8,
+      "anchor_total": 8,
+      "fields": [
+        {
+          "label": "Nama Syarikat / Company Name",
+          "expected": "BIG DATAWORKS SDN. BHD.",
+          "actual": "BIG DATAWORKS SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Nama Syarikat Lama / Old Company Name",
+          "expected": "BIG DATAWORKS MANAGEMENT SDN. BHD.",
+          "actual": "BIG DATAWORKS MANAGEMENT SDN. BHD.",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pertukaran / Date of Change",
+          "expected": "22-09-2016",
+          "actual": "22-09-2016",
+          "pass": true
+        },
+        {
+          "label": "No Syarikat / Company Registration No.",
+          "expected": "201101006232(934369-T)",
+          "actual": "201101006232(934369-T)",
+          "pass": true
+        },
+        {
+          "label": "Tarikh Pemerbadanan / Date of Incorporation",
+          "expected": "01-03-2011",
+          "actual": "01-03-2011",
+          "pass": true
+        },
+        {
+          "label": "Jenis / Type",
+          "expected": "BERHAD MENURUT SYER SYARIKAT PERSENDIRIAN",
+          "actual": "BERHAD MENURUT SYER SYARIKAT PERSENDIRIAN",
+          "pass": true
+        },
+        {
+          "label": "Status",
+          "expected": "EXISTING",
+          "actual": "EXISTING",
+          "pass": true
+        },
+        {
+          "label": "Alamat Daftar / Registered Address",
+          "expected": "10 JALAN RAJA ALANG BANGSAR KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "actual": "10 JALAN RAJA ALANG BANGSAR KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "pass": true
+        },
+        {
+          "label": "Poskod / Postcode (Registered Address)",
+          "expected": "59000",
+          "actual": "59000",
+          "pass": true
+        },
+        {
+          "label": "Tempat Penubuhan / Place of Incorporation",
+          "expected": "MALAYSIA",
+          "actual": "MALAYSIA",
+          "pass": true
+        },
+        {
+          "label": "Alamat Perniagaan / Business Address",
+          "expected": "A-7-10 WISMA MUTIARA 15 JALAN TANDANG PETALING JAYA SELANGOR",
+          "actual": "A-7-10 WISMA MUTIARA 15 JALAN TANDANG PETALING JAYA SELANGOR",
+          "pass": true
+        },
+        {
+          "label": "Poskod / Postcode (Business Address)",
+          "expected": "46050",
+          "actual": "46050",
+          "pass": true
+        },
+        {
+          "label": "Jenis Perniagaan / Business Activity",
+          "expected": "1. DATA ANALYTICS AND SOFTWARE DEVELOPMENT 2. DOCUMENTS STORAGE, MANAGEMENT SERVICES AND MOVERS",
+          "actual": "1. DATA ANALYTICS AND SOFTWARE DEVELOPMENT 2. DOCUMENTS STORAGE, MANAGEMENT SERVICES AND MOVERS",
+          "pass": true
+        }
+      ],
+      "field_pass": 13,
+      "field_total": 13,
+      "expected_review": false,
+      "parser_fields": [
+        {
+          "label": "Nama Syarikat / Company Name",
+          "value": "BIG DATAWORKS SDN. BHD.",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Nama Syarikat Lama / Old Company Name",
+          "value": "BIG DATAWORKS MANAGEMENT SDN. BHD.",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Tarikh Pertukaran / Date of Change",
+          "value": "22-09-2016",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "No Syarikat / Company Registration No.",
+          "value": "201101006232(934369-T)",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Tarikh Pemerbadanan / Date of Incorporation",
+          "value": "01-03-2011",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Tarikh Pendaftaran / Registration Date",
+          "value": "",
+          "detected": false,
+          "confidence": "low",
+          "source": "required-template"
+        },
+        {
+          "label": "Jenis / Type",
+          "value": "BERHAD MENURUT SYER SYARIKAT PERSENDIRIAN",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Status",
+          "value": "EXISTING",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Alamat Daftar / Registered Address",
+          "value": "10 JALAN RAJA ALANG BANGSAR KUALA LUMPUR WILAYAH PERSEKUTUAN",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Poskod / Postcode (Registered Address)",
+          "value": "59000",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Tempat Penubuhan / Place of Incorporation",
+          "value": "MALAYSIA",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Alamat Perniagaan / Business Address",
+          "value": "A-7-10 WISMA MUTIARA 15 JALAN TANDANG PETALING JAYA SELANGOR",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Poskod / Postcode (Business Address)",
+          "value": "46050",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        },
+        {
+          "label": "Jenis Perniagaan / Business Activity",
+          "value": "1. DATA ANALYTICS AND SOFTWARE DEVELOPMENT 2. DOCUMENTS STORAGE, MANAGEMENT SERVICES AND MOVERS",
+          "detected": true,
+          "confidence": "high",
+          "source": "ssm-company-layout"
+        }
+      ],
+      "ocr_text": "SURUHANJAYA SYARIKAT MALAYSIA\nCOMPANIES COMMISSION OF MALAYSIA\nMAKLUMAT SYARIKAT\nNama : BIG DATAWORKS SDN. BHD.\nNama Lama : BIG DATAWORKS MANAGEMENT SDN. BHD.\nTarikh Pertukaran : 22-09-2016\nNo. Pendaftaran : 201101006232(934369-T)\nTarikh Penubuhan : 01-03-2011\nJenis : BERHAD MENURUT SYER\nSYARIKAT PERSENDIRIAN\nStatus : EXISTING\nAlamat Daftar : 10 JALAN RAJA\nALANG BANGSAR\nKUALA LUMPUR\nWILAYAH PERSEKUTUAN\nPoskod 59000\nTempat Penubuhan : MALAYSIA\nAlamat Perniagaan : A-7-10 WISMA MUTIARA\n15 JALAN TANDANG\nPETALING JAYA\nSELANGOR\nPoskod 46050\nJenis Perniagaan : 1. DATA ANALYTICS AND SOFTWARE DEVELOPMENT\n2. DOCUMENTS STORAGE, MANAGEMENT SERVICES AND MOVERS"
+    },
+    {
+      "name": "invoice_receipt_public",
+      "profile": "Invoice / Receipt",
+      "source": "Asprise/receipt-ocr \u2014 public McDonald\u2019s receipt OCR sample",
+      "source_url": "https://github.com/Asprise/receipt-ocr",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/invoice_receipt_public.jpg",
+      "expected_type": "Invoice / Receipt",
+      "detected_type": "Invoice / Receipt",
+      "type_pass": true,
+      "raw_ocr_confidence": 95.18,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "McDonald's Toa Payoh Central",
+          "pass": true
+        },
+        {
+          "expected": "M2-0023981-4",
+          "pass": true
+        },
+        {
+          "expected": "TAX INVOICE",
+          "pass": true
+        },
+        {
+          "expected": "002201330026",
+          "pass": true
+        },
+        {
+          "expected": "13/01/2016",
+          "pass": true
+        },
+        {
+          "expected": "Med Ice Lemon Tea",
+          "pass": true
+        },
+        {
+          "expected": "2.95",
+          "pass": true
+        },
+        {
+          "expected": "Coffee with Milk",
+          "pass": true
+        },
+        {
+          "expected": "2.40",
+          "pass": true
+        },
+        {
+          "expected": "5.35",
+          "pass": true
+        },
+        {
+          "expected": "10.00",
+          "pass": true
+        },
+        {
+          "expected": "4.65",
+          "pass": true
+        },
+        {
+          "expected": "0.35",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 13,
+      "anchor_total": 13,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [],
+      "ocr_text": "McDonald's Toa Payoh Central\n600 @ Toa Payoh #01-02,\nSingapore 319515\nTel: 62596362\nMcDonald's Restaurants Pte Ltd\nGST REGN NO: M2-0023981-4\nTAX INVOICE\nINV. 002201330026\nORD # 57 -REG #1- 13/01/2016 15:49:52\nQTY ITEM TOTAL\n1 Med Ice Lemon Tea 2.95\n1 Coffee with Milk 2.40\nEat-In Total (incl GST) 5.35\nCash Tendered 10.00\nChange 4.65\nTOTAL INCLUDES GST OF 0.35\nThank You and Have A Nice Day"
+    },
+    {
+      "name": "form_application_public",
+      "profile": "Form / Application",
+      "source": "Bank Negara Malaysia \u2014 CCRIS/eCCRIS Application Form",
+      "source_url": "https://www.bnm.gov.my/download-forms",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/form_application_public.jpg",
+      "expected_type": "Form / Application",
+      "detected_type": "Form / Application",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.24,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "BORANG PERMOHONAN",
+          "pass": true
+        },
+        {
+          "expected": "APPLICATION FORM",
+          "pass": true
+        },
+        {
+          "expected": "Nama Pemohon",
+          "pass": true
+        },
+        {
+          "expected": "Nombor MyKad/Pasport",
+          "pass": true
+        },
+        {
+          "expected": "Purpose of Application",
+          "pass": true
+        },
+        {
+          "expected": "LOAN DECLARATION",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [
+        {
+          "label": "Name",
+          "value": "Pemohon / Name of Applicant:",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Address",
+          "value": "Address:",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        }
+      ],
+      "ocr_text": "BANK NEGARA MALAYSIA\nBORANG PERMOHONAN / APPLICATION FORM\nNama Pemohon / Name of Applicant:\nNombor MyKad/Pasport / MyKad/Passport Number:\nAlamat / Address:\nNombor Telefon / Telephone Number:\nTujuan Permohonan / Purpose of Application\n[ ] Permohonan Laporan CCRIS\nPENGISYTIHARAN PINJAMAN / LOAN DECLARATION\nTandatangan Pemohon / Applicant Signature:"
+    },
+    {
+      "name": "letter_memo_public",
+      "profile": "Letter / Memo",
+      "source": "Bank Negara Malaysia \u2014 Sample Authorisation Letter (Company)",
+      "source_url": "https://www.bnm.gov.my/download-forms",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/letter_memo_public.jpg",
+      "expected_type": "Letter / Memo",
+      "detected_type": "Letter / Memo",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.03,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "Syarikat XXX Sdn Bhd",
+          "pass": true
+        },
+        {
+          "expected": "46000 Petaling Jaya",
+          "pass": true
+        },
+        {
+          "expected": "Bank Negara Malaysia",
+          "pass": true
+        },
+        {
+          "expected": "Request for CCRIS Report",
+          "pass": true
+        },
+        {
+          "expected": "Enclosed are the required documents",
+          "pass": true
+        },
+        {
+          "expected": "Yours faithfully",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 6,
+      "anchor_total": 6,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [],
+      "ocr_text": "Syarikat XXX Sdn Bhd\n46000 Petaling Jaya\nSelangor\nBank Negara Malaysia\nJalan Dato Onn\n50480 Kuala Lumpur\nDear Sir / Madam\nRequest for CCRIS Report for XXX Sdn. Bhd\nWe hereby authorise our representative to submit the application and collect the CCRIS\nreport on behalf of the company.\nEnclosed are the required documents for the above purposes.\nYours faithfully\nAuthorised Signatory"
+    },
+    {
+      "name": "certificate_licence_public",
+      "profile": "Certificate / Licence",
+      "source": "Civil Aviation Authority of Malaysia \u2014 Attachment 1 Sample Licence",
+      "source_url": "https://www.caam.gov.my/wp-content/uploads/2022/03/AI-22_2021-REV-1-Revised-Flight-Crew-Licence.pdf",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/certificate_licence_public.jpg",
+      "expected_type": "Certificate / Licence",
+      "detected_type": "Certificate / Licence",
+      "type_pass": true,
+      "raw_ocr_confidence": 93.77,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "AIRLINE TRANSPORT PILOT LICENCE",
+          "pass": true
+        },
+        {
+          "expected": "8888",
+          "pass": true
+        },
+        {
+          "expected": "DARYL AJAY SEE",
+          "pass": true
+        },
+        {
+          "expected": "10.01.2001",
+          "pass": true
+        },
+        {
+          "expected": "81250 JOHOR BAHRU",
+          "pass": true
+        },
+        {
+          "expected": "MALAYSIAN",
+          "pass": true
+        },
+        {
+          "expected": "010110-11-5335",
+          "pass": true
+        },
+        {
+          "expected": "03.01.2022",
+          "pass": true
+        },
+        {
+          "expected": "ELP LEVEL 6",
+          "pass": true
+        },
+        {
+          "expected": "RTOL",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 10,
+      "anchor_total": 10,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [
+        {
+          "label": "Name",
+          "value": "Penuh / Name in Full: DARYL AJAY SEE",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Address",
+          "value": "Address: LOT AD-13 TAMAN DATUK REZA, CYBER RAYA, 81250 JOHOR BAHRU",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        },
+        {
+          "label": "Date / Validity",
+          "value": "Lahir / Date of Birth: 10.01.2001",
+          "detected": true,
+          "confidence": "high",
+          "source": "smart"
+        }
+      ],
+      "ocr_text": "CAAM 1\nCIVIL AVIATION AUTHORITY OF MALAYSIA\nMALAYSIA\nAIRLINE TRANSPORT PILOT LICENCE (AEROPLANE)\nNombor Lesen / Licence Number: 8888\nNama Penuh / Name in Full: DARYL AJAY SEE\nTarikh Lahir / Date of Birth: 10.01.2001\nAlamat / Address: LOT AD-13 TAMAN DATUK REZA, CYBER RAYA, 81250 JOHOR BAHRU\nKerakyatan / Nationality: MALAYSIAN\nNombor MyKad atau Pasport / MyKad or Passport Number: 010110-11-5335\nTarikh / Date: 03.01.2022\nPerkelasan / Rating: REFER TO RATINGS PAGE\nCatatan / Remarks: ELP LEVEL 6 RTOL\nLain-lain / Others: Fl 2"
+    },
+    {
+      "name": "report_statement_public",
+      "profile": "Report / Statement",
+      "source": "Bank Negara Malaysia \u2014 Annual Report 2025, Statement of Financial Position",
+      "source_url": "https://www.bnm.gov.my/documents/20124/21185005/ar2025_en_ch4.pdf",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/report_statement_public.jpg",
+      "expected_type": "Report / Statement",
+      "detected_type": "Report / Statement",
+      "type_pass": true,
+      "raw_ocr_confidence": 96.03,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "STATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2025",
+          "pass": true
+        },
+        {
+          "expected": "480,292",
+          "pass": true
+        },
+        {
+          "expected": "489,309",
+          "pass": true
+        },
+        {
+          "expected": "602,219",
+          "pass": true
+        },
+        {
+          "expected": "621,540",
+          "pass": true
+        },
+        {
+          "expected": "405,474",
+          "pass": true
+        },
+        {
+          "expected": "431,474",
+          "pass": true
+        },
+        {
+          "expected": "196,745",
+          "pass": true
+        },
+        {
+          "expected": "190,066",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 9,
+      "anchor_total": 9,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [],
+      "ocr_text": "BANK NEGARA MALAYSIA\nANNUAL REPORT 2025\nSTATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2025\n2025 2024\nRM million RM million\nASSETS Note\nGold and Foreign Financial Assets 3 480,292 489,309\nInternational Monetary Fund Reserve Position 4 29,494 30,821\nTotal Assets 602,219 621,540\nLIABILITIES AND CAPITAL\nTotal Liabilities 405,474 431,474\nCapital 13 100 100\nRisk Reserve 15 155,310 147,896\nTotal Capital and Reserves 196,745 190,066\nTotal Liabilities and Capital 602,219 621,540"
+    },
+    {
+      "name": "general_document_public",
+      "profile": "General Document",
+      "source": "CIDB iProject \u2014 FAQ Maklumat Kos Projek Pembinaan",
+      "source_url": "https://iprojek.cidb.gov.my/Files/FAQ.pdf",
+      "image": "/mnt/data/neuroocr_v31/neuroocr_v31/tests/v31_external/images/general_document_public.jpg",
+      "expected_type": "General Document",
+      "detected_type": "General Document",
+      "type_pass": true,
+      "raw_ocr_confidence": 92.65,
+      "selected_variant": "gray",
+      "anchors": [
+        {
+          "expected": "FAQ",
+          "pass": true
+        },
+        {
+          "expected": "Maklumat Kos Projek Pembinaan",
+          "pass": true
+        },
+        {
+          "expected": "CIDB Malaysia",
+          "pass": true
+        },
+        {
+          "expected": "format PDF sahaja",
+          "pass": true
+        },
+        {
+          "expected": "03-4040 0399",
+          "pass": true
+        }
+      ],
+      "anchor_pass": 5,
+      "anchor_total": 5,
+      "fields": [],
+      "field_pass": 0,
+      "field_total": 0,
+      "expected_review": false,
+      "parser_fields": [],
+      "ocr_text": "FAQ\nMaklumat Kos Projek Pembinaan\n1. Apakah tujuan program ini dilaksanakan?\nCIDB Malaysia sedang menjalankan kajian pengumpulan maklumat data kos pembinaan\nuntuk kerja-kerja bangunan dan kejuruteraan awam.\n2. Bagaimanakah pihak kontraktor menghantar segala maklumat yang diperlukan?\nPihak kontraktor perlu mengemukakan maklumat seperti yang dinyatakan di dalam\npautan yang diterima melalui emel syarikat.\n3. Apakah format dokumen yang diperlukan untuk dimuatnaik ke dalam sistem\ntersebut?\nPihak kontraktor perlu memastikan segala dokumen yang diperlukan dimuat naik dalam\nformat PDF sahaja.\n7. Bagaimana jika pihak kontraktor menghadapi masalah semasa mengisi borang?\nPihak kontraktor boleh menghubungi kami di talian 03-4040 0399 untuk sebarang\nbantuan."
+    }
+  ]
+}

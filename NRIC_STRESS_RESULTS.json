@@ -1,0 +1,40 @@
+{
+  "metrics": {
+    "formatted": {
+      "pass": 250000,
+      "total": 250000,
+      "accuracy": 1
+    },
+    "compact": {
+      "pass": 250000,
+      "total": 250000,
+      "accuracy": 1
+    },
+    "ocr1": {
+      "pass": 250000,
+      "total": 250000,
+      "accuracy": 1
+    },
+    "ocr2": {
+      "pass": 250000,
+      "total": 250000,
+      "accuracy": 1
+    },
+    "invalid_rejection": {
+      "pass": 100000,
+      "total": 100000,
+      "accuracy": 1
+    },
+    "context_selection": {
+      "pass": 50000,
+      "total": 50000,
+      "accuracy": 1
+    }
+  },
+  "total": 1150000,
+  "passed": 1150000,
+  "accuracy": 1,
+  "elapsed_ms": 19088,
+  "cases_per_second": 60247,
+  "failures": []
+}

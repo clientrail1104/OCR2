@@ -1,0 +1,81 @@
+{
+  "build": "V31",
+  "test_date": "2026-09-30",
+  "status": "PASS_ON_EXECUTED_CORPUS",
+  "supplied_real_identity_images": {
+    "critical_fields_pass": 28,
+    "critical_fields_total": 28,
+    "percent": 100.0,
+    "note": "MyKad 6/6, MyPR 7/7, Malaysia Passport 15/15 on user-supplied image fixtures."
+  },
+  "fresh_external_profile_corpus": {
+    "profiles_tested": 13,
+    "type_pass": 13,
+    "type_total": 13,
+    "anchor_pass": 102,
+    "anchor_total": 102,
+    "field_pass": 48,
+    "field_total": 48,
+    "mean_raw_ocr_confidence": 93.72
+  },
+  "fresh_external_exact_metrics": {
+    "document_type_detection": {
+      "pass": 13,
+      "total": 13,
+      "percent": 100.0
+    },
+    "visible_ocr_anchors": {
+      "pass": 102,
+      "total": 102,
+      "percent": 100.0
+    },
+    "structured_fields": {
+      "pass": 48,
+      "total": 48,
+      "percent": 100.0
+    },
+    "mean_raw_ocr_confidence_percent": 93.72
+  },
+  "contracts": {
+    "five_output_formats_and_js_syntax": "PASS",
+    "api_runtime_and_strict_json_schema": "PASS"
+  },
+  "defects_found_and_fixed": [
+    {
+      "issue": "SSM Company Profile official sample was under-detected as generic SSM Document and the modern registration number format was truncated.",
+      "fix": "Expanded official Malay/English company-profile labels, modern/legacy SSM number parsing, dual-address fields and optional-field strictness.",
+      "verification": "SSM Company Profile now 13/13 structured fields exact on the fresh source-derived test."
+    },
+    {
+      "issue": "SSM Business Registration English certificate labels were not fully covered and Certificate Date could consume the registrar text.",
+      "fix": "Added English FORM D/certificate label support, principal-place-of-business parsing and bounded date capture.",
+      "verification": "SSM Business Registration now 6/6 structured fields exact on visible test values."
+    },
+    {
+      "issue": "Malaysia Passport visual identity number with hyphens was removed by strict sanitisation and issuing office containing a spaced hyphen could be rejected.",
+      "fix": "Accept Malaysian NRIC punctuation then canonicalise to 12 digits for passport identity number; location parser now ignores punctuation-only tokens.",
+      "verification": "Fresh Firefly passport visible fields now 12/12 exact."
+    },
+    {
+      "issue": "Generic CAAM pilot licence was classified as General Document because detector matched \u201clicence no\u201d but not \u201cLicence Number\u201d/pilot licence.",
+      "fix": "Expanded generic Certificate/Licence detection to licence number and pilot licence wording.",
+      "verification": "CAAM sample now correctly detects Certificate / Licence and 10/10 visible anchors pass."
+    }
+  ],
+  "proof_screenshots": {
+    "mykad_public_sarawak": "evidence/screenshots/mykad_public_sarawak.png",
+    "mypr_public_structure": "evidence/screenshots/mypr_public_structure.png",
+    "passport_public_firefly": "evidence/screenshots/passport_public_firefly.png",
+    "driving_public_wikimedia": "evidence/screenshots/driving_public_wikimedia.png",
+    "cidb_ppk_public": "evidence/screenshots/cidb_ppk_public.png",
+    "ssm_registration_public": "evidence/screenshots/ssm_registration_public.png",
+    "ssm_company_public": "evidence/screenshots/ssm_company_public.png",
+    "invoice_receipt_public": "evidence/screenshots/invoice_receipt_public.png",
+    "form_application_public": "evidence/screenshots/form_application_public.png",
+    "letter_memo_public": "evidence/screenshots/letter_memo_public.png",
+    "certificate_licence_public": "evidence/screenshots/certificate_licence_public.png",
+    "report_statement_public": "evidence/screenshots/report_statement_public.png",
+    "general_document_public": "evidence/screenshots/general_document_public.png"
+  },
+  "accuracy_statement": "The executed fresh corpus achieved 100.00% exact-match on checked visible anchors, structured fields and document-type detection. Mean raw Tesseract token confidence was 93.72%. This does not establish a universal 99.99% accuracy or confidence guarantee for unseen production documents. Strict profiles remain fail-closed to REVIEW REQUIRED where mandatory evidence is missing, redacted or not independently verifiable."
+}

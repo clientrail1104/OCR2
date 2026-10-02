@@ -1,0 +1,1745 @@
+[
+  {
+    "country": "ABW",
+    "line1": "P<ABWTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000003ABW7001017M2601010<<<<<<<<<<<<<<<4",
+    "ocr": "P<ABWTEST<<USER<<<<<<<<<<\nA100000003ABW7001017M2601010<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/ABW.png"
+  },
+  {
+    "country": "AFG",
+    "line1": "P<AFGSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "AFG1000019AFG7102028F2704069AFG1<<<<<<<<<<86",
+    "ocr": "P<AFGSMITH<<ALEX<<<<<<<<<<\nAFG1000019AFG7102028F2704069AFG1<<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/AFG.png"
+  },
+  {
+    "country": "AGO",
+    "line1": "P<AGOGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000029AGO7203039<2807111AGO2<<<<<<<<<<60",
+    "ocr": "P<AGOGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000000029AG07203039<2807111AG02<<<<<<<<<<60\n",
+    "image": "evidence/global_passport_ocr_all/AGO.png"
+  },
+  {
+    "country": "AIA",
+    "line1": "P<AIASINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000036AIA7304040M2910161AIA3<<<<<<<<<<56",
+    "ocr": "P<AIASINGH<<PRIYA<<<<<<<<\nA100000036AIA7304040M2910161AIA3<<<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/AIA.png"
+  },
+  {
+    "country": "ALA",
+    "line1": "P<ALAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ALA1000044ALA7405051F3001215ALA4<<<<<<<<<<18",
+    "ocr": "P<ALAKIM<<MIN<JUN<<<<<<<<<<\nALA1000044ALA7405051F3001215ALA4<<<<<<<<<<18\n",
+    "image": "evidence/global_passport_ocr_all/ALA.png"
+  },
+  {
+    "country": "ALB",
+    "line1": "P<ALBTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000052ALB7506062<3104264ALB5<<<<<<<<<<96",
+    "ocr": "P<ALBTEST<<USER<<<<<<<<<<<<<\n1000000052ALB7506062<3104264ALB5<<<<<<<<<<96\n",
+    "image": "evidence/global_passport_ocr_all/ALB.png"
+  },
+  {
+    "country": "AND",
+    "line1": "P<ANDSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000069AND7607073M3207039AND6<<<<<<<<<<48",
+    "ocr": "P<ANDSMITH<<ALEX<<<<<<<<<<<<<\nA100000069AND7607073M3207039AND6<<<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/AND.png"
+  },
+  {
+    "country": "ARE",
+    "line1": "P<AREGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ARE1000079ARE7708084F3310089<<<<<<<<<<<<<<<2",
+    "ocr": "P<AREGARCIA<<MARIA<ELENA<<<<<<<<<<<\nARE1000079ARE7708084F3310089<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/ARE.png"
+  },
+  {
+    "country": "ARG",
+    "line1": "P<ARGSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000085ARG7809095<3401136ARG8<<<<<<<<<<34",
+    "ocr": "P<ARGSINGH<<PRIYA<<<<<<<<<<<<\n1000000085ARG7809095<3401136ARG8<<<<<<<<<<34\n",
+    "image": "evidence/global_passport_ocr_all/ARG.png"
+  },
+  {
+    "country": "ARM",
+    "line1": "P<ARMKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000092ARM7910100M3504185ARM9<<<<<<<<<<64",
+    "ocr": "P<ARMKIM<<MIN<JUN<<<<<<<<<<<\nA100000092ARM7910100M3504185ARM9<<<<<<<<<<64\n",
+    "image": "evidence/global_passport_ocr_all/ARM.png"
+  },
+  {
+    "country": "ASM",
+    "line1": "P<ASMTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ASM1000106ASM8011118F2607230ASM10<<<<<<<<<34",
+    "ocr": "P<ASMTEST<<USER<<<<<<<<<<<<\nASM1000106ASM8011118F2607230ASM10<<<<<<<<<34\n",
+    "image": "evidence/global_passport_ocr_all/ASM.png"
+  },
+  {
+    "country": "ATA",
+    "line1": "P<ATASMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000111ATA8112129<2710280ATA11<<<<<<<<<74",
+    "ocr": "P<ATASMITH<<ALEX<<<<<<<<\n1000000111ATA8112129<2710280ATA11<<<<<<<<<74\n",
+    "image": "evidence/global_passport_ocr_all/ATA.png"
+  },
+  {
+    "country": "ATF",
+    "line1": "P<ATFGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000128ATF8201135M2801050ATF12<<<<<<<<<54",
+    "ocr": "P<ATFGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<\nA100000128ATF8201135M2801050ATF12<<<<<<<<<54\n",
+    "image": "evidence/global_passport_ocr_all/ATF.png"
+  },
+  {
+    "country": "ATG",
+    "line1": "P<ATGSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ATG1000136ATG8302146F2904102ATG13<<<<<<<<<94",
+    "ocr": "P<ATGSINGH<<PRIYA<<<<<<<<<<<<\nATG1000136ATG8302146F2904102ATG13<<<<<<<<<94\n",
+    "image": "evidence/global_passport_ocr_all/ATG.png"
+  },
+  {
+    "country": "AUS",
+    "line1": "P<AUSKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000144AUS8403157<3007158<<<<<<<<<<<<<<<6",
+    "ocr": "P<AUSKIM<<MIN<JUN<<<<<<<<<<\n1000000144AUS8403157<3007158<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/AUS.png"
+  },
+  {
+    "country": "AUT",
+    "line1": "P<AUTTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000151AUT8504168M3110201AUT15<<<<<<<<<16",
+    "ocr": "P<AUTTEST<<USER<<<<<<<<\nA100000151AUT8504168M3110201AUT15<<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/AUT.png"
+  },
+  {
+    "country": "AZE",
+    "line1": "P<AZESMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "AZE1000165AZE8605179F3201255AZE16<<<<<<<<<42",
+    "ocr": "P<AZESMITH<<ALEX<<<<<<<<<<\nAZE1000165AZE8605179F3201255AZE16<<<<<<<<<42\n",
+    "image": "evidence/global_passport_ocr_all/AZE.png"
+  },
+  {
+    "country": "BDI",
+    "line1": "P<BDIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000177BDI8706180<3304020BDI17<<<<<<<<<20",
+    "ocr": "P<BDIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<\n1000000177BD18706180<3304020BDI17<<<<<<<<<20\n",
+    "image": "evidence/global_passport_ocr_all/BDI.png"
+  },
+  {
+    "country": "BEL",
+    "line1": "P<BELSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000184BEL8807191M3407079BEL18<<<<<<<<<12",
+    "ocr": "P<BELSINGH<<PRIYA<<<<<<<<<<<<<<<\nA100000184BEL8807191M3407079BEL18<<<<<<<<<12\n",
+    "image": "evidence/global_passport_ocr_all/BEL.png"
+  },
+  {
+    "country": "BEN",
+    "line1": "P<BENKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BEN1000191BEN8908205F3510122BEN19<<<<<<<<<60",
+    "ocr": "P<BENKIM<<MIN<JUN<<<<<<<<\nBEN1000191BEN8908205F3510122BEN19<<<<<<<<<60\n",
+    "image": "evidence/global_passport_ocr_all/BEN.png"
+  },
+  {
+    "country": "BES",
+    "line1": "P<BESTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000203BES9009213<2601179BES20<<<<<<<<<10",
+    "ocr": "P<BESTEST<<USER<<<<<<<<<<\n1000000203BES9009213<2601179BES20<<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/BES.png"
+  },
+  {
+    "country": "BFA",
+    "line1": "P<BFASMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000210BFA9110225M2704221<<<<<<<<<<<<<<<2",
+    "ocr": "P<BFASMITH<<ALEX<<<<<<<<<<<<<\nA100000210BFA9110225M2704221<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/BFA.png"
+  },
+  {
+    "country": "BGD",
+    "line1": "P<BGDGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BGD1000223BGD9211236F2807270BGD22<<<<<<<<<80",
+    "ocr": "P<BGDGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nBGD1000223BGD9211236F2807270BGD22<<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/BGD.png"
+  },
+  {
+    "country": "BGR",
+    "line1": "P<BGRSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000236BGR9312247<2910046BGR23<<<<<<<<<58",
+    "ocr": "P<BGRSINGH<<PRIYA<<<<<<<<<<\n1000000236BGR9312247<2910046BGR23<<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/BGR.png"
+  },
+  {
+    "country": "BHR",
+    "line1": "P<BHRKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000243BHR9401253M3001097BHR24<<<<<<<<<14",
+    "ocr": "P<BHRKIM<<MIN<JUN<<<<<<<<<<<\nA100000243BHR9401253M3001097BHR24<<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/BHR.png"
+  },
+  {
+    "country": "BHS",
+    "line1": "P<BHSTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BHS1000254BHS9502264F3104149BHS25<<<<<<<<<58",
+    "ocr": "P<BHSTEST<<USER<<<<<<<<<<<<\nBHS1000254BHS9502264F3104149BHS25<<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/BHS.png"
+  },
+  {
+    "country": "BIH",
+    "line1": "P<BIHSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000269BIH9603275<3207198BIH26<<<<<<<<<06",
+    "ocr": "P<BIHSMITH<<ALEX<<<<<<<<<<<\n1000000269B1H9603275<3207198BIH26<<<<<<<<<06\n",
+    "image": "evidence/global_passport_ocr_all/BIH.png"
+  },
+  {
+    "country": "BLM",
+    "line1": "P<BLMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000276BLM9704286M3310241BLM27<<<<<<<<<78",
+    "ocr": "P<BLMGARCIA<<MARIA<ELENA<<<<<<<<<<\nA100000276BLM9704286M3310241BLM27<<<<<<<<<78\n",
+    "image": "evidence/global_passport_ocr_all/BLM.png"
+  },
+  {
+    "country": "BLR",
+    "line1": "P<BLRSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BLR1000288BLR9805013F3401011<<<<<<<<<<<<<<<6",
+    "ocr": "P<BLRSINGH<<PRIYA<<<<<<<<<<<<\nBLR1000288BLR9805013F3401011<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/BLR.png"
+  },
+  {
+    "country": "BLZ",
+    "line1": "P<BLZKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000292BLZ9906024<3504060BLZ29<<<<<<<<<68",
+    "ocr": "P<BLZKIM<<MIN<JUN<<<<<<<<<<<\n1000000292BLZ9906024<3504060BLZ29<<<<<<<<<68\n",
+    "image": "evidence/global_passport_ocr_all/BLZ.png"
+  },
+  {
+    "country": "BMU",
+    "line1": "P<BMUTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000302BMU7007031M2607115BMU30<<<<<<<<<46",
+    "ocr": "P<BMUTEST<<USER<<<<<<<<<<<<<<\nA100000302BMU7007031M2607115BMU30<<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/BMU.png"
+  },
+  {
+    "country": "BOL",
+    "line1": "P<BOLSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BOL1000317BOL7108042F2710165BOL31<<<<<<<<<48",
+    "ocr": "P<BOLSMITH<<ALEX<<<<<<<<\nBOL1000317B0L7108042F2710165BO0L31<<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/BOL.png"
+  },
+  {
+    "country": "BRA",
+    "line1": "P<BRAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000328BRA7209053<2801212BRA32<<<<<<<<<56",
+    "ocr": "P<BRAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<\n1000000328BRA7209053<2801212BRA32<<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/BRA.png"
+  },
+  {
+    "country": "BRB",
+    "line1": "P<BRBSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000335BRB7310065M2904261BRB33<<<<<<<<<98",
+    "ocr": "P<BRBSINGH<<PRIYA<<<<<<<<<<<<<\nA100000335BRB7310065M2904261BRB33<<<<<<<<<98\n",
+    "image": "evidence/global_passport_ocr_all/BRB.png"
+  },
+  {
+    "country": "BRN",
+    "line1": "P<BRNKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BRN1000341BRN7411076F3007033BRN34<<<<<<<<<40",
+    "ocr": "P<BRNKIM<<MIN<JUN<<<<<<<<<<<\nBRN1000341BRN7411076F3007033BRN34<<<<<<<<<40\n",
+    "image": "evidence/global_passport_ocr_all/BRN.png"
+  },
+  {
+    "country": "BTN",
+    "line1": "P<BTNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000351BTN7512087<3110083<<<<<<<<<<<<<<<4",
+    "ocr": "P<BINTEST<<USER<<<<<<<<<\n1000000351BTN7512087<3110083<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/BTN.png"
+  },
+  {
+    "country": "BVT",
+    "line1": "P<BVTSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000368BVT7601093M3201130BVT36<<<<<<<<<86",
+    "ocr": "P<BVTSMITH<<ALEX<<<<<<<<<<\nA100000368BVT7601093M3201130BVT36<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/BVT.png"
+  },
+  {
+    "country": "BWA",
+    "line1": "P<BWAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "BWA1000376BWA7702107F3304189BWA37<<<<<<<<<52",
+    "ocr": "P<BWAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nBWA1000376BWA7702107F3304189BWA37<<<<<<<<<52\n",
+    "image": "evidence/global_passport_ocr_all/BWA.png"
+  },
+  {
+    "country": "CAF",
+    "line1": "P<CAFSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000384CAF7803118<3407231CAF38<<<<<<<<<42",
+    "ocr": "P<CAFSINGH<<PRIYA<<<<<<<<<<<<<<\n1000000384CAF7803118<3407231CAF38<<<<<<<<<42\n",
+    "image": "evidence/global_passport_ocr_all/CAF.png"
+  },
+  {
+    "country": "CAN",
+    "line1": "P<CANKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000391CAN7904129M3510281CAN39<<<<<<<<<52",
+    "ocr": "P<CANKIM<<MIN<JUN<<<<<<<<\nA100000391CAN7904129M3510281CAN39<<<<<<<<<52\n",
+    "image": "evidence/global_passport_ocr_all/CAN.png"
+  },
+  {
+    "country": "CCK",
+    "line1": "P<CCKTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CCK1000409CCK8005137F2601054CCK40<<<<<<<<<84",
+    "ocr": "P<CCKTEST<<USER<<<<<<<<<<<\nCCK1000409CCK8005137F2601054CCK40<<<<<<<<<84\n",
+    "image": "evidence/global_passport_ocr_all/CCK.png"
+  },
+  {
+    "country": "CHE",
+    "line1": "P<CHESMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000410CHE8106148<2704106CHE41<<<<<<<<<04",
+    "ocr": "P<CHESMITH<<ALEX<<<<<<<<<<<<\n1000000410CHE8106148<2704106CHE41<<<<<<<<<04\n",
+    "image": "evidence/global_passport_ocr_all/CHE.png"
+  },
+  {
+    "country": "CHL",
+    "line1": "P<CHLGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000427CHL8207159M2807155<<<<<<<<<<<<<<<8",
+    "ocr": "P<CHLGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA100000427CHL8207159M2807155<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/CHL.png"
+  },
+  {
+    "country": "CHN",
+    "line1": "P<CHNSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CHN1000430CHN8308160F2910208CHN43<<<<<<<<<54",
+    "ocr": "P<CHNSINGH<<PRIYA<<<<<<<<<\nCHN1000430CHN8308160F2910208CHN43<<<<<<<<<54\n",
+    "image": "evidence/global_passport_ocr_all/CHN.png"
+  },
+  {
+    "country": "CIV",
+    "line1": "P<CIVKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000443CIV8409171<3001259CIV44<<<<<<<<<92",
+    "ocr": "P<CIVKIM<<MIN<JUN<<<<<<<<\n1000000443CIV8409171<3001259CIV44<<<<<<<<<92\n",
+    "image": "evidence/global_passport_ocr_all/CIV.png"
+  },
+  {
+    "country": "CMR",
+    "line1": "P<CMRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000450CMR8510183M3104024CMR45<<<<<<<<<06",
+    "ocr": "P<CMRTEST<<USER<<<<<<<<<<<<<\nA100000450CMR8510183M3104024CMR45<<<<<<<<<0Q6\n",
+    "image": "evidence/global_passport_ocr_all/CMR.png"
+  },
+  {
+    "country": "COD",
+    "line1": "P<CODSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "COD1000464COD8611194F3207073COD46<<<<<<<<<56",
+    "ocr": "P<CODSMITH<<ALEX<<<<<<<<<<<<\nC0OD1000464C0D8611194F3207073COD46<<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/COD.png"
+  },
+  {
+    "country": "COG",
+    "line1": "P<COGGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000476COG8712208<3310126COG47<<<<<<<<<16",
+    "ocr": "P<COGGARCIA<<MARIA<ELENA<<<<<<<<<<<\n1000000476C0G8712208<3310126C0G47<<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/COG.png"
+  },
+  {
+    "country": "COK",
+    "line1": "P<COKSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000483COK8801214M3401170COK48<<<<<<<<<86",
+    "ocr": "P<COKSINGH<<PRIYA<<<<<<<<<<<<\nA100000483C0K8801214M3401170COK48<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/COK.png"
+  },
+  {
+    "country": "COL",
+    "line1": "P<COLKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "COL1000495COL8902225F3504222<<<<<<<<<<<<<<<4",
+    "ocr": "P<COLKIM<<MIN<JUN<<<<<<<<<<<\nCOL1000495C0L8902225F3504222<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/COL.png"
+  },
+  {
+    "country": "COM",
+    "line1": "P<COMTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000502COM9003233<2607274COM50<<<<<<<<<30",
+    "ocr": "P<COMTEST<<USER<<<<<<<<<<<<<\n1000000502C0M9003233<2607274COM50<<<<<<<<<30\n",
+    "image": "evidence/global_passport_ocr_all/COM.png"
+  },
+  {
+    "country": "CPV",
+    "line1": "P<CPVSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000519CPV9104244M2710040CPV51<<<<<<<<<86",
+    "ocr": "P<CPVSMITH<<ALEX<<<<<<<<\nA100000519CPV9104244M2710040CPV51<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/CPV.png"
+  },
+  {
+    "country": "CRI",
+    "line1": "P<CRIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CRI1000527CRI9205255F2801094CRI52<<<<<<<<<40",
+    "ocr": "P<CRIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<\nCRI1000527CRI9205255F2801094CRI52<<<<<<<<<40\n",
+    "image": "evidence/global_passport_ocr_all/CRI.png"
+  },
+  {
+    "country": "CUB",
+    "line1": "P<CUBSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000535CUB9306266<2904146CUB53<<<<<<<<<92",
+    "ocr": "P<CUBSINGH<<PRIYA<<<<<<<<<<<<\n1000000535CUB9306266<2904146CUB53<<<<<<<<<92\n",
+    "image": "evidence/global_passport_ocr_all/CUB.png"
+  },
+  {
+    "country": "CUW",
+    "line1": "P<CUWKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000542CUW9407277M3007192CUW54<<<<<<<<<32",
+    "ocr": "P<CUWKIM<<MIN<JUN<<<<<<<<<<<<\nA100000542CUW9407277M3007192CUW54<<<<<<<<<32\n",
+    "image": "evidence/global_passport_ocr_all/CUW.png"
+  },
+  {
+    "country": "CXR",
+    "line1": "P<CXRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CXR1000557CXR9508288F3110245CXR55<<<<<<<<<08",
+    "ocr": "P<CXRTEST<<USER<<<<<<<<<\nCXR1000557CXR9508288F3110245CXR55<<<<<<<<<08\n",
+    "image": "evidence/global_passport_ocr_all/CXR.png"
+  },
+  {
+    "country": "CYM",
+    "line1": "P<CYMSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000568CYM9609015<3201015<<<<<<<<<<<<<<<2",
+    "ocr": "P<CYMSMITH<<ALEX<<<<<<<<<<<<\n1000000568CYM9609015<3201015<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/CYM.png"
+  },
+  {
+    "country": "CYP",
+    "line1": "P<CYPGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000575CYP9710027M3304064CYP57<<<<<<<<<70",
+    "ocr": "P<CYPGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<\nA100000575CYP9710027M3304064CYP5<<<<<<<<<70\n",
+    "image": "evidence/global_passport_ocr_all/CYP.png"
+  },
+  {
+    "country": "CZE",
+    "line1": "P<CZESINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "CZE1000583CZE9811038F3407116CZE58<<<<<<<<<22",
+    "ocr": "P<CZESINGH<<PRIYA<<<<<<<<<<<<<<\nCZE1000583CZE9811038F3407116CZE58<<<<<<<<<22\n",
+    "image": "evidence/global_passport_ocr_all/CZE.png"
+  },
+  {
+    "country": "DEU",
+    "line1": "P<DEUKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000591DEU9912049<3510166DEU59<<<<<<<<<54",
+    "ocr": "P<DEUKIM<<MIN<JUN<<<<<<<<\n1000000591DEU9912049<3510166DEU59<<<<<<<<<54\n",
+    "image": "evidence/global_passport_ocr_all/DEU.png"
+  },
+  {
+    "country": "DJI",
+    "line1": "P<DJITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000601DJI7001051M2601216DJI60<<<<<<<<<84",
+    "ocr": "P<DJITEST<<USER<<<<<<<<<<\nA100000601DJI7001051M2601216DJ160<<<<<<<<<84\n",
+    "image": "evidence/global_passport_ocr_all/DJI.png"
+  },
+  {
+    "country": "DMA",
+    "line1": "P<DMASMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "DMA1000613DMA7102062F2704265DMA61<<<<<<<<<26",
+    "ocr": "P<DMASMITH<<ALEX<<<<<<<<<<<<<\nDMA1000613DMA7102062F2704265DMA61<<<<<<<<<26\n",
+    "image": "evidence/global_passport_ocr_all/DMA.png"
+  },
+  {
+    "country": "DNK",
+    "line1": "P<DNKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000627DNK7203073<2807030DNK62<<<<<<<<<86",
+    "ocr": "P<DNKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000000627DNK7203073<2807030DNK62<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/DNK.png"
+  },
+  {
+    "country": "DOM",
+    "line1": "P<DOMSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000634DOM7304084M2910080<<<<<<<<<<<<<<<8",
+    "ocr": "P<DOMSINGH<<PRIYA<<<<<<<<<<\nA100000634D0M7304084M2910080<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/DOM.png"
+  },
+  {
+    "country": "DZA",
+    "line1": "P<DZAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "DZA1000645DZA7405095F3001134DZA64<<<<<<<<<02",
+    "ocr": "P<DZAKIM<<MIN<JUN<<<<<<<<<<\nDZA1000645DZA7405095F3001134DZA64<<<<<<<<<Q2\n",
+    "image": "evidence/global_passport_ocr_all/DZA.png"
+  },
+  {
+    "country": "ECU",
+    "line1": "P<ECUTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000650ECU7506109<3104183ECU65<<<<<<<<<12",
+    "ocr": "P<ECUTEST<<USER<<<<<<<<<<<\n1000000650ECU7506109<3104183ECU65<<<<<<<<<12\n",
+    "image": "evidence/global_passport_ocr_all/ECU.png"
+  },
+  {
+    "country": "EGY",
+    "line1": "P<EGYSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000667EGY7607110M3207235EGY66<<<<<<<<<04",
+    "ocr": "P<EGYSMITH<<ALEX<<<<<<<<<<<\nA100000667EGY7607110M3207235EGY66<<<<<<<<<04\n",
+    "image": "evidence/global_passport_ocr_all/EGY.png"
+  },
+  {
+    "country": "ERI",
+    "line1": "P<ERIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ERI1000679ERI7708121F3310285ERI67<<<<<<<<<02",
+    "ocr": "P<ERIGARCIA<<MARIA<ELENA<<<<<<<<<\nERT1000679ERI7708121F3310285ERI6<<<<<<<<<Q2\n",
+    "image": "evidence/global_passport_ocr_all/ERI.png"
+  },
+  {
+    "country": "ESH",
+    "line1": "P<ESHSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000683ESH7809132<3401055ESH68<<<<<<<<<50",
+    "ocr": "P<ESHSINGH<<PRIYA<<<<<<<<<<<<\n1000000683ESH7809132<3401055ESH68<<<<<<<<<50\n",
+    "image": "evidence/global_passport_ocr_all/ESH.png"
+  },
+  {
+    "country": "ESP",
+    "line1": "P<ESPKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000690ESP7910144M3504107ESP69<<<<<<<<<66",
+    "ocr": "P<ESPKIM<<MIN<JUN<<<<<<<<<<<\nA100000690ESP7910144M3504107ESP69<<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/ESP.png"
+  },
+  {
+    "country": "EST",
+    "line1": "P<ESTTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "EST1000709EST8011152F2607159<<<<<<<<<<<<<<<0",
+    "ocr": "P<ESTTEST<<USER<<<<<<<<<<<<\nEST1000709EST8011152F2607159<<<<<<<<<<<<<<<Q\n",
+    "image": "evidence/global_passport_ocr_all/EST.png"
+  },
+  {
+    "country": "ETH",
+    "line1": "P<ETHSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000719ETH8112163<2710202ETH71<<<<<<<<<40",
+    "ocr": "P<ETHSMITH<<ALEX<<<<<<<<\n1000000719ETH8112163<2710202ETH71<<<<<<<<<40\n",
+    "image": "evidence/global_passport_ocr_all/ETH.png"
+  },
+  {
+    "country": "FIN",
+    "line1": "P<FINGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000726FIN8201179M2801256FIN72<<<<<<<<<72",
+    "ocr": "P<FINGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<\nA100000726F1IN8201179M2801256FIN72<<<<<<<<<72\n",
+    "image": "evidence/global_passport_ocr_all/FIN.png"
+  },
+  {
+    "country": "FJI",
+    "line1": "P<FJISINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "FJI1000731FJI8302180F2904021FJI73<<<<<<<<<80",
+    "ocr": "P<FJISINGH<<PRIYA<<<<<<<<<<<<\nFJI1000731FJ18302180F2904021FIJ1I73<<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/FJI.png"
+  },
+  {
+    "country": "FLK",
+    "line1": "P<FLKKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000742FLK8403191<3007077FLK74<<<<<<<<<96",
+    "ocr": "P<FLKKIM<<MIN<JUN<<<<<<<<<<<\n1000000742FLK8403191<3007077FLK74<<<<<<<<<96\n",
+    "image": "evidence/global_passport_ocr_all/FLK.png"
+  },
+  {
+    "country": "FRA",
+    "line1": "P<FRATEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000759FRA8504205M3110120FRA75<<<<<<<<<06",
+    "ocr": "P<FRATEST<<USER<<<<<<<<\nA100000759FRA8504205M3110120FRA75<<<<<<<<<06\n",
+    "image": "evidence/global_passport_ocr_all/FRA.png"
+  },
+  {
+    "country": "FRO",
+    "line1": "P<FROSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "FRO1000764FRO8605216F3201174FRO76<<<<<<<<<78",
+    "ocr": "P<FROSMITH<<ALEX<<<<<<<<<<\nFRO1000764FR08605216F3201174FRO76<<<<<<<<<78\n",
+    "image": "evidence/global_passport_ocr_all/FRO.png"
+  },
+  {
+    "country": "FSM",
+    "line1": "P<FSMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000775FSM8706227<3304226<<<<<<<<<<<<<<<0",
+    "ocr": "P<FSMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000000775FSM8706227<3304226<<<<<<<<<<<<<<<\n",
+    "image": "evidence/global_passport_ocr_all/FSM.png"
+  },
+  {
+    "country": "GAB",
+    "line1": "P<GABSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000782GAB8807238M3407275GAB78<<<<<<<<<66",
+    "ocr": "P<GABSINGH<<PRIYA<<<<<<<<<<<<<<<\nA100000782GAB8807238M3407275GAB78<<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/GAB.png"
+  },
+  {
+    "country": "GBR",
+    "line1": "P<GBRKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GBR1000799GBR8908249F3510041GBR79<<<<<<<<<86",
+    "ocr": "P<GBRKIM<<MIN<JUN<<<<<<<<<\nGBR1000799GBR8908249F3510041GBR79<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/GBR.png"
+  },
+  {
+    "country": "GEO",
+    "line1": "P<GEOTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000801GEO9009257<2601098GEO80<<<<<<<<<48",
+    "ocr": "P<GEOTEST<<USER<<<<<<<<<\n1000000801GE09009257<2601098GE080<<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/GEO.png"
+  },
+  {
+    "country": "GGY",
+    "line1": "P<GGYSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000818GGY9110269M2704140GGY81<<<<<<<<<30",
+    "ocr": "P<GGYSMITH<<ALEX<<<<<<<<<<<<\nA100000818GGY9110269M2704140GGY81<<<<<<<<<30\n",
+    "image": "evidence/global_passport_ocr_all/GGY.png"
+  },
+  {
+    "country": "GHA",
+    "line1": "P<GHAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GHA1000826GHA9211270F2807199GHA82<<<<<<<<<56",
+    "ocr": "P<GHAGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nGHA1000826GHA9211270F2807199GHA82<<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/GHA.png"
+  },
+  {
+    "country": "GIB",
+    "line1": "P<GIBSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000834GIB9312281<2910242GIB83<<<<<<<<<26",
+    "ocr": "P<GIBSINGH<<PRIYA<<<<<<<<<\n1000000834G1B9312281<2910242GIB83<<<<<<<<<26\n",
+    "image": "evidence/global_passport_ocr_all/GIB.png"
+  },
+  {
+    "country": "GIN",
+    "line1": "P<GINKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000841GIN9401013M3001019<<<<<<<<<<<<<<<4",
+    "ocr": "P<GINKIM<<MIN<JUN<<<<<<<<<<<\nA100000841GIN9401013M3001019<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/GIN.png"
+  },
+  {
+    "country": "GLP",
+    "line1": "P<GLPTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GLP1000856GLP9502024F3104068GLP85<<<<<<<<<14",
+    "ocr": "P<GLPTEST<<USER<<<<<<<<<<<<<\nGLP1000856GLP9502024F3104068GLP85<<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/GLP.png"
+  },
+  {
+    "country": "GMB",
+    "line1": "P<GMBSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000867GMB9603035<3207110GMB86<<<<<<<<<34",
+    "ocr": "P<GMBSMITH<<ALEX<<<<<<<<<<<<\n1000000867GMB9603035<3207110GMB86<<<<<<<<<34\n",
+    "image": "evidence/global_passport_ocr_all/GMB.png"
+  },
+  {
+    "country": "GNB",
+    "line1": "P<GNBGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000874GNB9704046M3310160GNB87<<<<<<<<<94",
+    "ocr": "P<GNBGARCIA<<MARIA<ELENA<<<<<<<<<<<<\nA100000874GNB9704046M3310160GNB87<<<<<<<<<94\n",
+    "image": "evidence/global_passport_ocr_all/GNB.png"
+  },
+  {
+    "country": "GNQ",
+    "line1": "P<GNQSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GNQ1000886GNQ9805057F3401217GNQ88<<<<<<<<<74",
+    "ocr": "P<GNQSINGH<<PRIYA<<<<<<<<<<<\nGNQ1000886GNQ9805057F3401217GNQ88<<<<<<<<<74\n",
+    "image": "evidence/global_passport_ocr_all/GNQ.png"
+  },
+  {
+    "country": "GRC",
+    "line1": "P<GRCKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000890GRC9906068<3504266GRC89<<<<<<<<<86",
+    "ocr": "P<GRCKIM<<MIN<JUN<<<<<<<<<<<\n1000000890GRC9906068<3504266GRC89<<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/GRC.png"
+  },
+  {
+    "country": "GRD",
+    "line1": "P<GRDTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000900GRD7007075M2607034GRD90<<<<<<<<<98",
+    "ocr": "P<GRDTEST<<USER<<<<<<<<<<<<<<<\nA100000900GRD7007075M2607034GRD90<<<<<<<<<98\n",
+    "image": "evidence/global_passport_ocr_all/GRD.png"
+  },
+  {
+    "country": "GRL",
+    "line1": "P<GRLSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GRL1000919GRL7108086F2710084<<<<<<<<<<<<<<<4",
+    "ocr": "P<GRLSMITH<<ALEX<<<<<<<<<\nGRL1000919GRL7108086F2710084<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/GRL.png"
+  },
+  {
+    "country": "GTM",
+    "line1": "P<GTMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000926GTM7209097<2801131GTM92<<<<<<<<<08",
+    "ocr": "P<GTMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<\n1000000926GTM7209097<2801131GIM92<<<<<<<<<08\n",
+    "image": "evidence/global_passport_ocr_all/GTM.png"
+  },
+  {
+    "country": "GUF",
+    "line1": "P<GUFSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000933GUF7310102M2904180GUF93<<<<<<<<<90",
+    "ocr": "P<GUFSINGH<<PRIYA<<<<<<<<<<<<\nA100000933GUF7310102M2904180GUF93<<<<<<<<<9Q\n",
+    "image": "evidence/global_passport_ocr_all/GUF.png"
+  },
+  {
+    "country": "GUM",
+    "line1": "P<GUMKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "GUM1000942GUM7411113F3007239GUM94<<<<<<<<<98",
+    "ocr": "P<GUMKIM<<MIN<JUN<<<<<<<<<<<\nGUM1000942GUM7411113F3007239GUM94<<<<<<<<<98\n",
+    "image": "evidence/global_passport_ocr_all/GUM.png"
+  },
+  {
+    "country": "GUY",
+    "line1": "P<GUYTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000959GUY7512124<3110289GUY95<<<<<<<<<46",
+    "ocr": "P<GUYTEST<<USER<<<<<<<<\n1000000959GUY7512124<3110289GUY95<<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/GUY.png"
+  },
+  {
+    "country": "HKG",
+    "line1": "P<HKGSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000966HKG7601130M3201059HKG96<<<<<<<<<64",
+    "ocr": "P<HKGSMITH<<ALEX<<<<<<<<<\nA100000966HKG7601130M3201059HKG9I6<<<<<<<<<64\n",
+    "image": "evidence/global_passport_ocr_all/HKG.png"
+  },
+  {
+    "country": "HMD",
+    "line1": "P<HMDGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "HMD1000979HMD7702141F3304101HMD97<<<<<<<<<28",
+    "ocr": "P<HMDGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nHMD1000979HMD7702141F3304101HMD97<<<<<<<<<28\n",
+    "image": "evidence/global_passport_ocr_all/HMD.png"
+  },
+  {
+    "country": "HND",
+    "line1": "P<HNDSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000000982HND7803152<3407150<<<<<<<<<<<<<<<6",
+    "ocr": "P<HNDSINGH<<PRIYA<<<<<<<<<<<<<<<\n1000000982HND7803152<3407150<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/HND.png"
+  },
+  {
+    "country": "HRV",
+    "line1": "P<HRVKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100000999HRV7904163M3510203HRV99<<<<<<<<<16",
+    "ocr": "P<HRVKIM<<MIN<JUN<<<<<<<<\nA100000999HRV7904163M3510203HRV99<<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/HRV.png"
+  },
+  {
+    "country": "HTI",
+    "line1": "P<HTITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "HTI1001008HTI8005171F2601250HTI100<<<<<<<<12",
+    "ocr": "P<HTITEST<<USER<<<<<<<<<<\nHT1I1001008HT18005171F2601250HTI100<<<<<<<<12\n",
+    "image": "evidence/global_passport_ocr_all/HTI.png"
+  },
+  {
+    "country": "HUN",
+    "line1": "P<HUNSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001015HUN8106182<2704025HUN101<<<<<<<<02",
+    "ocr": "P<HUNSMITH<<ALEX<<<<<<<<<<<<\n1000001015HUN8106182<2704025HUN101<<<<<<<<Q2\n",
+    "image": "evidence/global_passport_ocr_all/HUN.png"
+  },
+  {
+    "country": "IDN",
+    "line1": "P<IDNGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001022IDN8207193M2807074IDN102<<<<<<<<70",
+    "ocr": "P<IDNGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA1000010221DN8207193M2807074IDN102<<<<<<<<70\n",
+    "image": "evidence/global_passport_ocr_all/IDN.png"
+  },
+  {
+    "country": "IMN",
+    "line1": "P<IMNSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "IMN1001032IMN8308207F2910127IMN103<<<<<<<<58",
+    "ocr": "P<IMNSINGH<<PRIYA<<<<<<<<<\nIMN10010321IMN8308207F2910127IMN103<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/IMN.png"
+  },
+  {
+    "country": "IND",
+    "line1": "P<INDKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001048IND8409218<3001178IND104<<<<<<<<90",
+    "ocr": "P<INDKIM<<MIN<JUN<<<<<<<<<\n1000001048IND8409218<3001178IND104<<<<<<<<90\n",
+    "image": "evidence/global_passport_ocr_all/IND.png"
+  },
+  {
+    "country": "IOT",
+    "line1": "P<IOTTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001055IOT8510220M3104220<<<<<<<<<<<<<<<6",
+    "ocr": "P<IOTTEST<<USER<<<<<<<<<\nA10000105510T8510220M3104220<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/IOT.png"
+  },
+  {
+    "country": "IRL",
+    "line1": "P<IRLSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "IRL1001068IRL8611231F3207279IRL106<<<<<<<<10",
+    "ocr": "P<IRLSMITH<<ALEX<<<<<<<<<<\nIRL1001068IRL8611231F3207279IRL106<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/IRL.png"
+  },
+  {
+    "country": "IRN",
+    "line1": "P<IRNGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001071IRN8712242<3310045IRN107<<<<<<<<40",
+    "ocr": "P<IRNGARCIA<<MARIA<ELENA<<<<<<<<<<\n10000010711IRN8712242<3310045IRN107<<<<<<<<40\n",
+    "image": "evidence/global_passport_ocr_all/IRN.png"
+  },
+  {
+    "country": "IRQ",
+    "line1": "P<IRQSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001088IRQ8801258M3401099IRQ108<<<<<<<<84",
+    "ocr": "P<IRQSINGH<<PRIYA<<<<<<<<<\nA1000010881RQ8801258M3401099TRQ108<<<<<<<<84\n",
+    "image": "evidence/global_passport_ocr_all/IRQ.png"
+  },
+  {
+    "country": "ISL",
+    "line1": "P<ISLKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ISL1001094ISL8902269F3504141ISL109<<<<<<<<78",
+    "ocr": "P<ISLKIM<<MIN<JUN<<<<<<<<<\nISL10010941SL8902269F35041411ISL109<<<<<<<<78\n",
+    "image": "evidence/global_passport_ocr_all/ISL.png"
+  },
+  {
+    "country": "ISR",
+    "line1": "P<ISRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001107ISR9003277<2607193ISR110<<<<<<<<76",
+    "ocr": "P<ISRTEST<<USER<<<<<<<<<<<<<\n10000011071SR9003277<2607193ISR110<<<<<<<<76\n",
+    "image": "evidence/global_passport_ocr_all/ISR.png"
+  },
+  {
+    "country": "ITA",
+    "line1": "P<ITASMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001114ITA9104288M2710246ITA111<<<<<<<<48",
+    "ocr": "P<ITASMITH<<ALEX<<<<<<<<\nA1000011141TA9104288M2710246ITA111<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/ITA.png"
+  },
+  {
+    "country": "JAM",
+    "line1": "P<JAMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "JAM1001124JAM9205015F2801016<<<<<<<<<<<<<<<6",
+    "ocr": "P<JAMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<\nJAM1001124JAM9205015F2801016<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/JAM.png"
+  },
+  {
+    "country": "JEY",
+    "line1": "P<JEYSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001130JEY9306026<2904065JEY113<<<<<<<<26",
+    "ocr": "P<JEYSINGH<<PRIYA<<<<<<<<<<<\n1000001130JEY9306026<2904065JEY113<<<<<<<<26\n",
+    "image": "evidence/global_passport_ocr_all/JEY.png"
+  },
+  {
+    "country": "JOR",
+    "line1": "P<JORKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001147JOR9407037M3007114JOR114<<<<<<<<66",
+    "ocr": "P<JORKIM<<MIN<JUN<<<<<<<<<\nA1000011473J0R9407037M3007114J0R114<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/JOR.png"
+  },
+  {
+    "country": "JPN",
+    "line1": "P<JPNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "JPN1001153JPN9508048F3110164JPN115<<<<<<<<66",
+    "ocr": "P<JPNTEST<<USER<<<<<<<<<\nJPN10011533PN9508048F3110164JPN115<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/JPN.png"
+  },
+  {
+    "country": "KAZ",
+    "line1": "P<KAZSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001163KAZ9609059<3201211KAZ116<<<<<<<<14",
+    "ocr": "P<KAZSMITH<<ALEX<<<<<<<<<<\n1000001163KAZ9609059<3201211KAZ116<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/KAZ.png"
+  },
+  {
+    "country": "KEN",
+    "line1": "P<KENGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001170KEN9710061M3304260KEN117<<<<<<<<20",
+    "ocr": "P<KENGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA100001170KEN9710061M3304260KEN117<<<<<<<<20\n",
+    "image": "evidence/global_passport_ocr_all/KEN.png"
+  },
+  {
+    "country": "KGZ",
+    "line1": "P<KGZSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "KGZ1001188KGZ9811072F3407035KGZ118<<<<<<<<18",
+    "ocr": "P<KGZSINGH<<PRIYA<<<<<<<<<<<<<<\nKGZ1001188KGZ9811072F3407035KGZ118<<<<<<<<18\n",
+    "image": "evidence/global_passport_ocr_all/KGZ.png"
+  },
+  {
+    "country": "KHM",
+    "line1": "P<KHMKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001196KHM9912083<3510085<<<<<<<<<<<<<<<2",
+    "ocr": "P<KHMKIM<<MIN<JUN<<<<<<<<\n1000001196KHM9912083<3510085<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/KHM.png"
+  },
+  {
+    "country": "KIR",
+    "line1": "P<KIRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001206KIR7001095M2601135KIR120<<<<<<<<44",
+    "ocr": "P<KIRTEST<<USER<<<<<<<<<<\nA100001206KIR7001095M2601135KIR120<<<<<<<<44\n",
+    "image": "evidence/global_passport_ocr_all/KIR.png"
+  },
+  {
+    "country": "KNA",
+    "line1": "P<KNASMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "KNA1001210KNA7102109F2704184KNA121<<<<<<<<32",
+    "ocr": "P<KNASMITH<<ALEX<<<<<<<<<<<<\nKNA1001210KNA7102109F2704184KNA121<<<<<<<<32\n",
+    "image": "evidence/global_passport_ocr_all/KNA.png"
+  },
+  {
+    "country": "KOR",
+    "line1": "P<KORGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001222KOR7203110<2807236KOR122<<<<<<<<48",
+    "ocr": "P<KORGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000001222KOR7203110<2807236KOR122<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/KOR.png"
+  },
+  {
+    "country": "KWT",
+    "line1": "P<KWTSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001239KWT7304121M2910286KWT123<<<<<<<<10",
+    "ocr": "P<KWTSINGH<<PRIYA<<<<<<<<\nA100001239KWT7304121M2910286KWT123<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/KWT.png"
+  },
+  {
+    "country": "LAO",
+    "line1": "P<LAOKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "LAO1001245LAO7405132F3001053LAO124<<<<<<<<86",
+    "ocr": "P<LAOKIM<<MIN<JUN<<<<<<<<<<\nLA01001245LA07405132F3001053LA0124<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/LAO.png"
+  },
+  {
+    "country": "LBN",
+    "line1": "P<LBNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001255LBN7506143<3104105LBN125<<<<<<<<10",
+    "ocr": "P<LBNTEST<<USER<<<<<<<<<<<<\n1000001255LBN7506143<3104105LBN125<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/LBN.png"
+  },
+  {
+    "country": "LBR",
+    "line1": "P<LBRSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001262LBR7607154M3207154<<<<<<<<<<<<<<<2",
+    "ocr": "P<LBRSMITH<<ALEX<<<<<<<<<<<<<\nA100001262LBR7607154M3207154<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/LBR.png"
+  },
+  {
+    "country": "LBY",
+    "line1": "P<LBYGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "LBY1001271LBY7708165F3310207LBY127<<<<<<<<44",
+    "ocr": "P<LBYGARCIA<<MARIA<ELENA<<<<<<<<<<\nLBY1001271LBY7708165F3310207LBY127<<<<<<<<44\n",
+    "image": "evidence/global_passport_ocr_all/LBY.png"
+  },
+  {
+    "country": "LCA",
+    "line1": "P<LCASINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001288LCA7809176<3401251LCA128<<<<<<<<48",
+    "ocr": "P<LCASINGH<<PRIYA<<<<<<<<<<<<\n1000001288LCA7809176<3401251LCA128<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/LCA.png"
+  },
+  {
+    "country": "LIE",
+    "line1": "P<LIEKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001295LIE7910188M3504026LIE129<<<<<<<<76",
+    "ocr": "P<LIEKIM<<MIN<JUN<<<<<<<<<<<\nA100001295LIE7910188M3504026LIE129<<<<<<<<76\n",
+    "image": "evidence/global_passport_ocr_all/LIE.png"
+  },
+  {
+    "country": "LKA",
+    "line1": "P<LKATEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "LKA1001300LKA8011196F2607078LKA130<<<<<<<<32",
+    "ocr": "P<LKATEST<<USER<<<<<<<<<<<<<\nLKA1001300LKA8011196F2607078LKA130<<<<<<<<32\n",
+    "image": "evidence/global_passport_ocr_all/LKA.png"
+  },
+  {
+    "country": "LSO",
+    "line1": "P<LSOSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001314LSO8112200<2710121LSO131<<<<<<<<24",
+    "ocr": "P<LSOSMITH<<ALEX<<<<<<<<\n1000001314LS08112200<2710121LS0131<<<<<<<<24\n",
+    "image": "evidence/global_passport_ocr_all/LSO.png"
+  },
+  {
+    "country": "LTU",
+    "line1": "P<LTUGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001321LTU8201216M2801175LTU132<<<<<<<<20",
+    "ocr": "P<LTUGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<\nA100001321LTU8201216M2801175LTU132<<<<<<<<20\n",
+    "image": "evidence/global_passport_ocr_all/LTU.png"
+  },
+  {
+    "country": "LUX",
+    "line1": "P<LUXSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "LUX1001336LUX8302227F2904227<<<<<<<<<<<<<<<4",
+    "ocr": "P<LUXSINGH<<PRIYA<<<<<<<<<<<<\nLUX1001336LUX8302227F290422<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/LUX.png"
+  },
+  {
+    "country": "LVA",
+    "line1": "P<LVAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001347LVA8403238<3007273LVA134<<<<<<<<08",
+    "ocr": "P<LVAKIM<<MIN<JUN<<<<<<<<<<\n1000001347LVA8403238<3007273LVA134<<<<<<<<08\n",
+    "image": "evidence/global_passport_ocr_all/LVA.png"
+  },
+  {
+    "country": "MAC",
+    "line1": "P<MACTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001354MAC8504249M3110049MAC135<<<<<<<<78",
+    "ocr": "P<MACTEST<<USER<<<<<<<<\nA100001354MAC8504249M3110049MAC135<<<<<<<<78\n",
+    "image": "evidence/global_passport_ocr_all/MAC.png"
+  },
+  {
+    "country": "MAF",
+    "line1": "P<MAFSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MAF1001368MAF8605250F3201093MAF136<<<<<<<<16",
+    "ocr": "P<MAFSMITH<<ALEX<<<<<<<<<<<<\nMAF1001368MAF8605250F3201093MAF136<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/MAF.png"
+  },
+  {
+    "country": "MAR",
+    "line1": "P<MARGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001370MAR8706261<3304145MAR137<<<<<<<<46",
+    "ocr": "P<MARGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000001370MAR8706261<3304145MAR137<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/MAR.png"
+  },
+  {
+    "country": "MCO",
+    "line1": "P<MCOSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001387MCO8807272M3407194MCO138<<<<<<<<88",
+    "ocr": "P<MCOSINGH<<PRIYA<<<<<<<<<<<<<<\nA100001387MC08807272M3407194MC0138<<<<<<<<88\n",
+    "image": "evidence/global_passport_ocr_all/MCO.png"
+  },
+  {
+    "country": "MDA",
+    "line1": "P<MDAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MDA1001395MDA8908283F3510247MDA139<<<<<<<<84",
+    "ocr": "P<MDAKIM<<MIN<JUN<<<<<<<<\nMDA1001395MDA8908283F3510247MDA139<<<<<<<<84\n",
+    "image": "evidence/global_passport_ocr_all/MDA.png"
+  },
+  {
+    "country": "MDG",
+    "line1": "P<MDGTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001406MDG9009017<2601010<<<<<<<<<<<<<<<8",
+    "ocr": "P<MDGTEST<<USER<<<<<<<<<<\n1000001406MDG9009017<2601010<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/MDG.png"
+  },
+  {
+    "country": "MDV",
+    "line1": "P<MDVSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001413MDV9110029M2704069MDV141<<<<<<<<40",
+    "ocr": "P<MDVSMITH<<ALEX<<<<<<<<<<<<<\nA100001413MDV9110029M2704069MDV141<<<<<<<<40\n",
+    "image": "evidence/global_passport_ocr_all/MDV.png"
+  },
+  {
+    "country": "MEX",
+    "line1": "P<MEXGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MEX1001427MEX9211030F2807111MEX142<<<<<<<<02",
+    "ocr": "P<MEXGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nMEX1001427MEX9211030F2807111MEX142<<<<<<<<Q2\n",
+    "image": "evidence/global_passport_ocr_all/MEX.png"
+  },
+  {
+    "country": "MHL",
+    "line1": "P<MHLSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001439MHL9312041<2910161MHL143<<<<<<<<86",
+    "ocr": "P<MHLSINGH<<PRIYA<<<<<<<<<\n1000001439MHL9312041<2910161MHL143<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/MHL.png"
+  },
+  {
+    "country": "MKD",
+    "line1": "P<MKDKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001446MKD9401057M3001215MKD144<<<<<<<<04",
+    "ocr": "P<MKDKIM<<MIN<JUN<<<<<<<<<<<\nA100001446MKD9401057M3001215MKD144<<<<<<<<0Q4\n",
+    "image": "evidence/global_passport_ocr_all/MKD.png"
+  },
+  {
+    "country": "MLI",
+    "line1": "P<MLITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MLI1001456MLI9502068F3104264MLI145<<<<<<<<90",
+    "ocr": "P<MLITEST<<USER<<<<<<<<<<<\nMLI1001456ML19502068F3104264MLI145<<<<<<<<90\n",
+    "image": "evidence/global_passport_ocr_all/MLI.png"
+  },
+  {
+    "country": "MLT",
+    "line1": "P<MLTSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001462MLT9603079<3207039MLT146<<<<<<<<18",
+    "ocr": "P<MLTSMITH<<ALEX<<<<<<<<<<<\n1000001462MLT9603079<3207039MLT146<<<<<<<<18\n",
+    "image": "evidence/global_passport_ocr_all/MLT.png"
+  },
+  {
+    "country": "MMR",
+    "line1": "P<MMRGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001479MMR9704080M3310089<<<<<<<<<<<<<<<4",
+    "ocr": "P<MMRGARCIA<<MARIA<ELENA<<<<<<<<<<\nA100001479MMR9704080M3310089<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/MMR.png"
+  },
+  {
+    "country": "MNE",
+    "line1": "P<MNESINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MNE1001481MNE9805091F3401136MNE148<<<<<<<<46",
+    "ocr": "P<MNESINGH<<PRIYA<<<<<<<<<<<<\nMNE1001481MNE9805091F3401136MNE148<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/MNE.png"
+  },
+  {
+    "country": "MNG",
+    "line1": "P<MNGKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001495MNG9906105<3504185MNG149<<<<<<<<72",
+    "ocr": "P<MNGKIM<<MIN<JUN<<<<<<<<<<<\n1000001495MNG9906105<3504185MNG149<<<<<<<<72\n",
+    "image": "evidence/global_passport_ocr_all/MNG.png"
+  },
+  {
+    "country": "MNP",
+    "line1": "P<MNPTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001505MNP7007112M2607230MNP150<<<<<<<<00",
+    "ocr": "P<MNPTEST<<USER<<<<<<<<<<<<<<\nA100001505MNP7007112M2607230MNP150<<<<<<<<00\n",
+    "image": "evidence/global_passport_ocr_all/MNP.png"
+  },
+  {
+    "country": "MOZ",
+    "line1": "P<MOZSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MOZ1001511MOZ7108123F2710280MOZ151<<<<<<<<48",
+    "ocr": "P<MOZSMITH<<ALEX<<<<<<<<\nMOZ1001511M0Z7108123F2710280M0Z151<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/MOZ.png"
+  },
+  {
+    "country": "MRT",
+    "line1": "P<MRTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001521MRT7209134<2801050MRT152<<<<<<<<82",
+    "ocr": "P<MRTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<\n1000001521MRT7209134<2801050MRT152<<<<<<<<82\n",
+    "image": "evidence/global_passport_ocr_all/MRT.png"
+  },
+  {
+    "country": "MSR",
+    "line1": "P<MSRSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001538MSR7310146M2904102MSR153<<<<<<<<00",
+    "ocr": "P<MSRSINGH<<PRIYA<<<<<<<<<<<<<\nA100001538MSR7310146M2904102MSR153<<<<<<<<00\n",
+    "image": "evidence/global_passport_ocr_all/MSR.png"
+  },
+  {
+    "country": "MTQ",
+    "line1": "P<MTQKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MTQ1001540MTQ7411157F3007158<<<<<<<<<<<<<<<2",
+    "ocr": "P<MTQKIM<<MIN<JUN<<<<<<<<<<<<\nMTQ1001540MTQ7411157F3007158<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/MTQ.png"
+  },
+  {
+    "country": "MUS",
+    "line1": "P<MUSTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001554MUS7512168<3110201MUS155<<<<<<<<94",
+    "ocr": "P<MUSTEST<<USER<<<<<<<<\n1000001554MUS7512168<3110201MUS155<<<<<<<<94\n",
+    "image": "evidence/global_passport_ocr_all/MUS.png"
+  },
+  {
+    "country": "MWI",
+    "line1": "P<MWISMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001561MWI7601174M3201255MWI156<<<<<<<<64",
+    "ocr": "P<MWISMITH<<ALEX<<<<<<<<<<<\nA100001561MW1I7601174M3201255MW1156<<<<<<<<64\n",
+    "image": "evidence/global_passport_ocr_all/MWI.png"
+  },
+  {
+    "country": "MYS",
+    "line1": "P<MYSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "MYS1001570MYS7702185F3304020MYS157<<<<<<<<36",
+    "ocr": "P<MYSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nMYS1001570MYS7702185F3304020MYS15<<<<<<<<36\n",
+    "image": "evidence/global_passport_ocr_all/MYS.png"
+  },
+  {
+    "country": "MYT",
+    "line1": "P<MYTSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001587MYT7803196<3407079MYT158<<<<<<<<54",
+    "ocr": "P<MYTSINGH<<PRIYA<<<<<<<<<<<<<\n1000001587MYT7803196<3407079MYT158<<<<<<<<54\n",
+    "image": "evidence/global_passport_ocr_all/MYT.png"
+  },
+  {
+    "country": "NAM",
+    "line1": "P<NAMKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001594NAM7904200M3510122NAM159<<<<<<<<40",
+    "ocr": "P<NAMKIM<<MIN<JUN<<<<<<<<\nA100001594NAM7904200M3510122NAM159<<<<<<<<4Q\n",
+    "image": "evidence/global_passport_ocr_all/NAM.png"
+  },
+  {
+    "country": "NCL",
+    "line1": "P<NCLTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "NCL1001600NCL8005218F2601179NCL160<<<<<<<<30",
+    "ocr": "P<NCLTEST<<USER<<<<<<<<<<<\nNCL1001600NCL8005218F2601179NCL160<<<<<<<<30\n",
+    "image": "evidence/global_passport_ocr_all/NCL.png"
+  },
+  {
+    "country": "NER",
+    "line1": "P<NERSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001613NER8106229<2704221<<<<<<<<<<<<<<<6",
+    "ocr": "P<NERSMITH<<ALEX<<<<<<<<<<<<<<\n1000001613NER8106229<2704221<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/NER.png"
+  },
+  {
+    "country": "NFK",
+    "line1": "P<NFKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001620NFK8207230M2807270NFK162<<<<<<<<36",
+    "ocr": "P<NFKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA100001620NFK8207230M2807270NFK162<<<<<<<<36\n",
+    "image": "evidence/global_passport_ocr_all/NFK.png"
+  },
+  {
+    "country": "NGA",
+    "line1": "P<NGASINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "NGA1001634NGA8308241F2910046NGA163<<<<<<<<76",
+    "ocr": "P<NGASINGH<<PRIYA<<<<<<<<<<\nNGA1001634NGA8308241F2910046NGA163<<<<<<<<76\n",
+    "image": "evidence/global_passport_ocr_all/NGA.png"
+  },
+  {
+    "country": "NIC",
+    "line1": "P<NICKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001646NIC8409252<3001097NIC164<<<<<<<<66",
+    "ocr": "P<NICKIM<<MIN<JUN<<<<<<<<<\n1000001646NIC8409252<3001097NIC164<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/NIC.png"
+  },
+  {
+    "country": "NIU",
+    "line1": "P<NIUTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001653NIU8510264M3104149NIU165<<<<<<<<58",
+    "ocr": "P<NIUTEST<<USER<<<<<<<<<<<\nA100001653NIU8510264M3104149NIU1L65<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/NIU.png"
+  },
+  {
+    "country": "NLD",
+    "line1": "P<NLDSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "NLD1001665NLD8611275F3207198NLD166<<<<<<<<88",
+    "ocr": "P<NLDSMITH<<ALEX<<<<<<<<<<<<<\nNLD1001665NLD8611275F3207198NLD166<<<<<<<<88\n",
+    "image": "evidence/global_passport_ocr_all/NLD.png"
+  },
+  {
+    "country": "NOR",
+    "line1": "P<NORGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001679NOR8712286<3310241NOR167<<<<<<<<20",
+    "ocr": "P<NORGARCIA<<MARIA<ELENA<<<<<<<<<<<\n1000001679N0R8712286<3310241NOR167<<<<<<<<20\n",
+    "image": "evidence/global_passport_ocr_all/NOR.png"
+  },
+  {
+    "country": "NPL",
+    "line1": "P<NPLSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001686NPL8801018M3401011<<<<<<<<<<<<<<<0",
+    "ocr": "P<NPLSINGH<<PRIYA<<<<<<<<<<<<\nA100001686NPL8801018M3401011<<<<<<<<<<<<<<<Q\n",
+    "image": "evidence/global_passport_ocr_all/NPL.png"
+  },
+  {
+    "country": "NRU",
+    "line1": "P<NRUKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "NRU1001693NRU8902029F3504060NRU169<<<<<<<<66",
+    "ocr": "P<NRUKIM<<MIN<JUN<<<<<<<<<<<\nNRU1001693NRU8902029F3504060NRU169<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/NRU.png"
+  },
+  {
+    "country": "NZL",
+    "line1": "P<NZLTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001705NZL9003037<2607115NZL170<<<<<<<<54",
+    "ocr": "P<NZLTEST<<USER<<<<<<<<<<<<<<\n1000001705NZL9003037<2607115NZL170<<<<<<<<54\n",
+    "image": "evidence/global_passport_ocr_all/NZL.png"
+  },
+  {
+    "country": "OMN",
+    "line1": "P<OMNSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001712OMN9104048M2710165OMN171<<<<<<<<64",
+    "ocr": "P<OMNSMITH<<ALEX<<<<<<<<\nA1000017120MN9104048M27101650MN171<<<<<<<<64\n",
+    "image": "evidence/global_passport_ocr_all/OMN.png"
+  },
+  {
+    "country": "PAK",
+    "line1": "P<PAKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "PAK1001722PAK9205059F2801212PAK172<<<<<<<<50",
+    "ocr": "P<PAKGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<\nPAK1001722PAK9205059F2801212PAK172<<<<<<<<50\n",
+    "image": "evidence/global_passport_ocr_all/PAK.png"
+  },
+  {
+    "country": "PAN",
+    "line1": "P<PANSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001738PAN9306060<2904261PAN173<<<<<<<<94",
+    "ocr": "P<PANSINGH<<PRIYA<<<<<<<<<<<<\n1000001738PAN9306060<2904261PAN173<<<<<<<<94\n",
+    "image": "evidence/global_passport_ocr_all/PAN.png"
+  },
+  {
+    "country": "PCN",
+    "line1": "P<PCNKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001745PCN9407071M3007033PCN174<<<<<<<<68",
+    "ocr": "P<PCNKIM<<MIN<JUN<<<<<<<<<<<\nA100001745PCN9407071M3007033PCN174<<<<<<<<68\n",
+    "image": "evidence/global_passport_ocr_all/PCN.png"
+  },
+  {
+    "country": "PER",
+    "line1": "P<PERTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "PER1001754PER9508082F3110083<<<<<<<<<<<<<<<0",
+    "ocr": "P<PERTEST<<USER<<<<<<<<<\nPER1001754PER9508082F3110083<<<<<<<<<<<<<<<Q\n",
+    "image": "evidence/global_passport_ocr_all/PER.png"
+  },
+  {
+    "country": "PHL",
+    "line1": "P<PHLSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001761PHL9609093<3201130PHL176<<<<<<<<16",
+    "ocr": "P<PHLSMITH<<ALEX<<<<<<<<<<<<\n1000001761PHL9609093<3201130PHL176<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/PHL.png"
+  },
+  {
+    "country": "PLW",
+    "line1": "P<PLWGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001778PLW9710108M3304189PLW177<<<<<<<<58",
+    "ocr": "P<PLWGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA100001778PLW9710108M3304189PLW177<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/PLW.png"
+  },
+  {
+    "country": "PNG",
+    "line1": "P<PNGSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "PNG1001783PNG9811119F3407231PNG178<<<<<<<<68",
+    "ocr": "P<PNGSINGH<<PRIYA<<<<<<<<<<<<<<<\nPNG1001783PNG9811119F3407231PNG178<<<<<<<<68\n",
+    "image": "evidence/global_passport_ocr_all/PNG.png"
+  },
+  {
+    "country": "POL",
+    "line1": "P<POLKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001794POL9912120<3510281POL179<<<<<<<<56",
+    "ocr": "P<POLKIM<<MIN<JUN<<<<<<<<\n1000001794P0L9912120<3510281P0L179<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/POL.png"
+  },
+  {
+    "country": "PRI",
+    "line1": "P<PRITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001804PRI7001132M2601054PRI180<<<<<<<<58",
+    "ocr": "P<PRITEST<<USER<<<<<<<<<<<\nA100001804PRI7001132M2601054PRI180<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/PRI.png"
+  },
+  {
+    "country": "PRK",
+    "line1": "P<PRKSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "PRK1001815PRK7102143F2704106PRK181<<<<<<<<80",
+    "ocr": "P<PRKSMITH<<ALEX<<<<<<<<<<<<\nPRK1001815PRK7102143F2704106PRK181<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/PRK.png"
+  },
+  {
+    "country": "PRT",
+    "line1": "P<PRTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001820PRT7203154<2807155<<<<<<<<<<<<<<<2",
+    "ocr": "P<PRTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000001820PRT7203154<2807155<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/PRT.png"
+  },
+  {
+    "country": "PRY",
+    "line1": "P<PRYSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001837PRY7304165M2910208PRY183<<<<<<<<48",
+    "ocr": "P<PRYSINGH<<PRIYA<<<<<<<<\nA100001837PRY7304165M2910208PRY183<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/PRY.png"
+  },
+  {
+    "country": "PSE",
+    "line1": "P<PSEKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "PSE1001845PSE7405176F3001259PSE184<<<<<<<<86",
+    "ocr": "P<PSEKIM<<MIN<JUN<<<<<<<<<<\nPSE1001845PSE7405176F3001259PSE184<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/PSE.png"
+  },
+  {
+    "country": "PYF",
+    "line1": "P<PYFTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001853PYF7506187<3104024PYF185<<<<<<<<86",
+    "ocr": "P<PYFTEST<<USER<<<<<<<<<<<\n1000001853PYF7506187<3104024PYF185<<<<<<<<86\n",
+    "image": "evidence/global_passport_ocr_all/PYF.png"
+  },
+  {
+    "country": "QAT",
+    "line1": "P<QATSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001860QAT7607198M3207073QAT186<<<<<<<<80",
+    "ocr": "P<QATSMITH<<ALEX<<<<<<<<<<<<\nA100001860QAT7607198M3207073QAT186<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/QAT.png"
+  },
+  {
+    "country": "REU",
+    "line1": "P<REUGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "REU1001876REU7708202F3310126REU187<<<<<<<<92",
+    "ocr": "P<REUGARCIA<<MARIA<ELENA<<<<<<<<<<\nREU1001876REU7708202F3310126REU187<<<<<<<<92\n",
+    "image": "evidence/global_passport_ocr_all/REU.png"
+  },
+  {
+    "country": "ROU",
+    "line1": "P<ROUSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001886ROU7809213<3401170ROU188<<<<<<<<02",
+    "ocr": "P<ROUSINGH<<PRIYA<<<<<<<<<<<<\n1000001886ROU7809213<3401170ROULB8<<<<<<<<Q2\n",
+    "image": "evidence/global_passport_ocr_all/ROU.png"
+  },
+  {
+    "country": "RUS",
+    "line1": "P<RUSKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001893RUS7910225M3504222<<<<<<<<<<<<<<<6",
+    "ocr": "P<RUSKIM<<MIN<JUN<<<<<<<<<<<\nA100001893RUS7910225M3504222<<<<<<<<<<<<<<<6\n",
+    "image": "evidence/global_passport_ocr_all/RUS.png"
+  },
+  {
+    "country": "RWA",
+    "line1": "P<RWATEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "RWA1001906RWA8011233F2607274RWA190<<<<<<<<92",
+    "ocr": "P<RWATEST<<USER<<<<<<<<<<<<<\nRWA1001906RWA8011233F2607274RWA190<<<<<<<<972\n",
+    "image": "evidence/global_passport_ocr_all/RWA.png"
+  },
+  {
+    "country": "SAU",
+    "line1": "P<SAUSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001912SAU8112244<2710040SAU191<<<<<<<<14",
+    "ocr": "P<SAUSMITH<<ALEX<<<<<<<<\n1000001912SAU8112244<2710040SAU191<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/SAU.png"
+  },
+  {
+    "country": "SDN",
+    "line1": "P<SDNGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001929SDN8201250M2801094SDN192<<<<<<<<46",
+    "ocr": "P<SDNGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<\nA100001929SDN8201250M2801094SDN192<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/SDN.png"
+  },
+  {
+    "country": "SEN",
+    "line1": "P<SENSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SEN1001935SEN8302261F2904146SEN193<<<<<<<<80",
+    "ocr": "P<SENSINGH<<PRIYA<<<<<<<<<<<<\nSEN1001935SEN8302261F2904146SEN193<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/SEN.png"
+  },
+  {
+    "country": "SGP",
+    "line1": "P<SGPKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001945SGP8403272<3007192SGP194<<<<<<<<74",
+    "ocr": "P<SGPKIM<<MIN<JUN<<<<<<<<<<\n1000001945SGP8403272<3007192SGP194<<<<<<<<74\n",
+    "image": "evidence/global_passport_ocr_all/SGP.png"
+  },
+  {
+    "country": "SGS",
+    "line1": "P<SGSTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001952SGS8504283M3110245SGS195<<<<<<<<10",
+    "ocr": "P<SGSTEST<<USER<<<<<<<<\nA100001952SGS8504283M3110245SGS195<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/SGS.png"
+  },
+  {
+    "country": "SHN",
+    "line1": "P<SHNSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SHN1001967SHN8605010F3201015<<<<<<<<<<<<<<<4",
+    "ocr": "P<SHNSMITH<<ALEX<<<<<<<<<<<\nSHN1001967SHN8605010F3201015<<<<<<<<<<<<<<<4\n",
+    "image": "evidence/global_passport_ocr_all/SHN.png"
+  },
+  {
+    "country": "SJM",
+    "line1": "P<SJMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000001978SJM8706021<3304064SJM197<<<<<<<<62",
+    "ocr": "P<SJMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<\n1000001978S53M8706021<3304064SJM197<<<<<<<<62\n",
+    "image": "evidence/global_passport_ocr_all/SJM.png"
+  },
+  {
+    "country": "SLB",
+    "line1": "P<SLBSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100001985SLB8807032M3407116SLB198<<<<<<<<28",
+    "ocr": "P<SLBSINGH<<PRIYA<<<<<<<<<<<<<<\nA100001985SLB8807032M3407116SLB198<<<<<<<<28\n",
+    "image": "evidence/global_passport_ocr_all/SLB.png"
+  },
+  {
+    "country": "SLE",
+    "line1": "P<SLEKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SLE1001993SLE8908043F3510166SLE199<<<<<<<<62",
+    "ocr": "P<SLEKIM<<MIN<JUN<<<<<<<<\nSLE1001993SLE8908043F3510166SLE199<<<<<<<<62\n",
+    "image": "evidence/global_passport_ocr_all/SLE.png"
+  },
+  {
+    "country": "SLV",
+    "line1": "P<SLVTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002001SLV9009051<2601216SLV200<<<<<<<<46",
+    "ocr": "P<SLVTEST<<USER<<<<<<<<<<\n1000002001SLV9009051<2601216SLV200<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/SLV.png"
+  },
+  {
+    "country": "SMR",
+    "line1": "P<SMRSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002018SMR9110063M2704265SMR201<<<<<<<<40",
+    "ocr": "P<SMRSMITH<<ALEX<<<<<<<<<<<<\nA100002018SMR9110063M2704265SMR201<<<<<<<<40Q\n",
+    "image": "evidence/global_passport_ocr_all/SMR.png"
+  },
+  {
+    "country": "SOM",
+    "line1": "P<SOMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SOM1002023SOM9211074F2807030SOM202<<<<<<<<60",
+    "ocr": "P<SOMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nSOM1002023S0M9211074F2807030S0M202<<<<<<<<60\n",
+    "image": "evidence/global_passport_ocr_all/SOM.png"
+  },
+  {
+    "country": "SPM",
+    "line1": "P<SPMSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002034SPM9312085<2910080<<<<<<<<<<<<<<<8",
+    "ocr": "P<SPMSINGH<<PRIYA<<<<<<<<<\n1000002034SPM9312085<2910080<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/SPM.png"
+  },
+  {
+    "country": "SRB",
+    "line1": "P<SRBKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002041SRB9401091M3001134SRB204<<<<<<<<64",
+    "ocr": "P<SRBKIM<<MIN<JUN<<<<<<<<<<\nA100002041SRB9401091M3001134SRB204<<<<<<<<64\n",
+    "image": "evidence/global_passport_ocr_all/SRB.png"
+  },
+  {
+    "country": "SSD",
+    "line1": "P<SSDTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SSD1002059SSD9502105F3104183SSD205<<<<<<<<28",
+    "ocr": "P<SSDTEST<<USER<<<<<<<<<<<<\nSSD1002059SSD9502105F3104183SSD205<<<<<<<<28\n",
+    "image": "evidence/global_passport_ocr_all/SSD.png"
+  },
+  {
+    "country": "STP",
+    "line1": "P<STPSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002067STP9603116<3207235STP206<<<<<<<<82",
+    "ocr": "P<STPSMITH<<ALEX<<<<<<<<<<<\n1000002067STP9603116<3207235STP206<<<<<<<<82\n",
+    "image": "evidence/global_passport_ocr_all/STP.png"
+  },
+  {
+    "country": "SUR",
+    "line1": "P<SURGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002074SUR9704127M3310285SUR207<<<<<<<<42",
+    "ocr": "P<SURGARCIA<<MARIA<ELENA<<<<<<<<<<\nA100002074SUR9704127M3310285SUR207<<<<<<<<42\n",
+    "image": "evidence/global_passport_ocr_all/SUR.png"
+  },
+  {
+    "country": "SVK",
+    "line1": "P<SVKSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SVK1002088SVK9805138F3401055SVK208<<<<<<<<14",
+    "ocr": "P<SVKSINGH<<PRIYA<<<<<<<<<<<<\nSVK1002088SVK9805138F3401055SVK208<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/SVK.png"
+  },
+  {
+    "country": "SVN",
+    "line1": "P<SVNKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002090SVN9906149<3504107SVN209<<<<<<<<56",
+    "ocr": "P<SVNKIM<<MIN<JUN<<<<<<<<<\n1000002090SVN9906149<3504107SVN209<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/SVN.png"
+  },
+  {
+    "country": "SWE",
+    "line1": "P<SWETEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002100SWE7007156M2607159<<<<<<<<<<<<<<<8",
+    "ocr": "P<SWETEST<<USER<<<<<<<<<<<<<<\nA100002100SWE7007156M2607159<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/SWE.png"
+  },
+  {
+    "country": "SWZ",
+    "line1": "P<SWZSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SWZ1002112SWZ7108167F2710202SWZ211<<<<<<<<56",
+    "ocr": "P<SWZSMITH<<ALEX<<<<<<<<\nSWZ1002112SWZ7108167F2710202SWZ211<<<<<<<<56\n",
+    "image": "evidence/global_passport_ocr_all/SWZ.png"
+  },
+  {
+    "country": "SXM",
+    "line1": "P<SXMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002126SXM7209178<2801256SXM212<<<<<<<<68",
+    "ocr": "P<SXMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<\n1000002126SXM7209178<2801256SXM212<<<<<<<<68\n",
+    "image": "evidence/global_passport_ocr_all/SXM.png"
+  },
+  {
+    "country": "SYC",
+    "line1": "P<SYCSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002133SYC7310180M2904021SYC213<<<<<<<<08",
+    "ocr": "P<SYCSINGH<<PRIYA<<<<<<<<<<<\nA100002133SYC7310180M2904021SYC213<<<<<<<<08\n",
+    "image": "evidence/global_passport_ocr_all/SYC.png"
+  },
+  {
+    "country": "SYR",
+    "line1": "P<SYRKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "SYR1002143SYR7411191F3007077SYR214<<<<<<<<66",
+    "ocr": "P<SYRKIM<<MIN<JUN<<<<<<<<<<\nSYR1002143SYR7411191F3007077SYR214<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/SYR.png"
+  },
+  {
+    "country": "TCA",
+    "line1": "P<TCATEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002159TCA7512205<3110120TCA215<<<<<<<<16",
+    "ocr": "P<TCATEST<<USER<<<<<<<<\n1000002159TCA7512205<3110120TCA215<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/TCA.png"
+  },
+  {
+    "country": "TCD",
+    "line1": "P<TCDSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002166TCD7601211M3201174TCD216<<<<<<<<50",
+    "ocr": "P<TCDSMITH<<ALEX<<<<<<<<<<<\nA100002166TCD7601211M3201174TCD216<<<<<<<<50\n",
+    "image": "evidence/global_passport_ocr_all/TCD.png"
+  },
+  {
+    "country": "TGO",
+    "line1": "P<TGOGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "TGO1002176TGO7702222F3304226<<<<<<<<<<<<<<<8",
+    "ocr": "P<TGOGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nTG01002176TGO7702222F3304226<<<<<<<<<<<<<<<8\n",
+    "image": "evidence/global_passport_ocr_all/TGO.png"
+  },
+  {
+    "country": "THA",
+    "line1": "P<THASINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002182THA7803233<3407275THA218<<<<<<<<92",
+    "ocr": "P<THASINGH<<PRIYA<<<<<<<<<<<<<<\n1000002182THA7803233<3407275THA218<<<<<<<<92\n",
+    "image": "evidence/global_passport_ocr_all/THA.png"
+  },
+  {
+    "country": "TJK",
+    "line1": "P<TJKKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002199TJK7904244M3510041TJK219<<<<<<<<62",
+    "ocr": "P<TJKKIM<<MIN<JUN<<<<<<<\nA100002199TJK7904244M3510041TJK219<<<<<<<<62\n",
+    "image": "evidence/global_passport_ocr_all/TJK.png"
+  },
+  {
+    "country": "TKL",
+    "line1": "P<TKLTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "TKL1002201TKL8005252F2601098TKL220<<<<<<<<48",
+    "ocr": "P<TKLTEST<<USER<<<<<<<<<<\nTKL1002201TKL8005252F2601098TKL220<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/TKL.png"
+  },
+  {
+    "country": "TKM",
+    "line1": "P<TKMSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002218TKM8106263<2704140TKM221<<<<<<<<66",
+    "ocr": "P<TKMSMITH<<ALEX<<<<<<<<<<<<\n1000002218TKM8106263<2704140TKM221<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/TKM.png"
+  },
+  {
+    "country": "TLS",
+    "line1": "P<TLSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002225TLS8207274M2807199TLS222<<<<<<<<60",
+    "ocr": "P<TLSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nA100002225TLS8207274M2807199TLS222<<<<<<<<60\n",
+    "image": "evidence/global_passport_ocr_all/TLS.png"
+  },
+  {
+    "country": "TON",
+    "line1": "P<TONSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "TON1002238TON8308285F2910242TON223<<<<<<<<16",
+    "ocr": "P<TONSINGH<<PRIYA<<<<<<<<<\nTON1002238T0N8308285F2910242T0N223<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/TON.png"
+  },
+  {
+    "country": "TTO",
+    "line1": "P<TTOKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002241TTO8409012<3001019<<<<<<<<<<<<<<<2",
+    "ocr": "P<TTOKIM<<MIN<JUN<<<<<<<<\n1000002241TT08409012<3001019<<<<<<<<<<<<<<<2\n",
+    "image": "evidence/global_passport_ocr_all/TTO.png"
+  },
+  {
+    "country": "TUN",
+    "line1": "P<TUNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002258TUN8510024M3104068TUN225<<<<<<<<18",
+    "ocr": "P<TUNTEST<<USER<<<<<<<<<<<\nA100002258TUN8510024M3104068TUN225<<<<<<<<18\n",
+    "image": "evidence/global_passport_ocr_all/TUN.png"
+  },
+  {
+    "country": "TUR",
+    "line1": "P<TURSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "TUR1002263TUR8611035F3207110TUR226<<<<<<<<66",
+    "ocr": "P<TURSMITH<<ALEX<<<<<<<<<<<\nTUR1002263TUR8611035F3207110TUR226<<<<<<<<66\n",
+    "image": "evidence/global_passport_ocr_all/TUR.png"
+  },
+  {
+    "country": "TUV",
+    "line1": "P<TUVGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002274TUV8712046<3310160TUV227<<<<<<<<16",
+    "ocr": "P<TUVGARCIA<<MARIA<ELENA<<<<<<<<<<\n1000002274TUV8712046<3310160TUV227<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/TUV.png"
+  },
+  {
+    "country": "TWN",
+    "line1": "P<TWNSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002281TWN8801052M3401217TWN228<<<<<<<<00",
+    "ocr": "P<TWNSINGH<<PRIYA<<<<<<<<<<<<\nA100002281TWN8801052M3401217TWN228<<<<<<<<00\n",
+    "image": "evidence/global_passport_ocr_all/TWN.png"
+  },
+  {
+    "country": "TZA",
+    "line1": "P<TZAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "TZA1002294TZA8902063F3504266TZA229<<<<<<<<76",
+    "ocr": "P<TZAKIM<<MIN<JUN<<<<<<<<<<<\nTZA1002294TZA8902063F3504266TZA229<<<<<<<<76\n",
+    "image": "evidence/global_passport_ocr_all/TZA.png"
+  },
+  {
+    "country": "UGA",
+    "line1": "P<UGATEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002300UGA9003071<2607034UGA230<<<<<<<<14",
+    "ocr": "P<UGATEST<<USER<<<<<<<<<<<<<\n1000002300UGA9003071<2607034UGA230<<<<<<<<14\n",
+    "image": "evidence/global_passport_ocr_all/UGA.png"
+  },
+  {
+    "country": "UKR",
+    "line1": "P<UKRSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002317UKR9104082M2710084<<<<<<<<<<<<<<<0",
+    "ocr": "P<UKRSMITH<<ALEX<<<<<<<<\nA100002317UKR9104082M2710084<<<<<<<<<<<<<<<Q\n",
+    "image": "evidence/global_passport_ocr_all/UKR.png"
+  },
+  {
+    "country": "UMI",
+    "line1": "P<UMIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "UMI1002326UMI9205093F2801131UMI232<<<<<<<<98",
+    "ocr": "P<UMIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<\nUMI1002326UM1I9205093F2801131UMI232<<<<<<<<98\n",
+    "image": "evidence/global_passport_ocr_all/UMI.png"
+  },
+  {
+    "country": "URY",
+    "line1": "P<URYSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002333URY9306107<2904180URY233<<<<<<<<16",
+    "ocr": "P<URYSINGH<<PRIYA<<<<<<<<<<<<\n1000002333URY9306107<2904180URY233<<<<<<<<16\n",
+    "image": "evidence/global_passport_ocr_all/URY.png"
+  },
+  {
+    "country": "USA",
+    "line1": "P<USAKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002340USA9407118M3007239USA234<<<<<<<<18",
+    "ocr": "P<USAKIM<<MIN<JUN<<<<<<<<<<\nA100002340USA9407118M3007239USA234<<<<<<<<18\n",
+    "image": "evidence/global_passport_ocr_all/USA.png"
+  },
+  {
+    "country": "UZB",
+    "line1": "P<UZBTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "UZB1002351UZB9508129F3110289UZB235<<<<<<<<44",
+    "ocr": "P<UZBTEST<<USER<<<<<<<<\nUZB1002351UZB9508129F3110289UZB235<<<<<<<<44\n",
+    "image": "evidence/global_passport_ocr_all/UZB.png"
+  },
+  {
+    "country": "VAT",
+    "line1": "P<VATSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002366VAT9609130<3201059VAT236<<<<<<<<52",
+    "ocr": "P<VATSMITH<<ALEX<<<<<<<<<<\n1000002366VAT9609130<3201059VAT236<<<<<<<<52\n",
+    "image": "evidence/global_passport_ocr_all/VAT.png"
+  },
+  {
+    "country": "VCT",
+    "line1": "P<VCTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002373VCT9710142M3304101VCT237<<<<<<<<20",
+    "ocr": "P<VCTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<\nA100002373VCT9710142M3304101VCT23<<<<<<<<20\n",
+    "image": "evidence/global_passport_ocr_all/VCT.png"
+  },
+  {
+    "country": "VEN",
+    "line1": "P<VENSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "VEN1002380VEN9811153F3407150<<<<<<<<<<<<<<<0",
+    "ocr": "P<VENSINGH<<PRIYA<<<<<<<<<<<<<<<\nVEN1002380VEN9811153F3407150<<<<<<<<<<<<<<<Q\n",
+    "image": "evidence/global_passport_ocr_all/VEN.png"
+  },
+  {
+    "country": "VGB",
+    "line1": "P<VGBKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002399VGB9912164<3510203VGB239<<<<<<<<80",
+    "ocr": "P<VGBKIM<<MIN<JUN<<<<<<<<\n1000002399VGB9912164<3510203VGB239<<<<<<<<80\n",
+    "image": "evidence/global_passport_ocr_all/VGB.png"
+  },
+  {
+    "country": "VIR",
+    "line1": "P<VIRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002409VIR7001176M2601250VIR240<<<<<<<<46",
+    "ocr": "P<VIRTEST<<USER<<<<<<<<<<\nA100002409VIR7001176M2601250VIR240<<<<<<<<46\n",
+    "image": "evidence/global_passport_ocr_all/VIR.png"
+  },
+  {
+    "country": "VNM",
+    "line1": "P<VNMSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "VNM1002412VNM7102187F2704025VNM241<<<<<<<<58",
+    "ocr": "P<VNMSMITH<<ALEX<<<<<<<<<<<<\nVNM1002412VNM7102187F2704025VNM241<<<<<<<<58\n",
+    "image": "evidence/global_passport_ocr_all/VNM.png"
+  },
+  {
+    "country": "VUT",
+    "line1": "P<VUTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002425VUT7203198<2807074VUT242<<<<<<<<48",
+    "ocr": "P<VUTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\n1000002425VUT7203198<2807074VUT242<<<<<<<<48\n",
+    "image": "evidence/global_passport_ocr_all/VUT.png"
+  },
+  {
+    "country": "WLF",
+    "line1": "P<WLFSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002432WLF7304202M2910127WLF243<<<<<<<<10",
+    "ocr": "P<WLFSINGH<<PRIYA<<<<<<<<<\nA100002432WLF7304202M2910127WLF243<<<<<<<<10\n",
+    "image": "evidence/global_passport_ocr_all/WLF.png"
+  },
+  {
+    "country": "WSM",
+    "line1": "P<WSMKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "WSM1002447WSM7405213F3001178WSM244<<<<<<<<04",
+    "ocr": "P<WSMKIM<<MIN<JUN<<<<<<<<<\nWSM1002447WSM7405213F3001178WSM244<<<<<<<<04\n",
+    "image": "evidence/global_passport_ocr_all/WSM.png"
+  },
+  {
+    "country": "YEM",
+    "line1": "P<YEMTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002458YEM7506224<3104220<<<<<<<<<<<<<<<0",
+    "ocr": "P<YEMTEST<<USER<<<<<<<<<<<\n1000002458YEM7506224<3104220<<<<<<<<<<<<<<<\n",
+    "image": "evidence/global_passport_ocr_all/YEM.png"
+  },
+  {
+    "country": "ZAF",
+    "line1": "P<ZAFSMITH<<ALEX<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "A100002465ZAF7607235M3207279ZAF246<<<<<<<<28",
+    "ocr": "P<ZAFSMITH<<ALEX<<<<<<<<<<<\nA100002465ZAF7607235M3207279ZAF246<<<<<<<<28\n",
+    "image": "evidence/global_passport_ocr_all/ZAF.png"
+  },
+  {
+    "country": "ZMB",
+    "line1": "P<ZMBGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+    "line2": "ZMB1002472ZMB7708246F3310045ZMB247<<<<<<<<50",
+    "ocr": "P<ZMBGARCIA<<MARIA<ELENA<<<<<<<<<<\nZMB1002472ZMB7708246F3310045ZMB247<<<<<<<<50\n",
+    "image": "evidence/global_passport_ocr_all/ZMB.png"
+  },
+  {
+    "country": "ZWE",
+    "line1": "P<ZWESINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+    "line2": "1000002481ZWE7809257<3401099ZWE248<<<<<<<<98",
+    "ocr": "P<ZWESINGH<<PRIYA<<<<<<<<<<<<\n1000002481ZWE7809257<3401099ZWE248<<<<<<<<98\n",
+    "image": "evidence/global_passport_ocr_all/ZWE.png"
+  }
+]

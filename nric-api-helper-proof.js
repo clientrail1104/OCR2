@@ -1,0 +1,5 @@
+const fs=require('fs'),vm=require('vm');
+const src=fs.readFileSync('api/ocr.js','utf8').split('export default async function handler')[0];
+const sandbox={console,Set,Map,RegExp,String,Number,Array,Object,Math,JSON,Date};vm.createContext(sandbox);vm.runInContext(src,sandbox,{timeout:5000});
+const r=vm.runInContext(`(()=>{let pass=0,total=0;function md(y,m){return [31,y%4===0?29:28,31,30,31,30,31,31,30,31,30,31][m-1]}for(let i=0;i<100000;i++){const y=i%100,m=(i%12)+1,d=(i%md(y,m))+1,p=(i%99)+1,z=(i*97)%10000,raw=String(y).padStart(2,'0')+String(m).padStart(2,'0')+String(d).padStart(2,'0')+String(p).padStart(2,'0')+String(z).padStart(4,'0'),fmt=raw.slice(0,6)+'-'+raw.slice(6,8)+'-'+raw.slice(8);total+=2;if(normalizeNric(fmt,{hyphenated:true})===fmt)pass++;if(normalizeNric(raw,{hyphenated:false})===raw)pass++}for(const bad of ['991332-10-1234','990230-10-1234','000000-10-1234']){total++;if(normalizeNric(bad,{hyphenated:true})==='')pass++}return{pass,total,accuracy:pass/total}})()`,sandbox,{timeout:30000});
+console.log(JSON.stringify(r,null,2));if(r.pass!==r.total)process.exitCode=1;
