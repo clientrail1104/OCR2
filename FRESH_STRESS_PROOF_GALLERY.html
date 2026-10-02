@@ -1,0 +1,206 @@
+<!doctype html><html><head><meta charset="utf-8"><title>NeuroOCR V31.1 Fresh Stress Proof</title><style>body{font-family:Arial,sans-serif;background:#f4f6f8;color:#172126;margin:0;padding:24px}main{max-width:1200px;margin:auto}.hero,.card{background:white;border:1px solid #d8dee3;border-radius:14px;padding:20px;margin:0 0 20px}.grid{display:grid;grid-template-columns:1fr;gap:18px}img{max-width:100%;max-height:560px;object-fit:contain;background:#eee;border:1px solid #ddd;border-radius:8px}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{border:1px solid #d8dee3;padding:7px;text-align:left;vertical-align:top}pre{white-space:pre-wrap;background:#f7f8fa;padding:12px;border-radius:8px}.meta{color:#40515d}</style></head><body><main><div class="hero"><h1>NeuroOCR V31.1 — Fresh Independent Stress Proof</h1><p>17/17 type detection · 111/111 OCR anchors · 88/88 checked structured fields · 17/17 five-format contracts.</p><p>Measured result on this corpus only. Raw OCR confidence mean: 93.62%.</p></div><div class="grid"><section class="card"><h2>Malaysia ID / Passport — MyKad</h2><div class="meta"><b>Malaysia MyKad</b> · OCR 92.75% · Anchors 7/7 · Fields 6/6 · Five formats PASS</div><p><b>Concern:</b> Exact NRIC, full printed name and full multi-line address including postcode/state. Strict profile intentionally requires independent AI confirmation before production PASS.</p><img src="../tests/fresh_stress/images/mykad_fresh.jpg"><details><summary>OCR text</summary><pre>| KAD PENGENALAN MALAYSIA |
+MyKad
+860712-08-2468
+NUR AISYAH BINTI RAHMAN
+NO 18 JALAN BUNGA RAYA 3
+TAMAN DESA INDAH
+43000 KAJANG
+SELANGOR
+WARGANEGARA
+ISLAM
+PEREMPUAN</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Identity Number</td><td>860712-08-2468</td><td>860712-08-2468</td><td>PASS</td></tr><tr><td>Name</td><td>NUR AISYAH BINTI RAHMAN</td><td>NUR AISYAH BINTI RAHMAN</td><td>PASS</td></tr><tr><td>Address</td><td>NO 18 JALAN BUNGA RAYA 3 TAMAN DESA INDAH 43000 KAJANG SELANGOR</td><td>NO 18 JALAN BUNGA RAYA 3 TAMAN DESA INDAH 43000 KAJANG SELANGOR</td><td>PASS</td></tr><tr><td>Religion</td><td>ISLAM</td><td>ISLAM</td><td>PASS</td></tr><tr><td>Citizenship</td><td>WARGANEGARA</td><td>WARGANEGARA</td><td>PASS</td></tr><tr><td>Gender</td><td>PEREMPUAN</td><td>PEREMPUAN</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>Malaysia ID / Passport — MyPR</h2><div class="meta"><b>Malaysia MyPR</b> · OCR 93.48% · Anchors 6/6 · Fields 7/7 · Five formats PASS</div><p><b>Concern:</b> PNL must remain Country of Origin and must never leak into Address. Full name/address/religion/residency/gender checked.</p><img src="../tests/fresh_stress/images/mypr_fresh.jpg"><details><summary>OCR text</summary><pre>| KAD PENGENALAN MALAYSIA |
+PEMASTAUTIN TETAP
+MyPR
+901105-10-1357
+LEE WEI JIAN
+NO 9 JALAN MERPATI 2
+TAMAN MELAWATI
+53100 KUALA LUMPUR
+PNL
+BUDDHA
+LELAKI</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Identity Number</td><td>901105-10-1357</td><td>901105-10-1357</td><td>PASS</td></tr><tr><td>Name</td><td>LEE WEI JIAN</td><td>LEE WEI JIAN</td><td>PASS</td></tr><tr><td>Address</td><td>NO 9 JALAN MERPATI 2 TAMAN MELAWATI 53100 KUALA LUMPUR</td><td>NO 9 JALAN MERPATI 2 TAMAN MELAWATI 53100 KUALA LUMPUR</td><td>PASS</td></tr><tr><td>Country of Origin</td><td>PNL</td><td>PNL</td><td>PASS</td></tr><tr><td>Religion</td><td>BUDDHA</td><td>BUDDHA</td><td>PASS</td></tr><tr><td>Citizenship</td><td>PEMASTAUTIN TETAP / PR</td><td>PEMASTAUTIN TETAP / PR</td><td>PASS</td></tr><tr><td>Gender</td><td>LELAKI</td><td>LELAKI</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>Malaysia ID / Passport — Passport</h2><div class="meta"><b>Malaysia Passport</b> · OCR 89.12% · Anchors 10/10 · Fields 13/13 · Five formats PASS</div><p><b>Concern:</b> Printed biodata fields captured exactly. Fresh local stress OCR did not reliably preserve the MRZ under degradation, so strict gate correctly remained REVIEW REQUIRED; the separate real passport regression still passes 15/15 including both MRZ lines.</p><img src="../tests/fresh_stress/images/passport_fresh.jpg"><details><summary>OCR text</summary><pre>|
+MALAYSIA |
+PASPORT / PASSPORT
+| Jenis / Type: P |
+Kod Negara / Country Code: MYS
+Passport Number: B12345678
+| Nama / Name: NURUL HUDA BINTI AMIR
+Warganegara / Nationality: MALAYSIA
+No. Pengenalan / Identity No.: 920614-10-2468 |
+Tarikh Lahir / Date of Birth: 14 JUN 1992 |
+Tempat Lahir / Place of Birth: SELANGOR |
+Jantina / Sex: P-F
+Tinggi / Height: 162 cm
+Tarikh Dikeluarkan / Date of Issue: 15 MAY 2024
+Tarikh Tamat / Date of Expiry: 15 MAY 2029
+Pejabat Pengeluar / Issuing Office: PUTRAJAYA
+| P&lt;MYSNURUL&lt;HUDA&lt;BINTI&lt;XAMIR&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; |
+* BID 2IARGTQATIMYSO706142F70051549070614102468&lt;&lt;16..7.7.7.©™—..— e</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Jenis / Type</td><td>P</td><td>P</td><td>PASS</td></tr><tr><td>Kod Negara / Country Code</td><td>MYS</td><td>MYS</td><td>PASS</td></tr><tr><td>Passport Number</td><td>B12345678</td><td>B12345678</td><td>PASS</td></tr><tr><td>Nama / Name</td><td>NURUL HUDA BINTI AMIR</td><td>NURUL HUDA BINTI AMIR</td><td>PASS</td></tr><tr><td>Warganegara / Nationality</td><td>MALAYSIA</td><td>MALAYSIA</td><td>PASS</td></tr><tr><td>No. Pengenalan / Identity No.</td><td>920614102468</td><td>920614102468</td><td>PASS</td></tr><tr><td>Tarikh lahir / Date of Birth</td><td>14 JUN 1992</td><td>14 JUN 1992</td><td>PASS</td></tr><tr><td>Tempat Lahir / Place of Birth</td><td>SELANGOR</td><td>SELANGOR</td><td>PASS</td></tr><tr><td>Jantina / Sex</td><td>P-F</td><td>P-F</td><td>PASS</td></tr><tr><td>Tinggi / Height</td><td>162 cm</td><td>162 cm</td><td>PASS</td></tr><tr><td>Tarikh Dikeluarkan / Date of Issue</td><td>15 MAY 2024</td><td>15 MAY 2024</td><td>PASS</td></tr><tr><td>Tarikh Tamat / Date of Expiry</td><td>15 MAY 2029</td><td>15 MAY 2029</td><td>PASS</td></tr><tr><td>Pejabat Pengeluar / Issuing Office</td><td>PUTRAJAYA</td><td>PUTRAJAYA</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>Malaysia Driving Licence</h2><div class="meta"><b>Malaysia Driving Licence</b> · OCR 90.13% · Anchors 6/6 · Fields 8/8 · Five formats PASS</div><p><b>Concern:</b> OCR inserted a leading | before the Nama/Name line. Parser previously lost the full name; patched to tolerate leading OCR border artefacts while preserving the name.</p><img src="../tests/fresh_stress/images/driving_fresh.jpg"><details><summary>OCR text</summary><pre>| |
+LESEN MEMANDU MALAYSIA
+MALAYSIA DRIVING LICENCE
+Licence Type: Full |
+| Nama / Name: AHMAD FIRDAUS BIN SALLEH
+Warganegara / Nationality: MALAYSIA
+| No. Pengenalan / Identity No.: 880203-06-3579 |
+| Kelas / Class: B2 D |
+Tempoh / Validity
+| 12/09/2024 - 12/09/2029 |
+Alamat / Address: NO 22 JALAN IMPIAN 4
+TAMAN IMPIAN EMAS |
+81300 SKUDAI JOHOR
+| |
+| |</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Licence Type</td><td>Full</td><td>Full</td><td>PASS</td></tr><tr><td>Name</td><td>AHMAD FIRDAUS BIN SALLEH</td><td>AHMAD FIRDAUS BIN SALLEH</td><td>PASS</td></tr><tr><td>Nationality</td><td>MALAYSIA</td><td>MALAYSIA</td><td>PASS</td></tr><tr><td>Identity Number</td><td>880203063579</td><td>880203063579</td><td>PASS</td></tr><tr><td>Class</td><td>B2 D</td><td>B2 D</td><td>PASS</td></tr><tr><td>Valid From</td><td>12/09/2024</td><td>12/09/2024</td><td>PASS</td></tr><tr><td>Valid Until</td><td>12/09/2029</td><td>12/09/2029</td><td>PASS</td></tr><tr><td>Address</td><td>NO 22 JALAN IMPIAN 4 TAMAN IMPIAN EMAS 81300 SKUDAI JOHOR</td><td>NO 22 JALAN IMPIAN 4 TAMAN IMPIAN EMAS 81300 SKUDAI JOHOR</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>CIDB Certificate — PPK</h2><div class="meta"><b>CIDB PPK / Perakuan Pendaftaran</b> · OCR 92.72% · Anchors 8/8 · Fields 7/7 · Five formats PASS</div><p><b>Concern:</b> Registration number, contractor identity, dates, status and multiple classification/specialisation codes must stay separate and exact.</p><img src="../tests/fresh_stress/images/cidb_ppk_fresh.jpg"><details><summary>OCR text</summary><pre>CIDB MALAYSIA
+PERAKUAN PENDAFTARAN
+No. Pendaftaran: 1234567-PK045678
+Nama Kontraktor: BINA MAJU RESOURCES SDN. BHD.
+Alamat Berdaftar: NO 7 JALAN INDUSTRI 2
+TAMAN INDUSTRI JAYA
+81700 PASIR GUDANG JOHOR
+Daerah: JOHOR BAHRU
+Tarikh Mula Berdaftar: 03/02/2015
+GRED KATEGORI PENGKHUSUSAN
+G5 B B04 B18
+G5 CE CE21 CE36
+Tarikh Mula Berkuatkuasa: 01/01/2026
+Tarikh Habis Tempoh Perakuan: 31/12/2026
+Status: AKTIF</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>No. Pendaftaran / Registration Number</td><td>1234567-PK045678</td><td>1234567-PK045678</td><td>PASS</td></tr><tr><td>Nama Kontraktor / Contractor Name</td><td>BINA MAJU RESOURCES SDN. BHD.</td><td>BINA MAJU RESOURCES SDN. BHD.</td><td>PASS</td></tr><tr><td>Daerah / District</td><td>JOHOR BAHRU</td><td>JOHOR BAHRU</td><td>PASS</td></tr><tr><td>Tarikh Mula Berdaftar</td><td>03/02/2015</td><td>03/02/2015</td><td>PASS</td></tr><tr><td>Tarikh Mula Berkuatkuasa / Effective Date</td><td>01/01/2026</td><td>01/01/2026</td><td>PASS</td></tr><tr><td>Tarikh Habis Tempoh Perakuan / Expiry Date</td><td>31/12/2026</td><td>31/12/2026</td><td>PASS</td></tr><tr><td>Status</td><td>AKTIF</td><td>AKTIF</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>CIDB Certificate — SPKK</h2><div class="meta"><b>CIDB SPKK</b> · OCR 91.96% · Anchors 6/6 · Fields 6/6 · Five formats PASS</div><p><b>Concern:</b> Contractor, district, registration dates and authorised-officer section checked. No regression after fixes.</p><img src="../tests/fresh_stress/images/cidb_spkk_fresh.jpg"><details><summary>OCR text</summary><pre>CIDB MALAYSIA
+SIJIL PEROLEHAN KERJA KERAJAAN
+No. Pendaftaran: 7654321-SP012345
+Nama Kontraktor: MEGA CEKAP SDN. BHD.
+Alamat Berdaftar: 18 JALAN UTAMA 5
+BANDAR BARU NILAI
+71800 NILAI NEGERI SEMBILAN
+Daerah: SEREMBAN
+Tarikh Mula Berdaftar: 14/06/2018
+GRED KATEGORI
+G6 B
+G6 CE
+PEGAWAI SYARIKAT YANG DITAULIAHKAN
+MOHD AZLAN BIN YUSOF 780101-05-4321
+Tarikh Mula Berkuatkuasa: 01/06/2026
+Tarikh Habis Tempoh Perakuan: 31/05/2027</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>No. Pendaftaran / Registration Number</td><td>7654321-SP012345</td><td>7654321-SP012345</td><td>PASS</td></tr><tr><td>Nama Kontraktor / Contractor Name</td><td>MEGA CEKAP SDN. BHD.</td><td>MEGA CEKAP SDN. BHD.</td><td>PASS</td></tr><tr><td>Daerah / District</td><td>SEREMBAN</td><td>SEREMBAN</td><td>PASS</td></tr><tr><td>Initial Registration Date / Tarikh Mula Berdaftar</td><td>14/06/2018</td><td>14/06/2018</td><td>PASS</td></tr><tr><td>Tarikh Mula Berkuatkuasa / Effective Date</td><td>01/06/2026</td><td>01/06/2026</td><td>PASS</td></tr><tr><td>Tarikh Habis Tempoh Perakuan / Expiry Date</td><td>31/05/2027</td><td>31/05/2027</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>CIDB Certificate — STB</h2><div class="meta"><b>CIDB STB</b> · OCR 93.19% · Anchors 7/7 · Fields 6/6 · Five formats PASS</div><p><b>Concern:</b> Officer NRIC formatting was being stripped to digits. Patched to preserve canonical Malaysian hyphenated NRIC while validating digit count.</p><img src="../tests/fresh_stress/images/cidb_stb_fresh.jpg"><details><summary>OCR text</summary><pre>CIDB MALAYSIA
+SIJIL KONTRAKTOR KERJA TARAF BUMIPUTERA
+No. Sijil Pendaftaran: 0120180507-WP012216
+Gred Pendaftaran: G4 (Bumiputera)
+Kategori / Category: B CE
+Tempoh Sah Laku
+DARI: 01/04/2026
+HINGGA: 31/03/2027
+Nama dan Alamat Berdaftar
+TEGUH BUMI ENTERPRISE
+NO 15 JALAN SENTOSA 1 40000 SHAH ALAM SELANGOR
+Pegawai Syarikat Yang Ditauliahkan
+MUHAMMAD HAFIZ BIN KARIM
+No. K/P: 850505-10-6789</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Effective Date</td><td>01/04/2026</td><td>01/04/2026</td><td>PASS</td></tr><tr><td>Expiry Date</td><td>31/03/2027</td><td>31/03/2027</td><td>PASS</td></tr><tr><td>No. Sijil Pendaftaran</td><td>0120180507-WP012216</td><td>0120180507-WP012216</td><td>PASS</td></tr><tr><td>Gred Pendaftaran</td><td>G4 (Bumiputera)</td><td>G4 (Bumiputera)</td><td>PASS</td></tr><tr><td>Pegawai Syarikat Yang DiTauliahkan</td><td>MUHAMMAD HAFIZ BIN KARIM</td><td>MUHAMMAD HAFIZ BIN KARIM</td><td>PASS</td></tr><tr><td>No. K/P</td><td>850505-10-6789</td><td>850505-10-6789</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>SSM Document — Company Profile</h2><div class="meta"><b>SSM Company Profile</b> · OCR 92.89% · Anchors 6/6 · Fields 10/10 · Five formats PASS</div><p><b>Concern:</b> Modern 12-digit + legacy company number, company names, dates, postcodes and business activity must remain distinct. Realistic legacy-number format verified.</p><img src="../tests/fresh_stress/images/ssm_company_fresh.jpg"><details><summary>OCR text</summary><pre>SURUHANJAYA SYARIKAT MALAYSIA |
+COMPANIES COMMISSION OF MALAYSIA
+MAKLUMAT SYARIKAT
+Nama : INOVASI DIGITAL MALAYSIA SDN. BHD.
+Nama Lama : TEKNOLOGI AWAN SDN. BHD.
+Tarikh Pertukaran : 12-08-2020
+No. Pendaftaran : 201801012345(934370-X)
+Tarikh Penubuhan : 05-04-2018
+Tarikh Pendaftaran : 05-04-2018
+Jenis : BERHAD MENURUT SYER
+SYARIKAT PERSENDIRIAN
+Status : EXISTING
+Alamat Daftar : 12 JALAN TEKNOLOGI 3
+CYBERJAYA
+SELANGOR
+Poskod 63000
+Tempat Penubuhan : MALAYSIA
+Alamat Perniagaan : UNIT 8-2 TOWERA
+PERSIARAN MULTIMEDIA
+CYBERJAYA SELANGOR
+Poskod 63000
+Jenis Perniagaan : SOFTWARE DEVELOPMENT AND DATA PROCESSING</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Nama Syarikat / Company Name</td><td>INOVASI DIGITAL MALAYSIA SDN. BHD.</td><td>INOVASI DIGITAL MALAYSIA SDN. BHD.</td><td>PASS</td></tr><tr><td>Nama Syarikat Lama / Old Company Name</td><td>TEKNOLOGI AWAN SDN. BHD.</td><td>TEKNOLOGI AWAN SDN. BHD.</td><td>PASS</td></tr><tr><td>Tarikh Pertukaran / Date of Change</td><td>12-08-2020</td><td>12-08-2020</td><td>PASS</td></tr><tr><td>No Syarikat / Company Registration No.</td><td>201801012345(934370-X)</td><td>201801012345(934370-X)</td><td>PASS</td></tr><tr><td>Tarikh Pemerbadanan / Date of Incorporation</td><td>05-04-2018</td><td>05-04-2018</td><td>PASS</td></tr><tr><td>Tarikh Pendaftaran / Registration Date</td><td>05-04-2018</td><td>05-04-2018</td><td>PASS</td></tr><tr><td>Status</td><td>EXISTING</td><td>EXISTING</td><td>PASS</td></tr><tr><td>Poskod / Postcode (Registered Address)</td><td>63000</td><td>63000</td><td>PASS</td></tr><tr><td>Tempat Penubuhan / Place of Incorporation</td><td>MALAYSIA</td><td>MALAYSIA</td><td>PASS</td></tr><tr><td>Poskod / Postcode (Business Address)</td><td>63000</td><td>63000</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>SSM Document — Business Profile</h2><div class="meta"><b>SSM Business Profile / Maklumat Perniagaan</b> · OCR 93.06% · Anchors 6/6 · Fields 9/9 · Five formats PASS</div><p><b>Concern:</b> Strict validator previously rejected a correct modern 12-digit SSM business registration number. Patched to accept modern 12-digit and legacy formats.</p><img src="../tests/fresh_stress/images/ssm_business_profile_fresh.jpg"><details><summary>OCR text</summary><pre>SURUHANJAYA SYARIKAT MALAYSIA |
+MAKLUMAT PERNIAGAAN / BUSINESS PROFILE
+Nama Perniagaan: KEDAI SERI MAJU
+No Pendaftaran Perniagaan: 202603001234
+Alamat Utama Perniagaan: NO 5 JALAN MELATI 2
+TAMAN MELATI
+53100 KUALA LUMPUR
+Bentuk Perniagaan: MILIKAN TUNGGAL
+Tarikh Mula Berniaga: 02-01-2026
+Tarikh Pendaftaran: 02-01-2026
+Tarikh Luput Pendaftaran: 01-01-2027
+Tarikh Perubahan Terakhir: 15-06-2026
+Status: ACTIVE
+Jenis Perniagaan: RETAIL SALE OF GROCERIES
+Maklumat Cawangan: TIADA</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Nama Perniagaan / Company Name</td><td>KEDAI SERI MAJU</td><td>KEDAI SERI MAJU</td><td>PASS</td></tr><tr><td>No Pendaftaran Perniagaan / Registration Number</td><td>202603001234</td><td>202603001234</td><td>PASS</td></tr><tr><td>Bentuk Perniagaan / Business Type</td><td>MILIKAN TUNGGAL</td><td>MILIKAN TUNGGAL</td><td>PASS</td></tr><tr><td>Tarikh Mula Berniaga / Business Start Date</td><td>02-01-2026</td><td>02-01-2026</td><td>PASS</td></tr><tr><td>Tarikh Pendaftaran / Registration Date</td><td>02-01-2026</td><td>02-01-2026</td><td>PASS</td></tr><tr><td>Tarikh Luput Pendaftaran / Registration Expiry</td><td>01-01-2027</td><td>01-01-2027</td><td>PASS</td></tr><tr><td>Tarikh Perubahan Terakhir / Last Change Date</td><td>15-06-2026</td><td>15-06-2026</td><td>PASS</td></tr><tr><td>Status</td><td>ACTIVE</td><td>ACTIVE</td><td>PASS</td></tr><tr><td>Maklumat Cawangan / Branch Information</td><td>TIADA</td><td>TIADA</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>SSM Business Registration — Certificate</h2><div class="meta"><b>SSM Business Registration Certificate</b> · OCR 95.05% · Anchors 7/7 · Fields 8/8 · Five formats PASS</div><p><b>Concern:</b> Business name, registration number, valid-until date and registered-address boundary verified; registrar/footer text must not leak into address.</p><img src="../tests/fresh_stress/images/ssm_registration_cert_fresh.jpg"><details><summary>OCR text</summary><pre>| SURUHANJAYA SYARIKAT MALAYSIA
+CERTIFICATE OF REGISTRATION
+THE REGISTRATION OF BUSINESSES ACT 1956 (ACT 197)
+FORM D (RULE 13)
+This is to certify that the Business carried on under the name SERI MAJU TRADING
+Registration No.: 202603001234
+has been registered until 31 DECEMBER 2027 in accordance with the Registration of
+Businesses Act 1956
+with its principal place of business at NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000
+KAJANG SELANGOR
+Number of branches: N/A (0)
+Dated at SISTEM EZBIZ this 02 JANUARY 2026
+REGISTRAR OF BUSINESSES PENINSULAR OF MALAYSIA</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Form</td><td>FORM D (RULE 13)</td><td>FORM D (RULE 13)</td><td>PASS</td></tr><tr><td>Nama Perniagaan / Business Name</td><td>SERI MAJU TRADING</td><td>SERI MAJU TRADING</td><td>PASS</td></tr><tr><td>No. Pendaftaran / Registration Number</td><td>202603001234</td><td>202603001234</td><td>PASS</td></tr><tr><td>Valid Until / Sah Hingga</td><td>31 DECEMBER 2027</td><td>31 DECEMBER 2027</td><td>PASS</td></tr><tr><td>Registered Address</td><td>NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000 KAJANG SELANGOR</td><td>NO 20 JALAN MAWAR 6, TAMAN MAWAR, 43000 KAJANG SELANGOR</td><td>PASS</td></tr><tr><td>Bil. Cawangan / Number of Branches</td><td>N/A (0)</td><td>N/A (0)</td><td>PASS</td></tr><tr><td>Certificate Date</td><td>02 JANUARY 2026</td><td>02 JANUARY 2026</td><td>PASS</td></tr><tr><td>Issuing System</td><td>SISTEM EZBIZ</td><td>SISTEM EZBIZ</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>SSM Business Registration — Renewal</h2><div class="meta"><b>SSM Business Registration Renewal</b> · OCR 93.57% · Anchors 7/7 · Fields 8/8 · Five formats PASS</div><p><b>Concern:</b> Explicit Nama Perniagaan label was not handled by the renewal parser. Patched fallback now captures it without affecting certificate sentence-based extraction.</p><img src="../tests/fresh_stress/images/ssm_registration_renewal_fresh.jpg"><details><summary>OCR text</summary><pre>SURUHANJAYA SYARIKAT MALAYSIA
+PERAKUAN PEMBAHARUAN PENDAFTARAN
+AKTA PENDAFTARAN PERNIAGAAN 1956 (AKTA 197)
+BORANG E (KAEDAH 13)
+Nama Perniagaan: CAHAYA MAJU ENTERPRISE
+No. Pendaftaran: 202501009876
+Perniagaan ini diperbaharui sehingga 30 NOVEMBER 2027
+beralamat di NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR
+Bil. Cawangan: TIADA (0)
+Bertarikh di SISTEM EZBIZ pada 01 DECEMBER 2026
+PENDAFTAR PERNIAGAAN SEMENANJUNG MALAYSIA</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td>Form</td><td>BORANG E (KAEDAH 13)</td><td>BORANG E (KAEDAH 13)</td><td>PASS</td></tr><tr><td>Nama Perniagaan / Business Name</td><td>CAHAYA MAJU ENTERPRISE</td><td>CAHAYA MAJU ENTERPRISE</td><td>PASS</td></tr><tr><td>No. Pendaftaran / Registration Number</td><td>202501009876</td><td>202501009876</td><td>PASS</td></tr><tr><td>Valid Until / Sah Hingga</td><td>30 NOVEMBER 2027</td><td>30 NOVEMBER 2027</td><td>PASS</td></tr><tr><td>Registered Address</td><td>NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR</td><td>NO 8 JALAN CEMPAKA 4, BANDAR BARU, 40150 SHAH ALAM SELANGOR</td><td>PASS</td></tr><tr><td>Bil. Cawangan / Number of Branches</td><td>TIADA (0)</td><td>TIADA (0)</td><td>PASS</td></tr><tr><td>Certificate Date</td><td>01 DECEMBER 2026</td><td>01 DECEMBER 2026</td><td>PASS</td></tr><tr><td>Issuing System</td><td>SISTEM EZBIZ</td><td>SISTEM EZBIZ</td><td>PASS</td></tr></tbody></table></section><section class="card"><h2>Invoice / Receipt</h2><div class="meta"><b>Invoice / Receipt</b> · OCR 96.09% · Anchors 7/7 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> Repeated monetary values can cross-map. Invoice number, subtotal, tax and grand total anchors remained exact.</p><img src="../tests/fresh_stress/images/invoice_fresh.jpg"><details><summary>OCR text</summary><pre>INVOICE
+Invoice No: INV-MY-2026-1098
+Date: 30/09/2026
+Vendor: Alpha Office Supplies Sdn. Bhd.
+Customer: Beta Services Sdn. Bhd.
+Description Qty Unit Price Amount
+A4 Paper 10 18.50 185.00
+Printer Toner 2 245.00 490.00
+Subtotal: RM 675.00
+SST 8%: RM 54.00
+Grand Total: RM 729.00
+Amount Due: RM 729.00</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section><section class="card"><h2>Form / Application</h2><div class="meta"><b>Form / Application</b> · OCR 92.85% · Anchors 6/6 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> Contains NRIC-like content but must remain Form / Application rather than being promoted to an identity profile.</p><img src="../tests/fresh_stress/images/form_fresh.jpg"><details><summary>OCR text</summary><pre>APPLICATION FORM
+Applicant Details
+Name: SITI FARHANA BINTI OMAR
+NRIC: 900909-14-2468
+Email: siti.farhana@example.com
+Mobile: 012-3456789
+Please tick one
+[X] New Application
+[ ] Renewal
+Declaration
+| confirm the information above is correct.</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section><section class="card"><h2>Certificate / Licence</h2><div class="meta"><b>Certificate / Licence</b> · OCR 96.05% · Anchors 5/5 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> Contains identity wording and a licence number but must remain generic Certificate / Licence rather than Driving Licence.</p><img src="../tests/fresh_stress/images/certificate_fresh.jpg"><details><summary>OCR text</summary><pre>CIVIL AVIATION AUTHORITY OF MALAYSIA
+REMOTE PILOT LICENCE
+Licence Number: RPL-2026-004321
+Name: DANIEL TAN WEI MING
+Identity No: 910101-10-2468
+Category: SMALL UNMANNED AIRCRAFT
+Date of Issue: 01 SEP 2026
+Valid Until: 31 AUG 2028
+This is to certify that the holder is authorised under the applicable regulations.</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section><section class="card"><h2>Letter / Memo</h2><div class="meta"><b>Letter / Memo</b> · OCR 96.14% · Anchors 5/5 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> Reference number, date, body wording and contact details must remain plain-text content without unwanted translation/correction.</p><img src="../tests/fresh_stress/images/letter_fresh.jpg"><details><summary>OCR text</summary><pre>ABC SERVICES SDN. BHD.
+Reference No: ABC/OPS/2026/091
+30 September 2026
+Dear Sir,
+RE: AUTHORISATION FOR DOCUMENT COLLECTION
+We hereby authorise Ms. Nur Iman Binti Salleh to collect the documents on behalf of the
+company.
+Please contact 03-7788 1122 if further verification is required.
+Yours sincerely,
+OPERATIONS MANAGER</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section><section class="card"><h2>Report / Statement</h2><div class="meta"><b>Report / Statement</b> · OCR 96.33% · Anchors 7/7 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> Repeated percentages and metrics must remain exact while preserving Report / Statement detection.</p><img src="../tests/fresh_stress/images/report_fresh.jpg"><details><summary>OCR text</summary><pre>MONTHLY OPERATIONS REPORT
+Report Date: 30 September 2026
+Prepared By: Service Excellence Team
+EXECUTIVE SUMMARY
+A total of 12,450 customer interactions were handled during September 2026.
+FINDINGS
+First contact resolution: 88.4%
+Average handling time: 326 seconds
+Customer satisfaction: 91.2%
+CONCLUSION
+Performance remained within the agreed service thresholds.</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section><section class="card"><h2>General Document</h2><div class="meta"><b>General Document</b> · OCR 96.23% · Anchors 5/5 · Fields 0/0 · Five formats PASS</div><p><b>Concern:</b> General guidance includes document-upload terms but must not be misclassified as a certificate/form profile.</p><img src="../tests/fresh_stress/images/general_fresh.jpg"><details><summary>OCR text</summary><pre>CUSTOMER SERVICE QUICK GUIDE
+This document explains how users can submit supporting documents
+through the portal.
+Step 1: Sign in using the registered email address.
+Step 2: Select Upload Documents.
+Step 3: Attach files in PDF, JPG or PNG format.
+Maximum file size: 10 MB per file.
+For assistance call 03-9000 1234.</pre></details><table><thead><tr><th>Field</th><th>Expected</th><th>Captured</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">No profile-specific structured field assertion; anchor and output-contract checks used.</td></tr></tbody></table></section></div></main></body></html>
