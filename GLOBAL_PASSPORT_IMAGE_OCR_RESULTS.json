@@ -1,0 +1,119 @@
+{
+  "status": "FAIL",
+  "image_ocr_pass": 237,
+  "image_ocr_total": 249,
+  "image_ocr_percent": 95.18072289156626,
+  "field_pass": 731,
+  "field_total": 747,
+  "field_percent": 97.85809906291834,
+  "failures": [
+    {
+      "country": "CMR",
+      "expected1": "P<CMRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "A100000450CMR8510183M3104024CMR45<<<<<<<<<06",
+      "ocr": "P<CMRTEST<<USER<<<<<<<<<<<<<\nA100000450CMR8510183M3104024CMR45<<<<<<<<<0Q6\n",
+      "got1": "P<CMRTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "A100000450CMR8510183M3104024CMR45<<<<<<<<006",
+      "valid": true
+    },
+    {
+      "country": "CYP",
+      "expected1": "P<CYPGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "A100000575CYP9710027M3304064CYP57<<<<<<<<<70",
+      "ocr": "P<CYPGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<\nA100000575CYP9710027M3304064CYP5<<<<<<<<<70\n",
+      "got1": "P<CYPGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "got2": "A100000575CYP9710027M33040641CYP5<<<<<<<<<70",
+      "valid": true
+    },
+    {
+      "country": "ERI",
+      "expected1": "P<ERIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "ERI1000679ERI7708121F3310285ERI67<<<<<<<<<02",
+      "ocr": "P<ERIGARCIA<<MARIA<ELENA<<<<<<<<<\nERT1000679ERI7708121F3310285ERI6<<<<<<<<<Q2\n",
+      "got1": "P<ERIGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "got2": "ERI1000679ERI7708121F33102851ERI6<<<<<<<<<02",
+      "valid": true
+    },
+    {
+      "country": "HTI",
+      "expected1": "P<HTITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "HTI1001008HTI8005171F2601250HTI100<<<<<<<<12",
+      "ocr": "P<HTITEST<<USER<<<<<<<<<<\nHT1I1001008HT18005171F2601250HTI100<<<<<<<<12\n",
+      "got1": "P<HTITEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "T1I1001008HTI8005171F2601250HTI100<<<<<<<<12",
+      "valid": true
+    },
+    {
+      "country": "JPN",
+      "expected1": "P<JPNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "JPN1001153JPN9508048F3110164JPN115<<<<<<<<66",
+      "ocr": "P<JPNTEST<<USER<<<<<<<<<\nJPN10011533PN9508048F3110164JPN115<<<<<<<<66\n",
+      "got1": "P<3PNTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "JPN10011533PN9508048F3110164JPN115<<<<<<<<66",
+      "valid": true
+    },
+    {
+      "country": "LUX",
+      "expected1": "P<LUXSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "LUX1001336LUX8302227F2904227<<<<<<<<<<<<<<<4",
+      "ocr": "P<LUXSINGH<<PRIYA<<<<<<<<<<<<\nLUX1001336LUX8302227F290422<<<<<<<<<<<<<<<4\n",
+      "got1": "P<LUXSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "LUX1001336LUX8302227F9290422<<<<<<<<<<<<<<<4",
+      "valid": true
+    },
+    {
+      "country": "MKD",
+      "expected1": "P<MKDKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "A100001446MKD9401057M3001215MKD144<<<<<<<<04",
+      "ocr": "P<MKDKIM<<MIN<JUN<<<<<<<<<<<\nA100001446MKD9401057M3001215MKD144<<<<<<<<0Q4\n",
+      "got1": "P<MKDKIM<<MIN<JUN<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "A100001446MKD9401057M3001215KD144<<<<<<<<004",
+      "valid": true
+    },
+    {
+      "country": "MYS",
+      "expected1": "P<MYSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "MYS1001570MYS7702185F3304020MYS157<<<<<<<<36",
+      "ocr": "P<MYSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<\nMYS1001570MYS7702185F3304020MYS15<<<<<<<<36\n",
+      "got1": "P<MYSGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "got2": "MYS1001570MYS7702185F33040207MYS15<<<<<<<<36",
+      "valid": true
+    },
+    {
+      "country": "NIU",
+      "expected1": "P<NIUTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "A100001653NIU8510264M3104149NIU165<<<<<<<<58",
+      "ocr": "P<NIUTEST<<USER<<<<<<<<<<<\nA100001653NIU8510264M3104149NIU1L65<<<<<<<<58\n",
+      "got1": "P<NIUTEST<<USER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "A100001653NIU8510264M3104149NIUL65<<<<<<<<58",
+      "valid": true
+    },
+    {
+      "country": "ROU",
+      "expected1": "P<ROUSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "1000001886ROU7809213<3401170ROU188<<<<<<<<02",
+      "ocr": "P<ROUSINGH<<PRIYA<<<<<<<<<<<<\n1000001886ROU7809213<3401170ROULB8<<<<<<<<Q2\n",
+      "got1": "P<ROUSINGH<<PRIYA<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "got2": "1000001886ROU7809213<3401170ROUL88<<<<<<<<02",
+      "valid": true
+    },
+    {
+      "country": "SJM",
+      "expected1": "P<SJMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "1000001978SJM8706021<3304064SJM197<<<<<<<<62",
+      "ocr": "P<SJMGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<\n1000001978S53M8706021<3304064SJM197<<<<<<<<62\n",
+      "got1": "P<S3MGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "got2": "1000001978S3M8706021<3304064SJM197<<<<<<<<62",
+      "valid": true
+    },
+    {
+      "country": "VCT",
+      "expected1": "P<VCTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "expected2": "A100002373VCT9710142M3304101VCT237<<<<<<<<20",
+      "ocr": "P<VCTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<\nA100002373VCT9710142M3304101VCT23<<<<<<<<20\n",
+      "got1": "P<VCTGARCIA<<MARIA<ELENA<<<<<<<<<<<<<<<<<<<<",
+      "got2": "A100002373VCT9710142M33041015VCT23<<<<<<<<20",
+      "valid": true
+    }
+  ]
+}
